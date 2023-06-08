@@ -22,11 +22,35 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/
+        }
+      }
+    },
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/challenges`,
+        name: `challenge`
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/prototypes`,
+        name: `prototype`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/experts`,
+        name: `expert`,
       },
     },
     {
@@ -52,7 +76,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
         ],
       },
     },
@@ -122,4 +145,10 @@ module.exports = {
       },
     },
   ],
+  mapping: {
+    mapping: {
+      'markdownRemark.frontmatter.challenge': `challengesYaml.slug`,
+      'challengesYaml.expert': `markdownRemark.frontmatter.name`
+    },
+  }
 }
