@@ -1,5 +1,5 @@
 ---
-title: Duis aute irure 
+name: Duis aute irure 
 subtitle: Da commodo consequat. Duis aute irure.
 date: "2015-05-01"
 featuredImage: "pic2.png"
@@ -7,15 +7,6 @@ challenge: another-unique-slug
 year: Winter 2022
 team: Lorem ipsum, Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor
 contactEmail: eirmod.tempor@tum.de
-outputs:
- -  type: pdf
-    label: Project report
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
- -  type: pdf
-    label: Project report
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
@@ -35,11 +26,7 @@ made herself on the way.
   - this is very interesting
 - Goodness much until that fluid owl
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+When she reached the first hills of the **Italic Mountains**, she had a last view back on the skyline of her hometown _Bookmarksgrove_, the headline of [Alphabet Village](http://google.com) and the subline of her own road, the Line Lane. Pityful a rhetoric question ran over her cheek, then she continued her way. On her way she met a copy.
 
 ### Overlaid the jeepers uselessly much excluding
 

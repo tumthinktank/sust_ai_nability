@@ -3,20 +3,21 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Navbar from "../components/navbar"
 import PrototypeList from "../components/prototypeList"
 
-const BlogIndex = ({ data, location }) => {
+const PrototypeOverview = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
     <Layout location={location} title={siteTitle} mode="prototype">
-      <h1>Prototypes</h1>
+      <Navbar title="Prototypes" overview></Navbar>
       <PrototypeList />
     </Layout>
   )
 }
 
-export default BlogIndex
+export default PrototypeOverview
 
 /**
  * Head export to define metadata for the page

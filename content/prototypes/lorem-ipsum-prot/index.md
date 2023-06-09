@@ -1,5 +1,5 @@
 ---
-title: Hello World Prototype
+name: Hello World Prototype
 subtitle: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 date: "2015-05-01"
 featuredImage: pic6.png
@@ -8,10 +8,10 @@ year: Spring 2023
 team: Lorem ipsum, Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor
 contactEmail: eirmod.tempor@tum.de
 outputs:
- -  type: pdf
-    label: Project report
+ -  type: site
+    label: Project report and some reaaaaaaly long title
     url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor elit
  -  type: pdf
     label: Project report
     url: http://google.com

@@ -20,36 +20,57 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Get all markdown blog posts sorted by date
   let result = await graphql(`
-  {
-    prototypes: allFile(
-      sort: {childMarkdownRemark: {frontmatter: {date: ASC}}}, 
-      limit: 1000, 
-      filter: {sourceInstanceName: {eq: "prototype"}, internal: {mediaType: {eq: "text/markdown"}}})
-      {
-      nodes {
-        childMarkdownRemark {
-          id
-          fields {
-            slug
+    {
+      prototypes: allFile(
+        sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
+        limit: 1000
+        filter: {
+          sourceInstanceName: { eq: "prototype" }
+          internal: { mediaType: { eq: "text/markdown" } }
+        }
+      ) {
+        nodes {
+          childMarkdownRemark {
+            id
+            fields {
+              slug
+            }
+          }
+        }
+      }
+      experts: allFile(
+        sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
+        limit: 1000
+        filter: {
+          sourceInstanceName: { eq: "expert" }
+          internal: { mediaType: { eq: "text/markdown" } }
+        }
+      ) {
+        nodes {
+          childMarkdownRemark {
+            id
+            fields {
+              slug
+            }
+            frontmatter{
+              name
+              challenges{
+                title
+              }
+            }
+          }
+        }
+      }
+      challenges: allChallengesYaml {
+        nodes{
+          expert{
+            frontmatter{
+              name
+            }
           }
         }
       }
     }
-    experts: allFile(
-      sort: {childMarkdownRemark: {frontmatter: {date: ASC}}}, 
-      limit: 1000, 
-      filter: {sourceInstanceName: {eq: "expert"}, internal: {mediaType: {eq: "text/markdown"}}})
-      {
-      nodes {
-        childMarkdownRemark {
-          id
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  }
   `)
 
   if (result.errors) {
@@ -66,15 +87,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const experts = result.data.experts.nodes
   console.log("experts result: ", experts)
 
+  const challenges = result.data.challenges.nodes
+  console.log("challenges result: ", challenges)
+
   // Create prototype pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
 
   if (prototypes.length > 0) {
     prototypes.forEach((post, index) => {
-    
       createPage({
-        path: "prototype"+post.childMarkdownRemark.fields.slug,
+        path: "prototype" + post.childMarkdownRemark.fields.slug,
         component: prototype,
         context: {
           id: post.childMarkdownRemark.id,
@@ -85,9 +108,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (experts.length > 0) {
     experts.forEach((post, index) => {
-    
+      challenges.forEach((node) => {
+        // console.log("node name:", node.expert.frontmatter.name)
+        // console.log("post name:", post.childMarkdownRemark.frontmatter.name)
+        if(node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name)
+        // console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
+        post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
+        post.childMarkdownRemark.frontmatter.challenges.push(node)
+      })
+
       createPage({
-        path: "expert"+post.childMarkdownRemark.fields.slug,
+        path: "expert" + post.childMarkdownRemark.fields.slug,
         component: expert,
         context: {
           id: post.childMarkdownRemark.id,
@@ -113,6 +144,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+// exports.createResolvers = ({ createResolvers }) => {
+//   const resolvers = {
+//     MarkdownRemark: {
+//       challenges: {
+//         resolve(source, _, context) {
+//           const expertName = source.frontmatter.name;
+//           const challenges = context.nodeModel.findAll({ type: 'ChallengesYaml',});
+
+//           return challenges.filter(challenge => challenge.expert.frontmatter.name === expertName);
+//         },
+//       },
+//     },
+//   };
+
+//   createResolvers(resolvers);
+// };
 
 /**
  * @type {import('gatsby').GatsbyNode['createSchemaCustomization']}
@@ -142,44 +190,61 @@ exports.createSchemaCustomization = ({ actions }) => {
       twitter: String
     }
 
-    #  @dontInfer after Node to disable auto type generation, not working with image, since declation is unclear
+    #  @dontInfer after Node to disable auto type generation
     type MarkdownRemark implements Node @dontInfer{
       frontmatter: Frontmatter
       fields: Fields
+      challenges: [ChallengesYaml] @link(by: "expert.frontmatter.name")
     }
 
     type Frontmatter {
-      title: String
+      # ----- page -----
+      abstract: String
+      logos: [Logo]
+      legal: [SimpleLink]
+      # ----- prototype -----
+      name: String
       subtitle: String
       date: Date! @dateformat
       featuredImage: File @fileByRelativePath
       year: String
       challenge: ChallengesYaml @link(by: "slug")
       team: String
-      contactEmail: String!
-      outputs: Links
+      contactEmail: String
+      outputs: [Link]
       gallery: [File] @fileByRelativePath
-      name: String
+      # ----- expert -----
       shortDescription: String
-      further: Links!
-      video: String!
-      type: [String!]!
-      challenges: [ChallengesYaml] @link(by: "slug", from: "fields.slug") # easy back-ref
+      image: File @fileByRelativePath
+      further: [Link]
+      type: [String]
+      challenges: [ChallengesYaml] @link (by: "expert.frontmatter.name", from: "frontmatter: name") # backref not working
     }
 
     type ChallengesYaml implements Node {
       slug: String
       title: String
+      description: String
       year: String
       expert: MarkdownRemark @link(by: "frontmatter.name")
-      prototypes: [MarkdownRemark] @link(by: "frontmatter.challenge.slug", from: "slug") # easy back-ref
+      prototypes: [MarkdownRemark] @link(by: "frontmatter.challenge.slug", from: "slug") # backref working
     }
 
-    type Links{
+    type Link{
       type: String
       label: String
       url: String
       description: String
+    }
+
+    type Logo{
+      image: File @fileByRelativePath
+      url: String
+    }
+
+    type SimpleLink{
+      label: String
+      url: String
     }
 
     type Fields {

@@ -50,11 +50,12 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #00E08A;
-  --color-text: #2e353f;
+  --color-text: #000;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --color-light: #f2f2f2;
 }
 
 /* HTML elements */
@@ -80,7 +81,7 @@ body {
 }
 
 footer {
-  padding: var(--spacing-6) var(--spacing-0);
+  padding: var(--spacing-4) var(--spacing-0);
 }
 
 hr {
@@ -99,7 +100,7 @@ h5,
 h6 {
   font-family: var(--font-heading);
   margin-top: var(--spacing-12);
-  margin-bottom: var(--spacing-6);
+  margin-bottom: var(--spacing-4);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em;
 }
@@ -115,28 +116,34 @@ h6 {
 
 h1 {
   font-weight: var(--fontWeight-black);
-  font-size: var(--fontSize-6);
+  font-size: var(--fontSize-4);
   color: var(--color-heading-black);
 }
 
-h2 {
-  font-size: var(--fontSize-5);
+h2{
+  font-size: var(--fontSize-1);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 h3 {
-  font-size: var(--fontSize-4);
+  font-size: var(--fontSize-2);
 }
 
 h4 {
-  font-size: var(--fontSize-3);
+  font-size: var(--fontSize-1);
 }
 
 h5 {
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-1);
+  color: var(--color-primary)
 }
 
 h6 {
   font-size: var(--fontSize-1);
+  font-weight: 300;
+  letter-spacing: 0.02rem;
 }
 
 h1 > a {
@@ -159,7 +166,7 @@ p {
   line-height: var(--lineHeight-relaxed);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
   padding: var(--spacing-0);
 }
 
@@ -170,6 +177,7 @@ ol {
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
   list-style-position: outside;
+  /* list-style-type: none; */
   list-style-image: none;
 }
 
@@ -177,6 +185,17 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: calc(var(--spacing-8) / 2);
+}
+
+article li{
+  margin-left: var(--spacing-6);
+}
+
+article li::marker{
+  content: "—  ";
+  padding-right: 3px;
+  color: var(--color-primary);
+  font-weight: 800;
 }
 
 li > p {
@@ -198,7 +217,7 @@ blockquote {
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
   border-left: var(--spacing-1) solid var(--color-primary);
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-1);
   font-style: italic;
   margin-bottom: var(--spacing-8);
 }

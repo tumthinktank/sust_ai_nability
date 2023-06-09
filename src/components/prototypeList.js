@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { StaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-import { PostGrid, Label } from "./styledComponents"
+import { PostGrid, Post } from "./styledComponents"
 import ListItem from "./listItem"
 
 const PrototypeList = ({ data }) => {
@@ -17,11 +17,11 @@ const PrototypeList = ({ data }) => {
     <PostGrid style={{ listStyle: `none` }}>
       {posts.map(post => {
         post = post.childMarkdownRemark
-        const title = post.frontmatter.title || post.fields.slug
+        const title = post.frontmatter.name || post.fields.slug
         const image = getImage(post.frontmatter.featuredImage)
 
         return (
-          <li key={post.fields.slug}>
+          <Post key={post.fields.slug}>
             <article
               className="prototype-list-item"
               itemScope
@@ -53,7 +53,7 @@ const PrototypeList = ({ data }) => {
                 </ul>
               </footer>
             </article>
-          </li>
+          </Post>
         )
       })}
     </PostGrid>
@@ -80,17 +80,18 @@ export default function MyPrototypeList(props) {
                 }
                 frontmatter {
                   date(formatString: "MMMM DD, YYYY")
-                  title
+                  name
                   subtitle
                   year
-                  challenge{
+                  challenge {
                     title
                   }
                   featuredImage {
                     childImageSharp {
                       gatsbyImageData(
                         placeholder: BLURRED
-                        formats: [AUTO, WEBP, AVIF]
+                        layout: CONSTRAINED
+                        aspectRatio: 1.4
                       )
                     }
                   }

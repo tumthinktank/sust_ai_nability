@@ -1,5 +1,5 @@
 ---
-title: Excepteur sint occaecat
+name: Excepteur sint occaecat
 subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 date: "2015-05-01"
 featuredImage: "pic5.png"

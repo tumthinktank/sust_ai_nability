@@ -1,5 +1,6 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React, { useEffect } from "react"
+import { Link, navigate } from "gatsby"
+import { Link as FancyLink, animateScroll as scroll } from "react-scroll"
 import styled from "styled-components"
 
 import { device } from "../utils/device"
@@ -37,7 +38,7 @@ const Header = styled.header`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #f2f2f2;
+    background: var(--color-light);
 
     @media ${device.tablet} {
       padding: 2rem 2rem;
@@ -79,8 +80,7 @@ const NavStrip = styled.div`
     padding: 1rem;
     display: flex;
     position: fixed;
-    box-shadow: ${(props) =>
-      (props.active ? "none" : "0px 7px 7px #ccc inset")};
+    box-shadow: ${props => (props.active ? "none" : "0px 7px 7px #ccc inset")};
     background: white;
 
     text-transform: uppercase;
@@ -96,51 +96,88 @@ const NavStrip = styled.div`
       padding: 2rem;
       height: 100vh;
       width: 5rem;
-      box-shadow: ${(props) =>
-        (props.active ? "none" : "7px 0px 7px #ccc inset")};
+      box-shadow: ${props =>
+        props.active ? "none" : "7px 0px 7px #00000033 inset"};
+    }
+
+    &:hover {
+      background: var(--color-primary);
     }
   }
 `
-
-// background: ${(props) =>(props.isRootPath ? "red" : "blue")};
-
 const Content = styled.main`
-  box-shadow: ${(props) =>
-    (props.isRootPath ? "none" : "0px 7px 7px #ccc inset")};
+  box-shadow: ${props =>
+    props.isRootPath ? "none" : "0px 7px 7px #ccc inset"};
 
   padding: 1rem;
   flex: auto 0 1;
   overflow: scroll;
+  position: relative;
+
+  &.hasBackground:before {
+    content: "";
+    position: absolute;
+    height: calc(100% - 80vh);
+    width: calc(100vw - 15rem);
+    top: clamp(800px, 80vh, 80vh);
+    left: 0;
+    background: linear-gradient(
+      to right,
+      white,
+      white calc(100% - 440px),
+      var(--color-light) calc(100% - 440px),
+      var(--color-light)
+    );
+  }
 
   @media ${device.tablet} {
     overflow: unset;
     flex: 1 0 calc(100vw - 33rem);
     padding: 2rem 4rem;
-    box-shadow: ${(props) =>
-      (props.isRootPath ? "none" : "7px 0px 7px #ccc inset")};
+    box-shadow: ${props =>
+      props.isRootPath ? "none" : "7px 0px 7px #ccc inset"};
   }
 `
 
 const Layout = ({ location, title, children, mode = "default" }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
-  // console.log(location, location.pathname === rootPath)
 
-  // let header
-  //
-  // if (isRootPath) {
-  //   header = (
-  //     <h1 className="main-heading">
-  //       <Link to="/">{title}</Link>
-  //     </h1>
-  //   )
-  // } else {
-  //   header = (
-  //     <Link className="header-link-home" to="/">
-  //       {title}
-  //     </Link>
-  //   )
-  // }
+  const handleScroll = () => {
+    const isHomePage = window.location.pathname === "/"
+    if (!isHomePage) {
+      navigate("/")
+    }
+
+    //  setTimeout(() => {
+    //     scroll.scrollMore(400, {
+    //       duration: 500,
+    //       delay: 500,
+    //       smooth: 'easeOut',
+    //     });
+    //   }, isHomePage ? 0 : 1000);
+
+    setTimeout(
+      () => {
+        if (isHomePage) {
+          console.log("a")
+          scroll.scrollMore(400, {
+            duration: 500,
+            delay: 50,
+            smooth: "easeOut",
+          })
+        } else {
+          console.log("b")
+          scroll.scrollMore(400, {
+            duration: 500,
+            delay: 50,
+            smooth: "easeOut",
+          })
+        }
+      },
+      isHomePage ? 0 : 200
+    )
+  }
 
   return (
     <LayoutWrapper>
@@ -155,12 +192,20 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         </Header>
       )}
       {mode === "default" && (
-        <Content isRootPath={isRootPath}>
+        <Content className="hasBackground" isRootPath={isRootPath}>
           <>{children}</>
         </Content>
       )}
       <NavStrip>
-        <a href="/">About</a>
+        <FancyLink
+          to="about"
+          smooth={true}
+          duration={500}
+          delay={50}
+          onClick={handleScroll}
+        >
+          About
+        </FancyLink>
       </NavStrip>
       {mode === "prototype" && (
         <Content isRootPath={isRootPath}>
@@ -168,7 +213,7 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         </Content>
       )}
       <NavStrip active={mode === "prototype" ? true : false}>
-        <a href="/prototypes">Prototypes</a>
+        <Link to="/prototypes">Prototypes</Link>
       </NavStrip>
       {mode === "expert" && (
         <Content isRootPath={isRootPath}>
@@ -176,7 +221,7 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         </Content>
       )}
       <NavStrip active={mode === "expert" ? true : false}>
-        <a href="/experts">Experts</a>
+        <Link to="/experts">Experts</Link>
       </NavStrip>
     </LayoutWrapper>
   )

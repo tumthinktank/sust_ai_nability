@@ -1,17 +1,48 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Close from "../components/close"
+
 import styled from "styled-components"
+import ListItem from "../components/listItem"
+import Navbar from "../components/navbar"
 
 const PostWrapper = styled.article``
 
 const Infobox = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  .left, .right{
+    padding: 1rem;
+
+    & h2:first-child{
+      margin-top: 0;
+    }
+
+    p{
+      margin-bottom: .5rem;
+    }
+
+    & p:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  .left{
+    background: var(--color-primary);
+
+    a{
+      text-decoration-color: white;
+    }
+  }
+
+  .right{
+    background: var(--color-light);
+  }
+
 `
 
 const PrototypeTemplate = ({
@@ -20,26 +51,24 @@ const PrototypeTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const featuredImage = getImage(post.frontmatter.featuredImage)
+
+  // Generate images for gallery
   let galleryImages = []
   if (post.frontmatter.gallery)
     post.frontmatter.gallery.map(img => galleryImages.push(getImage(img)))
+  
 
   return (
     <Layout location={location} title={siteTitle} mode="prototype">
-      <navbar>
-        <p>Project detail</p>
-        <Link to="/prototypes">
-          <Close />
-        </Link>
-      </navbar>
+      <Navbar title="Project detail" link="/prototypes" />
       <PostWrapper itemScope itemType="http://schema.org/Article">
-        <section>
+        <section class="image">
           {post.frontmatter.featuredImage && (
             <GatsbyImage image={featuredImage} />
-          )}
+          )} 
         </section>
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          <h1 itemProp="headline">{post.frontmatter.name}</h1>
           <p class="subtitle">{post.frontmatter.subtitle}</p>
         </header>
 
@@ -47,11 +76,12 @@ const PrototypeTemplate = ({
           {post.frontmatter.challenge.title && (
             <div class="left">
               <h2>Challenge</h2>
-              <p>{post.frontmatter.challenge.title}</p>
+              <p><strong>{post.frontmatter.challenge.title}</strong></p>
+              <p>{post.frontmatter.challenge.description}</p>
               <p>
-                Contact:{" "}
+                
                 <a
-                  href={`/expert/${post.frontmatter.challenge.expert.fields.slug}`}
+                  href={`/expert${post.frontmatter.challenge.expert.fields.slug}`}
                 >
                   {post.frontmatter.challenge.expert.frontmatter.name}
                 </a>
@@ -80,10 +110,29 @@ const PrototypeTemplate = ({
           />
         </section>
 
-        <section className="gallery">
-          {galleryImages.length > 0 &&
-            galleryImages.map(img => <GatsbyImage image={img} />)}
-        </section>
+        {post.frontmatter.outputs && (
+          <section className="output">
+            <h2>Outputs</h2>
+            {post.frontmatter.outputs.map(output => (
+              <ListItem label={output.type}>
+                <a href="output.url" target="_blank" rel="noreferrer nofollow">
+                  {output.label}
+                </a>
+                <p>{output.description}</p>
+              </ListItem>
+            ))}
+          </section>
+        )}
+
+        {galleryImages.length > 0 && (
+          
+          <section className="gallery">
+            <h2>Impressions</h2>
+            {galleryImages.map(img => (
+              <GatsbyImage image={img} />
+            ))}
+          </section>
+        )}
       </PostWrapper>
     </Layout>
   )
@@ -111,7 +160,6 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        title
         date(formatString: "MMMM DD, YYYY")
         subtitle
         year
@@ -125,6 +173,7 @@ export const pageQuery = graphql`
         }
         challenge {
           title
+          description
           expert {
             fields {
               slug
@@ -136,11 +185,10 @@ export const pageQuery = graphql`
         }
         featuredImage {
           childImageSharp {
-            id
             gatsbyImageData(
               layout: CONSTRAINED
               placeholder: BLURRED
-              aspectRatio: 1.4
+              aspectRatio: 1.9
             )
           }
         }

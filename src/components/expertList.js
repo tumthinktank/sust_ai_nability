@@ -3,8 +3,9 @@ import { Link, graphql } from "gatsby"
 import { StaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
+import { PostGrid, Post } from "./styledComponents"
+
 const ExpertList = ({ data }) => {
-  console.log(data)
   const posts = data.experts.nodes
 
   if (posts.length === 0) {
@@ -12,21 +13,21 @@ const ExpertList = ({ data }) => {
   }
 
   return (
-    <ol style={{ listStyle: `none` }}>
+    <PostGrid style={{ listStyle: `none` }}>
       {posts.map(post => {
         post = post.childMarkdownRemark
-        const title = post.frontmatter.title || post.fields.slug
-        const image = getImage(post.frontmatter.featuredImage)
+        const title = post.frontmatter.name || post.fields.slug
+        const image = getImage(post.frontmatter.image)
 
         return (
-          <li key={post.fields.slug}>
+          <Post key={post.fields.slug}>
             <article
               className="prototype-list-item"
               itemScope
               itemType="http://schema.org/Article"
             >
               <section>
-                {post.frontmatter.featuredImage && (
+                {post.frontmatter.image && (
                   <GatsbyImage image={image} />
                 )}
               </section>
@@ -36,14 +37,13 @@ const ExpertList = ({ data }) => {
                     <span itemProp="headline">{title}</span>
                   </Link>
                 </h2>
-                <p class="h3">{post.frontmatter.subtitle}</p>
+                <p class="h3">{post.frontmatter.shortDescription}</p>
               </header>
-              
             </article>
-          </li>
+          </Post>
         )
       })}
-    </ol>
+    </PostGrid>
   )
 }
 
@@ -66,14 +66,14 @@ export default function MyExpertList(props) {
                   slug
                 }
                 frontmatter {
-                  date(formatString: "MMMM DD, YYYY")
-                  title
-                  subtitle
-                  featuredImage {
+                  name
+                  shortDescription
+                  image {
                     childImageSharp {
                       gatsbyImageData(
                         placeholder: BLURRED
                         formats: [AUTO, WEBP, AVIF]
+                        aspectRatio: 1.4
                       )
                     }
                   }

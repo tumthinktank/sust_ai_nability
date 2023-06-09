@@ -3,19 +3,20 @@ import styled from "styled-components"
 
 import { Label } from "./styledComponents"
 
-const ListItem = styled.li`
+const Item = styled.li`
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 5rem 4fr;
   margin-bottom: 0.5rem;
+  margin-left: 0;
 `
 
-const listItem = ({label, children}) => {
+const ListItem = ({label, children}) => {
   return (
-    <ListItem>
+    <Item>
       <Label>{label}</Label>
-      {children}
-    </ListItem>
+      <div>{children}</div>
+    </Item>
   )
 }
 
-export default listItem
+export default ListItem

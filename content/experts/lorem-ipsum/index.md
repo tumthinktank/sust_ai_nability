@@ -1,9 +1,13 @@
 ---
+### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: Hello World Expert
-shortDescription: A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine
+shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
 date: "2015-05-01"
-featuredImage: "pic1.png"
+image: "pic9.png"
+# type should be either or both of ["Challenge giver, Expert"]
 type: ["Challenge giver"]
+
+### OPTIONAL FURTHER DETAILS
 further:
  -  type: pdf
     label: Project report
