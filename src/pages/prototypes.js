@@ -24,7 +24,7 @@ export default PrototypeOverview
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = () => <Seo title="Prototypes" />
 
 export const pageQuery = graphql`
   {

@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `sustAInability – Perspectives and Prototypes`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `sustAInability aims to contemplate AI and sustainability from different disciplinary perspectives. Based on a broad understanding of sustainability - encompassing aspects on the ecological, economic and social dimensions - an innovative teaching and learning space for students is to be created in order to explore the manifold potentials as well as challenges of AI-based applications, to critically reflect and to translate them into application-oriented projects.`,
+    siteUrl: `https://www.hfp.tum.de/policy/projekte-in-forschung-lehre/lehrprojekte/digitalisierungskolleg-sustainability/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `PolicyTUM`,
     },
   },
   plugins: [
@@ -101,55 +101,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
-                return Object.assign({}, node.frontmatter, {
-                  description: node.excerpt,
-                  date: node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ "content:encoded": node.html }],
-                })
-              })
-            },
-            query: `{
-              allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
-                nodes {
-                  excerpt
-                  html
-                  fields {
-                    slug
-                  }
-                  frontmatter {
-                    title
-                    date
-                  }
-                }
-              }
-            }`,
-            output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
-          },
-        ],
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

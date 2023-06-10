@@ -35,7 +35,6 @@ const Homewrapper = styled.div`
     height: 100%;
     opacity: 0;
     transition: opacity 2s ease-out; /* Adjust the transition duration as desired */
-    mix-blend-mode: multiply;
 
     ${BackgroundStyles};
     background-image: url(${cubusOverlay});
@@ -117,21 +116,6 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
   if (post.frontmatter.logos)
     post.frontmatter.logos.map(img => logos.push(getImage(img.image)))
 
-  useEffect(() => {
-    const scrollByPixels = 200 // Adjust the number of pixels to scroll by
-
-    const handleScroll = () => {
-      window.scrollBy({ top: scrollByPixels, behavior: "smooth" })
-    }
-
-    // Scroll to the desired position on page load
-    const urlSearchParams = new URLSearchParams(window.location.search)
-    const scrollParam = urlSearchParams.get("scroll")
-    if (scrollParam) {
-      window.scrollTo(0, parseInt(scrollParam, 10))
-    }
-  }, [])
-
   return (
     <Layout location={location} title={siteTitle}>
       <Homewrapper>
@@ -190,7 +174,7 @@ export default Home
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = () => <Seo title="Home" />
 
 export const pageQuery = graphql`
   {

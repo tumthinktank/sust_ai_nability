@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Link, navigate } from "gatsby"
 import { Link as FancyLink, animateScroll as scroll } from "react-scroll"
 import styled from "styled-components"
@@ -100,7 +100,7 @@ const NavStrip = styled.div`
         props.active ? "none" : "7px 0px 7px #00000033 inset"};
     }
 
-    &:hover {
+    &:hover:not([aria-current="page"]){
       background: var(--color-primary);
     }
   }
@@ -114,21 +114,27 @@ const Content = styled.main`
   overflow: scroll;
   position: relative;
 
-  &.hasBackground:before {
-    content: "";
-    position: absolute;
-    height: calc(100% - 80vh);
-    width: calc(100vw - 15rem);
-    top: clamp(800px, 80vh, 80vh);
-    left: 0;
-    background: linear-gradient(
-      to right,
-      white,
-      white calc(100% - 440px),
-      var(--color-light) calc(100% - 440px),
-      var(--color-light)
-    );
+  @media screen and (min-height:800px){
+    &.hasBackground:before {
+      content: "";
+      position: fixed;
+      height: calc(100% - 800px);
+      width: calc(100vw - 15rem);
+      top: 800px;
+      left: 0;
+      
+      background-image: linear-gradient(
+        to right,
+        white,
+        white calc(100% - 440px - 15rem),
+        var(--color-light) calc(100% - 440px - 15rem),
+        var(--color-light)
+      );
+      background-attachment: fixed;
+    }
   }
+
+
 
   @media ${device.tablet} {
     overflow: unset;
