@@ -1,5 +1,5 @@
 ---
-name: Hello World Prototype
+name: Challenge Team 1
 subtitle: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 date: "2015-05-01"
 featuredImage: pic6.png
