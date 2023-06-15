@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
+import queryString from "query-string"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,6 +8,7 @@ import Navbar from "../components/navbar"
 import PrototypeList from "../components/prototypeList"
 import FilterBar from "../components/filterbar"
 import Filter, { Item } from "../components/filter"
+import { handleClick } from "../utils/handlers"
 
 const PrototypeOverview = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -15,18 +17,24 @@ const PrototypeOverview = ({ data, location }) => {
   const years = [...new Set(allYears.map(item => item.frontmatter.year))]
   const challenges = data.allChallengesYaml.nodes
 
-  const [selectedYear, setSelectedYear] = useState(false)
-  const [selectedChallenge, setSelectedChallenge] = useState(false)
+  const queryParams = queryString.parse(location.search)
+  const [selectedYear, setSelectedYear] = useState(queryParams.year || false)
+  const [selectedChallenge, setSelectedChallenge] = useState(
+    challenges.find(c => c.slug === queryParams.challenge) || false
+  )
 
-  const handleYearClick = filter => {
-    setSelectedYear(filter)
-    // console.log(filter, " clicked")
-  }
+  const handleYearClick = filter =>
+    handleClick(setSelectedYear, filter, "year", filter, location, queryParams)
 
-  const handleChallengeClick = filter => {
-    setSelectedChallenge(filter)
-    // console.log(filter, " clicked")
-  }
+  const handleChallengeClick = filter =>
+    handleClick(
+      setSelectedChallenge,
+      filter,
+      "challenge",
+      filter.slug,
+      location,
+      queryParams
+    )
 
   return (
     <Layout location={location} title={siteTitle} mode="prototype">

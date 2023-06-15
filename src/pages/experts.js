@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
+import queryString from 'query-string'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,19 +8,19 @@ import Navbar from "../components/navbar"
 import ExpertList from "../components/expertList"
 import FilterBar from "../components/filterbar"
 import Filter, { Item } from "../components/filter"
+import { handleClick } from "../utils/handlers"
 
 const ExpertOverview = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const allTypes = data.allMarkdownRemark.nodes
 
   const types = [...new Set(allTypes.flatMap(item => item.frontmatter.type))]
-  // console.log("types: ", allTypes, types)
-  const [selectedType, setSelectedType] = useState(false) 
 
-  const handleTypeClick = filter => {
-    setSelectedType(filter)
-    // console.log(filter, " clicked")
-  }
+  const queryParams = queryString.parse(location.search)
+  const [selectedType, setSelectedType] = useState(queryParams.type || false) 
+
+  const handleTypeClick = filter => 
+    handleClick(setSelectedType, filter, "type", filter, location, queryParams)
 
   return (
     <Layout location={location} title={siteTitle} mode="expert">
