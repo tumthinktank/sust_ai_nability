@@ -52,23 +52,26 @@ const DropdownList = styled.ul`
   padding: 0;
 
   li {
-    font-size: 0.8rem;
     margin: 0;
-    padding: 0.2rem 1rem;
+    div {
+      font-size: 0.8rem;
+      margin: 0;
+      padding: 0.2rem 1rem;
 
-    &.clear {
-      opacity: 0.5;
-      font-style: italic;
-    }
+      &.clear {
+        opacity: 0.5;
+        font-style: italic;
+      }
 
-    &.clear:hover {
-      opacity: 1;
-      font-style: italic;
-      background: var(--color-primary);
-    }
+      &.clear:hover {
+        opacity: 1;
+        font-style: italic;
+        background: var(--color-primary);
+      }
 
-    &:hover {
-      background: var(--color-light);
+      &:hover {
+        background: var(--color-light);
+      }
     }
   }
 `
@@ -85,7 +88,12 @@ const Icon = styled.span`
   transition: transform 0.3s ease;
 `
 
-const Filter = ({ children, label = "Please select", isActive }) => {
+const Filter = ({
+  children,
+  label = "Please select",
+  isActive,
+  handleClick,
+}) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleDropdown = () => {
@@ -99,7 +107,12 @@ const Filter = ({ children, label = "Please select", isActive }) => {
         <Icon isOpen={isOpen} />
       </Button>
       {isOpen && (
-        <DropdownList onClick={toggleDropdown}>{children}</DropdownList>
+        <DropdownList onClick={toggleDropdown} onKeyPress={toggleDropdown}>
+          <Item onClick={() => handleClick(false)} clear>
+            Clear selection
+          </Item>
+          {children}
+        </DropdownList>
       )}
     </FilterWrapper>
   )
@@ -107,8 +120,16 @@ const Filter = ({ children, label = "Please select", isActive }) => {
 
 export default Filter
 
-export const Item = ({ children, onClick, clear }) => (
-  <li className={clear && "clear"} onClick={onClick}>
-    {children}
+export const Item = ({ children, onClick, clear, tabindex }) => (
+  <li>
+    <div
+      role="button"
+      tabindex={0}
+      className={clear && "clear"}
+      onClick={onClick}
+      onKeyPress={onClick}
+    >
+      {children}
+    </div>
   </li>
 )

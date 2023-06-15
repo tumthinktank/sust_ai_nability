@@ -1,15 +1,24 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-import { StaticQuery } from "gatsby"
+import { Link, graphql, StaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { PostGrid, Post } from "./styledComponents"
 
-const ExpertList = ({ data }) => {
-  const posts = data.experts.nodes
+const ExpertList = ({ experts, type }) => {
+  // Filter empty index.md (no name)
+  let posts = experts.filter(
+    p => p.childMarkdownRemark.frontmatter.name != null
+  )
+  
+  // Apply filters
+  if (type) {
+    posts = posts.filter(p =>
+      p.childMarkdownRemark.frontmatter.type.includes(type)
+    )
+  }
 
   if (posts.length === 0) {
-    return <p>No experts found.</p>
+    return <p> No experts found.</p>
   }
 
   return (
@@ -27,9 +36,7 @@ const ExpertList = ({ data }) => {
               itemType="http://schema.org/Article"
             >
               <section>
-                {post.frontmatter.image && (
-                  <GatsbyImage image={image} />
-                )}
+                {post.frontmatter.image && <GatsbyImage image={image} alt="" />}
               </section>
               <header>
                 <h2>
@@ -37,7 +44,7 @@ const ExpertList = ({ data }) => {
                     <span itemProp="headline">{title}</span>
                   </Link>
                 </h2>
-                <p class="h3">{post.frontmatter.shortDescription}</p>
+                <p>{post.frontmatter.shortDescription}</p>
               </header>
             </article>
           </Post>
@@ -68,6 +75,7 @@ export default function MyExpertList(props) {
                 frontmatter {
                   name
                   shortDescription
+                  type
                   image {
                     childImageSharp {
                       gatsbyImageData(
@@ -83,7 +91,7 @@ export default function MyExpertList(props) {
           }
         }
       `}
-      render={data => <ExpertList data={data} {...props} />}
+      render={data => <ExpertList experts={data.experts.nodes} {...props} />}
     />
   )
 }

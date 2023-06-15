@@ -62,19 +62,19 @@ const PrototypeTemplate = ({
     <Layout location={location} title={siteTitle} mode="prototype">
       <Navbar title="Project detail" link="/prototypes" />
       <PostWrapper itemScope itemType="http://schema.org/Article">
-        <section class="image">
+        <section className="image">
           {post.frontmatter.featuredImage && (
-            <GatsbyImage image={featuredImage} />
+            <GatsbyImage image={featuredImage} alt=""/>
           )} 
         </section>
         <header>
           <h1 itemProp="headline">{post.frontmatter.name}</h1>
-          <p class="subtitle">{post.frontmatter.subtitle}</p>
+          <p className="subtitle">{post.frontmatter.subtitle}</p>
         </header>
 
         <Infobox className="info">
           {post.frontmatter.challenge?.title && (
-            <div class="left">
+            <div clasNames="left">
               <h2>Challenge</h2>
               <p><strong>{post.frontmatter.challenge.title}</strong></p>
               <p>{post.frontmatter.challenge.description}</p>
@@ -89,7 +89,7 @@ const PrototypeTemplate = ({
             </div>
           )}
           {post.frontmatter.team && (
-            <div class="right">
+            <div className="right">
               <h2>Team</h2>
               <p>{post.frontmatter.team}</p>
               <p>
@@ -129,7 +129,7 @@ const PrototypeTemplate = ({
           <section className="gallery">
             <h2>Impressions</h2>
             {galleryImages.map(img => (
-              <GatsbyImage image={img} />
+              <GatsbyImage image={img} alt="" />
             ))}
           </section>
         )}
@@ -160,7 +160,8 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        name
+        date
         subtitle
         year
         team

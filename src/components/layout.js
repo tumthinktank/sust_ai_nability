@@ -191,7 +191,7 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         <Header>
           <div>
             <Link to="/">
-              <Logo height="3rem" width="6rem" viewBox="0 0 272.854 47.379" />
+              <Logo viewBox="0 0 272.854 47.379" />
             </Link>
             <p className="blurb">A project by TUM and Hochschule München.</p>
           </div>
@@ -227,7 +227,7 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         </Content>
       )}
       <NavStrip active={mode === "expert" ? true : false}>
-        <Link to="/experts">Experts</Link>
+        <Link to="/experts">Perspectives</Link>
       </NavStrip>
     </LayoutWrapper>
   )

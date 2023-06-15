@@ -37,10 +37,10 @@ const ExpertTemplate = ({
 
   return (
     <Layout location={location} title={siteTitle} mode="expert">
-      <Navbar title="Expert detail" link="/experts" />
+      <Navbar title="Detail" link="/experts" />
       <PostWrapper itemScope itemType="http://schema.org/Article">
         <section class="image">
-          {post.frontmatter.image && <GatsbyImage image={image} />}
+          {post.frontmatter.image && <GatsbyImage image={image} alt="" />}
         </section>
         <header>
           <h1 itemProp="headline">{post.frontmatter.name}</h1>
@@ -48,7 +48,7 @@ const ExpertTemplate = ({
         </header>
 
         <section className="about">
-          <h2>About the prototype</h2>
+          <h2>About</h2>
           <p
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"

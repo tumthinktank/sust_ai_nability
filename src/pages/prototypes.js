@@ -11,8 +11,8 @@ import Filter, { Item } from "../components/filter"
 const PrototypeOverview = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const allYears = data.allMarkdownRemark.nodes
-  
-  const years = [...new Set(allYears.map(item => item.frontmatter.year))];  
+
+  const years = [...new Set(allYears.map(item => item.frontmatter.year))]
   const challenges = data.allChallengesYaml.nodes
 
   const [selectedYear, setSelectedYear] = useState(false)
@@ -20,12 +20,12 @@ const PrototypeOverview = ({ data, location }) => {
 
   const handleYearClick = filter => {
     setSelectedYear(filter)
-    console.log(filter, " clicked")
+    // console.log(filter, " clicked")
   }
 
   const handleChallengeClick = filter => {
     setSelectedChallenge(filter)
-    console.log(filter, " clicked")
+    // console.log(filter, " clicked")
   }
 
   return (
@@ -39,12 +39,10 @@ const PrototypeOverview = ({ data, location }) => {
         <Filter
           label={selectedYear === false ? "Pick year" : selectedYear}
           isActive={selectedYear === false ? false : true}
+          handleClick={handleYearClick}
         >
-          <Item onClick={() => handleYearClick(false)} clear>
-            Clear selection
-          </Item>
-          {years.map(y => (
-            <Item onClick={() => handleYearClick(y)}>
+          {years.map((y, i) => (
+            <Item key={i} onClick={() => handleYearClick(y)}>
               {y}
             </Item>
           ))}
@@ -56,15 +54,12 @@ const PrototypeOverview = ({ data, location }) => {
               : selectedChallenge.title
           }
           isActive={selectedChallenge === false ? false : true}
+          handleClick={handleChallengeClick}
         >
-          <Item
-            onClick={() => handleChallengeClick(false)}
-            clear
-          >
-            Clear selection
-          </Item>
           {challenges.map(c => (
-            <Item key={c.slug} onClick={() => handleChallengeClick(c)}>{c.title}</Item>
+            <Item key={c.slug} onClick={() => handleChallengeClick(c)}>
+              {c.title}
+            </Item>
           ))}
         </Filter>
       </FilterBar>

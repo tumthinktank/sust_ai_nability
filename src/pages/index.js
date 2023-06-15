@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
@@ -155,7 +155,7 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
                     rel="noreferrer nofollow"
                     href={post.frontmatter.logos[i].url}
                   >
-                    <GatsbyImage image={logo} objectFit="contain" />
+                    <GatsbyImage image={logo} objectFit="contain" alt="Logo sustAInability" />
                   </a>
                 ))}
               </div>

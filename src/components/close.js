@@ -45,8 +45,8 @@ overflow: hidden;
 
 const Close = () => (
   <X>
-  <span class="horizontal-bar"></span>
-  <span class="vertical-bar"></span>
+  <span className="horizontal-bar"></span>
+  <span className="vertical-bar"></span>
 </X>
 
 )

@@ -1,27 +1,33 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-import { StaticQuery } from "gatsby"
+import { Link, graphql, StaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { PostGrid, Post } from "./styledComponents"
 import ListItem from "./listItem"
 
-const PrototypeList = ({ data, year, challenge }) => {
+const PrototypeList = ({ prototypes, year, challenge }) => {
+  // Filter empty index.md (no name)
+  let posts = prototypes.filter(
+    p => p.childMarkdownRemark.frontmatter.name != null
+  )
 
-  let posts = data.prototypes.nodes
-
-  posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.name != null))
-
-  if (year){
-    posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.year === year))
+  if (year) {
+    posts = posts.filter(p => p.childMarkdownRemark.frontmatter.year === year)
   }
 
-  if (challenge){
-    posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.challenge.slug === challenge))
+  if (challenge) {
+    posts = posts.filter(
+      p => p.childMarkdownRemark.frontmatter.challenge.slug === challenge
+    )
   }
 
   if (posts.length === 0) {
-    return <p>No prototypes found that match your filter criteria. Try another combination or clear one of the filters.</p>
+    return (
+      <p>
+        No prototypes found that match your filter criteria. Try another
+        combination or clear one of the filters.
+      </p>
+    )
   }
 
   return (
@@ -40,7 +46,7 @@ const PrototypeList = ({ data, year, challenge }) => {
             >
               <section>
                 {post.frontmatter.featuredImage && (
-                  <GatsbyImage image={image} />
+                  <GatsbyImage image={image} alt="" />
                 )}
               </section>
               <header>
@@ -49,7 +55,7 @@ const PrototypeList = ({ data, year, challenge }) => {
                     <span itemProp="headline">{title}</span>
                   </Link>
                 </h2>
-                <p class="h3">{post.frontmatter.subtitle}</p>
+                <p>{post.frontmatter.subtitle}</p>
               </header>
               <footer>
                 <ul>
@@ -135,7 +141,9 @@ export default function MyPrototypeList(props) {
           }
         }
       `}
-      render={data => <PrototypeList data={data} {...props} />}
+      render={data => (
+        <PrototypeList prototypes={data.prototypes.nodes} {...props} />
+      )}
     />
   )
 }
