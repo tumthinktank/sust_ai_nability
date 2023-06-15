@@ -205,7 +205,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       # ----- prototype -----
       name: String
       subtitle: String
-      date: Date! @dateformat
+      date: Date @dateformat
       featuredImage: File @fileByRelativePath
       year: String
       challenge: ChallengesYaml @link(by: "slug")
