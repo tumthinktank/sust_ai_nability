@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql, StaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { PostGrid, Post } from "./styledComponents"
@@ -9,7 +9,7 @@ const ExpertList = ({ experts, type }) => {
   let posts = experts.filter(
     p => p.childMarkdownRemark.frontmatter.name != null
   )
-  
+
   // Apply filters
   if (type) {
     posts = posts.filter(p =>
@@ -55,43 +55,40 @@ const ExpertList = ({ experts, type }) => {
 }
 
 export default function MyExpertList(props) {
-  return (
-    <StaticQuery
-      query={graphql`
-        {
-          experts: allFile(
-            sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
-            limit: 1000
-            filter: {
-              sourceInstanceName: { eq: "expert" }
-              internal: { mediaType: { eq: "text/markdown" } }
+  const data = useStaticQuery(graphql`
+    {
+      experts: allFile(
+        sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
+        limit: 1000
+        filter: {
+          sourceInstanceName: { eq: "expert" }
+          internal: { mediaType: { eq: "text/markdown" } }
+        }
+      ) {
+        nodes {
+          childMarkdownRemark {
+            fields {
+              slug
             }
-          ) {
-            nodes {
-              childMarkdownRemark {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  name
-                  shortDescription
-                  type
-                  image {
-                    childImageSharp {
-                      gatsbyImageData(
-                        placeholder: BLURRED
-                        formats: [AUTO, WEBP, AVIF]
-                        aspectRatio: 1.4
-                      )
-                    }
-                  }
+            frontmatter {
+              name
+              shortDescription
+              type
+              image {
+                childImageSharp {
+                  gatsbyImageData(
+                    placeholder: BLURRED
+                    formats: [AUTO, WEBP, AVIF]
+                    aspectRatio: 1.4
+                  )
                 }
               }
             }
           }
         }
-      `}
-      render={data => <ExpertList experts={data.experts.nodes} {...props} />}
-    />
-  )
+      }
+    }
+  `)
+
+  return <ExpertList experts={data.experts.nodes} {...props} />
 }

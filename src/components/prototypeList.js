@@ -1,5 +1,5 @@
-import * as React from "react"
-import { Link, graphql, StaticQuery } from "gatsby"
+import React from "react"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { PostGrid, Post } from "./styledComponents"
@@ -11,6 +11,7 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
     p => p.childMarkdownRemark.frontmatter.name != null
   )
 
+  // Apply filters if year or challenge are selected
   if (year) {
     posts = posts.filter(p => p.childMarkdownRemark.frontmatter.year === year)
   }
@@ -78,72 +79,45 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
 }
 
 export default function MyPrototypeList(props) {
-  // const filter = {
-  //   filter: {
-  //     sourceInstanceName: { eq: "prototype" },
-  //     internal: { mediaType: { eq: "text/markdown" } },
-  //     childMarkdownRemark: {
-  //       frontmatter: {},
-  //     },
-  //   },
-  // }
-
-  // if (year) {
-  //   filter.filter.childMarkdownRemark.frontmatter.year = { eq: year }
-  // }
-
-  // if (challenge) {
-  //   filter.filter.childMarkdownRemark.frontmatter.challenge = {
-  //     title: { eq: challenge },
-  //   }
-  // }
-
-  // console.log("filter", JSON.stringify(filter))
-
-  return (
-    <StaticQuery
-      query={graphql`
-        query PrototypesQuery {
-          prototypes: allFile(
-            sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
-            limit: 1000
-            filter: {
-              sourceInstanceName: { eq: "prototype" }
-              internal: { mediaType: { eq: "text/markdown" } }
+  const data = useStaticQuery(graphql`
+    query PrototypesQuery {
+      prototypes: allFile(
+        sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
+        limit: 1000
+        filter: {
+          sourceInstanceName: { eq: "prototype" }
+          internal: { mediaType: { eq: "text/markdown" } }
+        }
+      ) {
+        nodes {
+          childMarkdownRemark {
+            fields {
+              slug
             }
-          ) {
-            nodes {
-              childMarkdownRemark {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  date
-                  name
-                  subtitle
-                  year
-                  challenge {
-                    title
-                    slug
-                  }
-                  featuredImage {
-                    childImageSharp {
-                      gatsbyImageData(
-                        placeholder: BLURRED
-                        layout: CONSTRAINED
-                        aspectRatio: 1.4
-                      )
-                    }
-                  }
+            frontmatter {
+              date
+              name
+              subtitle
+              year
+              challenge {
+                title
+                slug
+              }
+              featuredImage {
+                childImageSharp {
+                  gatsbyImageData(
+                    placeholder: BLURRED
+                    layout: CONSTRAINED
+                    aspectRatio: 1.4
+                  )
                 }
               }
             }
           }
         }
-      `}
-      render={data => (
-        <PrototypeList prototypes={data.prototypes.nodes} {...props} />
-      )}
-    />
-  )
+      }
+    }
+  `)
+
+  return <PrototypeList prototypes={data.prototypes.nodes} {...props} />
 }
