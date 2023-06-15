@@ -6,11 +6,20 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { PostGrid, Post } from "./styledComponents"
 import ListItem from "./listItem"
 
-const PrototypeList = ({ data }) => {
+const PrototypeList = ({ data, year, challenge }) => {
+
   let posts = data.prototypes.nodes
 
+  if (year){
+    posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.year === year))
+  }
+
+  if (challenge){
+    posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.challenge.slug === challenge))
+  }
+
   if (posts.length === 0) {
-    return <p>No prototypes found.</p>
+    return <p>No prototypes found that match your filter criteria. Try another combination or clear one of the filters.</p>
   }
 
   return (
@@ -61,10 +70,32 @@ const PrototypeList = ({ data }) => {
 }
 
 export default function MyPrototypeList(props) {
+  // const filter = {
+  //   filter: {
+  //     sourceInstanceName: { eq: "prototype" },
+  //     internal: { mediaType: { eq: "text/markdown" } },
+  //     childMarkdownRemark: {
+  //       frontmatter: {},
+  //     },
+  //   },
+  // }
+
+  // if (year) {
+  //   filter.filter.childMarkdownRemark.frontmatter.year = { eq: year }
+  // }
+
+  // if (challenge) {
+  //   filter.filter.childMarkdownRemark.frontmatter.challenge = {
+  //     title: { eq: challenge },
+  //   }
+  // }
+
+  // console.log("filter", JSON.stringify(filter))
+
   return (
     <StaticQuery
       query={graphql`
-        {
+        query PrototypesQuery {
           prototypes: allFile(
             sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
             limit: 1000
@@ -85,6 +116,7 @@ export default function MyPrototypeList(props) {
                   year
                   challenge {
                     title
+                    slug
                   }
                   featuredImage {
                     childImageSharp {

@@ -3,9 +3,8 @@
 name: Hello World Expert
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
 date: "2015-05-01"
-image: "pic9.png"
-# type should be either or both of ["Challenge giver, Expert"]
-type: ["Challenge giver"]
+image: "pic9.png" #image in same folder as this file
+type: ["Challenge giver"] # ["Challenge giver, Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 further:

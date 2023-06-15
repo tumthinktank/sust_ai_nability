@@ -4,6 +4,7 @@ subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 date: "2015-05-01"
 featuredImage: "pic5.png"
 challenge: challenge-slug
+year: Spring 2023
 team: Lorem ipsum, Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor
 contactEmail: eirmod.tempor@tum.de
 outputs:
