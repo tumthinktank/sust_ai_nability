@@ -10,6 +10,8 @@ const PrototypeList = ({ data, year, challenge }) => {
 
   let posts = data.prototypes.nodes
 
+  posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.name != null))
+
   if (year){
     posts = posts.filter((p) => (p.childMarkdownRemark.frontmatter.year === year))
   }
@@ -51,7 +53,7 @@ const PrototypeList = ({ data, year, challenge }) => {
               </header>
               <footer>
                 <ul>
-                  {post.frontmatter.challenge.title && (
+                  {post.frontmatter.challenge?.title && (
                     <ListItem label="Prototype">
                       {post.frontmatter.challenge.title}
                     </ListItem>
@@ -110,7 +112,7 @@ export default function MyPrototypeList(props) {
                   slug
                 }
                 frontmatter {
-                  date(formatString: "MMMM DD, YYYY")
+                  date
                   name
                   subtitle
                   year

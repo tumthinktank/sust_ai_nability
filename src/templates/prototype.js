@@ -73,7 +73,7 @@ const PrototypeTemplate = ({
         </header>
 
         <Infobox className="info">
-          {post.frontmatter.challenge.title && (
+          {post.frontmatter.challenge?.title && (
             <div class="left">
               <h2>Challenge</h2>
               <p><strong>{post.frontmatter.challenge.title}</strong></p>
