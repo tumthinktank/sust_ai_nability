@@ -2,15 +2,15 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: Julia Gundlach
 shortDescription: Lead of the project “reframe[Tech]” at the Bertelsmann Stiftung
-date: "2015-05-01"
-image: "pic9.png" #image in same folder as this file
-type: ["Challenge giver", "Expert"] # ["Expert"]
+date: "2023-06-09"
+image: "Gundlach_klein.jpg" #image in same folder as this file
+type: [ "Expert"] # ["Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  label: Homepage reframe(Tech)
+ -  type: url
+    label: Homepage reframe(Tech)
     url: https://www.reframetech.de/en/
-    
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
  -  type: pdf
     label: Project report
