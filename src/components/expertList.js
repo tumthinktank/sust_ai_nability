@@ -6,7 +6,7 @@ import { PostGrid, Post } from "./styledComponents"
 
 const ExpertList = ({ experts, type }) => {
 
-  console.log("here", experts)
+  // console.log("here", experts)
 
   // Filter empty index.md (no name)
   let posts = experts.filter(
