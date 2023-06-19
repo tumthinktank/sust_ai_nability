@@ -84,7 +84,7 @@ const VisibleArea = styled.div` #
 
     @media ${device.tablet} {
       top: 2rem;
-      background: transparent;
+      // background: transparent;
     }
   }
 
