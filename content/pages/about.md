@@ -14,9 +14,8 @@ legal:
 
 ## About sustAInability
 
-Lorem ipsum [Hochschule München](#) elit, sed do[ Technische Universität München (TUM)](#)
-incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus. Fusce id velit ut tortor pretium. Massa ultricies mi quis hendrerit dolor magna
+Sustainability and digitization are at the center of scientific and political debates as the two significant social transformations of our time. Artificial intelligence (AI) is increasingly coming into focus, permeating more and more areas of public and private life and increasingly becoming part of sustainability debates. On the one hand, AI-supported technologies are creating a wide range of opportunities for sustainability, for example in the field of energy transition or agriculture. On the other hand, AI also poses many risks and challenges for the environment and society: Examples reach from the high energy consumption and carbon footprint of machine learning systems, to automated discrimination.
 
 ## Team and Partner
 
-incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus. Fusce id velit ut tortor pretium. Massa ultricies mi quis hendrerit dolor magna
+sustAInability is a so-called digitalization lab and funded by the Bavarian State Ministry of Science and the Arts and coordinated by the Bavarian Research Institute for Digital Transformation (bidt).
