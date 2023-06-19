@@ -9,7 +9,7 @@ type: ["Challenge giver", "Expert"] #["Challenge giver, Expert"]
 ### OPTIONAL FURTHER DETAILS
 further:
  -  type: url
-   label: Homepage HfP
+    label: Homepage HfP
     url: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
  -  type: pdf
