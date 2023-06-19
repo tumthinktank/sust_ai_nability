@@ -6,9 +6,10 @@ import { PostGrid, Post } from "./styledComponents"
 import ListItem from "./listItem"
 
 const PrototypeList = ({ prototypes, year, challenge }) => {
+  
   // Filter empty index.md (no name)
   let posts = prototypes.filter(
-    p => p.childMarkdownRemark.frontmatter.name != null
+    p => p.childMarkdownRemark?.frontmatter.name != null
   )
 
   // Apply filters if year or challenge are selected

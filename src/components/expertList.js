@@ -5,9 +5,12 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { PostGrid, Post } from "./styledComponents"
 
 const ExpertList = ({ experts, type }) => {
+
+  console.log("here", experts)
+
   // Filter empty index.md (no name)
   let posts = experts.filter(
-    p => p.childMarkdownRemark.frontmatter.name != null
+    p => p.childMarkdownRemark?.frontmatter.name != null
   )
 
   // Apply filters

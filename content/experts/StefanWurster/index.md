@@ -1,9 +1,10 @@
+---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Prof. Dr. Stefan Wurster
+name: "Prof. Dr. Stefan Wurster"
 shortDescription: Professorship of Policy Analysis at Technical University of Munich 
 date: "2015-05-01"
 image: "pic9.png" #image in same folder as this file
-type: ["Challenge giver", "Expert"] # ["Expert"]
+type: ["Challenge giver", "Expert"] #["Challenge giver, Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 further:

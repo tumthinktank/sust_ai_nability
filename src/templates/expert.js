@@ -17,13 +17,13 @@ const ExpertTemplate = ({
   const siteTitle = site.siteMetadata?.title || `Title`
   const image = getImage(post.frontmatter.image)
 
-  // console.log({challenges})
+  // console.log("x:", {post, challenges})
   let initiatedChallenges = challenges.nodes
-  console.log(initiatedChallenges)
+  // console.log("a", initiatedChallenges)
   initiatedChallenges = initiatedChallenges.filter(
     c => c.expert.frontmatter.name === post.frontmatter.name
   )
-  console.log(initiatedChallenges)
+  // console.log("b", initiatedChallenges)
 
   // if(!post.frontmatter.challenges){
   //   console.log("here")
@@ -39,12 +39,12 @@ const ExpertTemplate = ({
     <Layout location={location} title={siteTitle} mode="expert">
       <Navbar title="Detail" link="/experts" />
       <PostWrapper itemScope itemType="http://schema.org/Article">
-        <section class="image">
+        <section className="image">
           {post.frontmatter.image && <GatsbyImage image={image} alt="" />}
         </section>
         <header>
           <h1 itemProp="headline">{post.frontmatter.name}</h1>
-          <p class="subtitle">{post.frontmatter.shortDescription}</p>
+          <p className="subtitle">{post.frontmatter.shortDescription}</p>
         </header>
 
         <section className="about">
@@ -58,8 +58,8 @@ const ExpertTemplate = ({
         {post.frontmatter.further && (
           <section className="output">
             <h2>Further</h2>
-            {post.frontmatter.further.map(link => (
-              <ListItem label={link.type}>
+            {post.frontmatter.further.map((link, i) => (
+              <ListItem label={link.type} key={i}>
                 <a href="output.url" target="_blank" rel="noreferrer nofollow">
                   {link.label}
                 </a>
@@ -69,11 +69,11 @@ const ExpertTemplate = ({
           </section>
         )}
 
-        {initiatedChallenges && (
+        {initiatedChallenges.length > 0 && (
           <section className="challenges">
             <h2>Challenges</h2>
-            {initiatedChallenges.map(c => (
-              <ListItem label={c.year}>
+            {initiatedChallenges.map((c,i) => (
+              <ListItem label={c.year} key={i}>
                 <strong>{c.title}</strong>
 
                 <p>{c.description}</p>

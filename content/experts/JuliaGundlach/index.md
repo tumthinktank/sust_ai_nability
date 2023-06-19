@@ -4,7 +4,7 @@ name: Julia Gundlach
 shortDescription: "Lead of the project “reframe[Tech]” at the Bertelsmann Stiftung"
 date: "2023-06-09"
 image: "Gundlach_klein.jpg" #image in same folder as this file
-type: ["Expert"] # ["Expert"]
+type: ["Expert"] #["Challenge giver, Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 further:
