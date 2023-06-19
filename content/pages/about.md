@@ -18,6 +18,20 @@ Sustainability and digitalization are at the centre of scientific and political 
 
 
 
-## Team and Partner
+## Partner
 
 sustAInability is a joint project between Hochschule München University of Applied Sciences of Munich and Technical University of Munich, and researches the opportunities and interdependencies, and, together with an interdisciplinary group of students, developes technical and non-technical solution approaches at the intersection of AI and sustainability. It is a so-called digitalization lab and funded by the Bavarian State Ministry of Science and the Arts and coordinated by the Bavarian Research Institute for Digital Transformation (bidt).
+
+Mit einem Satz noch: HfP, School of Management, Think Tank, MUC.DAI nennen
+
+
+## Call to Action
+
+neuen Text einfügen
+sustAInability is a joint project between Hochschule München University of Applied Sciences of Munich and Technical University of Munich, and researches the opportunities and interdependencies, and, together with an interdisciplinary group of students, developes technical and non-technical solution approaches at the intersection of AI and sustainability. It is a so-called digitalization lab and funded by the Bavarian State Ministry of Science and the Arts and coordinated by the Bavarian Research Institute for Digital Transformation (bidt).
+
+
+## Contact
+
+Helene und Charlotte einfügen
+Emailadressen mit [at]
