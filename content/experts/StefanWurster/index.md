@@ -7,8 +7,8 @@ type: ["Challenge giver", "Expert"] # ["Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  label: Homepage reframe(Tech)
-    url: https://www.reframetech.de/en/
+ -  label: Homepage Professorship of Policy Analysis
+    url: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
     
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
  -  type: pdf
@@ -17,10 +17,9 @@ further:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-Julia Gundlach is lead of the project “reframe[Tech]” in the program “Digitalization and the Common Good” at the Bertelsmann Stiftung and mainly works on potentials of algorithmic systems for the common good. She deals intensively with use cases in which algorithms are used to address social problems, e.g. the allocation of daycare slots.
+Stefan Wurster conducts research on policy analysis in areas closely linked to sustainability such as education, research, innovation, environmental policy and energy policy. His specific research interests include the comparison of democracies and autocracies as well as different instruments of policy regulation.
 
-She previously worked at the German Research Center for Artificial Intelligence (DFKI) for the project Forum Digital Technologies. During her Master of Public Policy at the Hertie School in Berlin, she completed a Professional Year in the economic policy division of the Federal Ministry of Economic Affairs and Energy.
-
+Wurster studied political science, history and public law in Heidelberg and Barcelona. In 2010 he was awarded a PhD with distinction (summa cum laude). From 2009 to 2015 he was a research associate in Heidelberg. In 2010 he commenced a postdoctoral research project on “Sustainability and Regime Type”, successfully completing the interim evaluation in 2013. From 2012 to 2015 he coordinated a doctoral study program on the “Performance of Politics in Autocratic and Democratic Regimes” and from 2015 to 2016 he worked as an assistant professor at the University of Trier. Since 2016 he has been professor of policy analysis at TUM’s Bavarian School of Public Policy.
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
