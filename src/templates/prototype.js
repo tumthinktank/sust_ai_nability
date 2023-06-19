@@ -4,45 +4,49 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
 import styled from "styled-components"
 import ListItem from "../components/listItem"
 import Navbar from "../components/navbar"
+import { device } from "../utils/device"
 
 const PostWrapper = styled.article``
 
 const Infobox = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  
+  @media ${device.tablet} {
+    grid-template-columns: 1fr 1fr;
+  }
 
-  .left, .right{
+  .left,
+  .right {
     padding: 1rem;
 
-    & h2:first-child{
+    & h2:first-child {
       margin-top: 0;
     }
 
-    p{
-      margin-bottom: .5rem;
+    p {
+      margin-bottom: 0.5rem;
     }
 
-    & p:last-child{
+    & p:last-child {
       margin-bottom: 0;
     }
   }
 
-  .left{
+  .left {
     background: var(--color-primary);
 
-    a{
+    a {
       text-decoration-color: white;
     }
   }
 
-  .right{
+  .right {
     background: var(--color-light);
   }
-
 `
 
 const PrototypeTemplate = ({
@@ -56,7 +60,6 @@ const PrototypeTemplate = ({
   let galleryImages = []
   if (post.frontmatter.gallery)
     post.frontmatter.gallery.map(img => galleryImages.push(getImage(img)))
-  
 
   return (
     <Layout location={location} title={siteTitle} mode="prototype">
@@ -64,8 +67,8 @@ const PrototypeTemplate = ({
       <PostWrapper itemScope itemType="http://schema.org/Article">
         <section className="image">
           {post.frontmatter.featuredImage && (
-            <GatsbyImage image={featuredImage} alt=""/>
-          )} 
+            <GatsbyImage image={featuredImage} alt="" />
+          )}
         </section>
         <header>
           <h1 itemProp="headline">{post.frontmatter.name}</h1>
@@ -74,12 +77,13 @@ const PrototypeTemplate = ({
 
         <Infobox className="info">
           {post.frontmatter.challenge?.title && (
-            <div clasNames="left">
+            <div className="left">
               <h2>Challenge</h2>
-              <p><strong>{post.frontmatter.challenge.title}</strong></p>
+              <p>
+                <strong>{post.frontmatter.challenge.title}</strong>
+              </p>
               <p>{post.frontmatter.challenge.description}</p>
               <p>
-                
                 <a
                   href={`/expert${post.frontmatter.challenge.expert.fields.slug}`}
                 >
@@ -125,7 +129,6 @@ const PrototypeTemplate = ({
         )}
 
         {galleryImages.length > 0 && (
-          
           <section className="gallery">
             <h2>Impressions</h2>
             {galleryImages.map(img => (

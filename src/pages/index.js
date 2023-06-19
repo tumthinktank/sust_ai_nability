@@ -6,66 +6,125 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import styled from "styled-components"
+import { device } from "../utils/device"
 
 import LogoFull from "../assets/Logo-complete.svg"
 import cubus from "../images/Cubus.png"
 import cubusOverlay from "../images/Cubus-overlay.png"
+import CubusMobile from "../assets/Cubus-mobile.svg"
 
 const BackgroundStyles = `
   background-repeat: no-repeat;
-  background-position-x: calc(100% - 15rem);
-  background-size: auto clamp(600px, 100vh, 800px);
-  background-attachment: fixed;
+  background-position-y: calc(100vh-15rem);
+  background-size: 100vw auto;
+  background-attachment: none;
+  
+  @media ${device.tablet} {
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: calc(100% - 15rem);
+    background-size: auto clamp(600px, 100vh, 800px);
+    background-attachment: fixed;
+  }
 `
 
 const Homewrapper = styled.div`
   position: relative;
   margin: -2rem -4rem;
-  padding: 2rem 50% 2rem 4rem;
+  padding: 2rem 4rem;
 
-  ${BackgroundStyles};
-  background-image: url(${cubus});
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 2s ease-out; /* Adjust the transition duration as desired */
-
-    ${BackgroundStyles};
-    background-image: url(${cubusOverlay});
+  @media ${device.tablet} {
+    padding: 2rem 50% 2rem 4rem;
   }
 
-  &:hover::before {
-    opacity: 1;
+
+  @media ${device.tablet} {
+
+    ${BackgroundStyles};
+    background-image: url(${cubus});
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;  
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 2s ease-out; /* Adjust the transition duration as desired */
+      
+      ${BackgroundStyles};
+      background-image: url(${cubusOverlay});
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
   }
 `
 
-const VisibleArea = styled.div`
-  height: calc(100vh - 4rem);
+const VisibleArea = styled.div` #
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  display: flex;
+
+  height: calc(100vh - 9em);   
+  @media ${device.tablet} {
+    height: calc(100vh - 4rem);
+  }
 
   .logo {
     position: sticky;
-    top: 2rem;
+    top: -1rem;
     background: #fff;
     display: block;
+    margin: -1rem;
+    padding: 1rem;
+
+    @media ${device.tablet} {
+      top: 2rem;
+      background: transparent;
+    }
   }
 
   .abstract {
     font-size: var(--fontSize-2);
     font-weight: 600;
+    display: none;
+
+    @media ${device.tablet} {
+      display: block;
+    }
+  }
+
+  .cubus{
+    display: block;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    width: calc(100vw + 2rem);
+    height: auto;
+
+    @media ${device.tablet} {
+      display: none;
+    }
   }
 `
 
 const OverflowArea = styled.div`
   z-index: 0;
+
+  .abstract {
+    font-size: var(--fontSize-1);
+    font-weight: 600;
+    margin-top: 2rem;
+
+    display: block;
+
+    @media ${device.tablet} {
+      display: none;
+    }
+  }
 
   footer {
     display: flex;
@@ -124,8 +183,10 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
             <LogoFull width="100%" />
           </Link>
           <p className="abstract">{post.frontmatter.abstract}</p>
+          <CubusMobile className="cubus" width="100%" />
         </VisibleArea>
         <OverflowArea name="about">
+          <p className="abstract">{post.frontmatter.abstract}</p>
           <p
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
@@ -133,8 +194,9 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
           <footer>
             {post.frontmatter.legal && (
               <ul>
-                {post.frontmatter.legal.map(link => (
-                  <li>
+                {post.frontmatter.legal.map((link, i) => (
+                  <li
+                    key={i}>
                     <a
                       target="_blank"
                       rel="noreferrer nofollow"
@@ -152,10 +214,15 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
                 {logos.map((logo, i) => (
                   <a
                     target="_blank"
+                    key={i}
                     rel="noreferrer nofollow"
                     href={post.frontmatter.logos[i].url}
                   >
-                    <GatsbyImage image={logo} objectFit="contain" alt="Logo sustAInability" />
+                    <GatsbyImage
+                      image={logo}
+                      objectFit="contain"
+                      alt="Logo sustAInability"
+                    />
                   </a>
                 ))}
               </div>

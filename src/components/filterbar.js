@@ -1,12 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 
+import { device } from "../utils/device"
+
 const Bar = styled.nav`
   margin-bottom: 2em;
 
   & > div{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
+
+    @media ${device.tablet} {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
 `
 

@@ -92,7 +92,7 @@ const NavStrip = styled.div`
     font-family: var(--fontFamily-emphasis);
 
     @media ${device.tablet} {
-      writing-mode: sideways-lr;
+      // writing-mode: sideways-lr;
       padding: 2rem;
       height: 100vh;
       width: 5rem;
@@ -100,11 +100,24 @@ const NavStrip = styled.div`
         props.active ? "none" : "7px 0px 7px #00000033 inset"};
     }
 
-    &:hover:not([aria-current="page"]){
+    &:hover:not([aria-current="page"]) {
       background: var(--color-primary);
     }
   }
 `
+
+const VerticalText = styled.span`
+  @media ${device.tablet} {
+    width: min-content;
+    height: 1em;
+    transform: rotate(-90deg);
+    transform-origin: left top 0px;
+    display: inline-block;
+    position: fixed;
+    bottom: 1em;
+  }
+`
+
 const Content = styled.main`
   box-shadow: ${props =>
     props.isRootPath ? "none" : "0px 7px 7px #ccc inset"};
@@ -114,7 +127,7 @@ const Content = styled.main`
   overflow: scroll;
   position: relative;
 
-  @media screen and (min-height:800px){
+  @media screen and (min-height: 800px) {
     &.hasBackground:before {
       content: "";
       position: fixed;
@@ -122,7 +135,7 @@ const Content = styled.main`
       width: calc(100vw - 15rem);
       top: 800px;
       left: 0;
-      
+
       background-image: linear-gradient(
         to right,
         white,
@@ -133,8 +146,6 @@ const Content = styled.main`
       background-attachment: fixed;
     }
   }
-
-
 
   @media ${device.tablet} {
     overflow: unset;
@@ -210,7 +221,7 @@ const Layout = ({ location, title, children, mode = "default" }) => {
           delay={50}
           onClick={handleScroll}
         >
-          About
+          <VerticalText>About</VerticalText>
         </FancyLink>
       </NavStrip>
       {mode === "prototype" && (
@@ -219,7 +230,9 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         </Content>
       )}
       <NavStrip active={mode === "prototype" ? true : false}>
-        <Link to="/prototypes">Prototypes</Link>
+        <Link to="/prototypes">
+          <VerticalText>Prototypes</VerticalText>
+        </Link>
       </NavStrip>
       {mode === "expert" && (
         <Content isRootPath={isRootPath}>
@@ -227,7 +240,9 @@ const Layout = ({ location, title, children, mode = "default" }) => {
         </Content>
       )}
       <NavStrip active={mode === "expert" ? true : false}>
-        <Link to="/experts">Perspectives</Link>
+        <Link to="/experts">
+          <VerticalText>Perspectives</VerticalText>
+        </Link>
       </NavStrip>
     </LayoutWrapper>
   )

@@ -3,7 +3,8 @@ import styled from "styled-components"
 
 const FilterWrapper = styled.div`
   position: relative;
-  max-width: calc(33% - 4rem);
+  flex: 33% 0 0;
+  flex-wrap: wrap;
   width: 100%;
 `
 

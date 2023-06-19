@@ -109,12 +109,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   if (experts.length > 0) {
     experts.forEach((post, index) => {
       challenges.forEach((node) => {
-        // console.log("node name:", node.expert.frontmatter.name)
-        // console.log("post name:", post.childMarkdownRemark.frontmatter.name)
-        if(node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name)
-        // console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
+        console.log("node name:", node.expert.frontmatter.name)
+        console.log("post name:", post.childMarkdownRemark.frontmatter.name)
+        if(node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name){
+        console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
         post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
-        post.childMarkdownRemark.frontmatter.challenges.push(node)
+        post.childMarkdownRemark.frontmatter.challenges.push(node)}
       })
 
       createPage({
