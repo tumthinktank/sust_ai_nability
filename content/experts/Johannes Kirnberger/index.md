@@ -1,4 +1,3 @@
-
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: Johannes Leon Kirnberger
