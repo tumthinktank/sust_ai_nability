@@ -3,7 +3,7 @@
 name: Stefan Hauser
 shortDescription: CEO at Mammut
 date: "2023-06-09"
-image: "Stefan.Hauser.jpeg" #image in same folder as this file
+image: "StefanHauser2.jpeg" #image in same folder as this file
 type: ["Challenge giver"]
 
 ### OPTIONAL FURTHER DETAILS
