@@ -96,6 +96,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (prototypes.length > 0) {
     prototypes.forEach((post, index) => {
+      if(post.childMarkdownRemark){
       createPage({
         path: "prototype" + post.childMarkdownRemark.fields.slug,
         component: prototype,
@@ -103,6 +104,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id: post.childMarkdownRemark.id,
         },
       })
+    }
     })
   }
 
@@ -112,9 +114,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         console.log("node name:", node.expert.frontmatter.name)
         console.log("post name:", post.childMarkdownRemark.frontmatter.name)
         if(node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name){
-        console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
-        post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
-        post.childMarkdownRemark.frontmatter.challenges.push(node)}
+          console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
+          post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
+          post.childMarkdownRemark.frontmatter.challenges.push(node)
+        }
       })
 
       createPage({

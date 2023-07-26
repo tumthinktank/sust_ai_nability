@@ -3,7 +3,7 @@
 name: Carina Legl
 shortDescription: "Solution Manager at SAP"
 date: "2023-06-09"
-image: "Carina.Legl.jpeg" #image in same folder as this file
+image: "Carina-Legl.jpeg" #image in same folder as this file
 type: ["Challenge giver"] #["Challenge giver, Expert"]
 
 ### OPTIONAL FURTHER DETAILS

@@ -3,7 +3,7 @@
 name: Felix Rank
 shortDescription: Co-founder of the German Forum for Ethical Machine Decision Making
 date: "2023-06-09"
-image: "Felix.Rank.jpeg" #image in same folder as this file
+image: "Felix-Rank.jpg" #image in same folder as this file
 type: ["Challenge giver"] #["Challenge giver"]
 
 ### OPTIONAL FURTHER DETAILS

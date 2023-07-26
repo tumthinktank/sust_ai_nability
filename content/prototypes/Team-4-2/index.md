@@ -1,8 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: EU’s social sustAInability booster
-subtitle: Three amendments aimed at enhancing social sustainability within the AI Act that will be
-proposed to the European Parliament
+subtitle: "Three amendments aimed at enhancing social sustainability within the AI Act that will be proposed to the European Parliament"
 date: "2015-05-01"
 featuredImage: pic6.png #image in same folder as this file
 challenge: Does the EU AI Act promote socially sustainable AI?
