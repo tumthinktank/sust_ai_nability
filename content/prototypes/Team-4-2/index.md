@@ -1,12 +1,11 @@
 ---
-### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: EU’s social sustAInability booster
 subtitle: "Three amendments aimed at enhancing social sustainability within the AI Act that will be proposed to the European Parliament"
 date: "2015-05-01"
-featuredImage: pic6.png #image in same folder as this file
+featuredImage: "Foto.jpg" #image in same folder as this file
 challenge: Does the EU AI Act promote socially sustainable AI?
 year: Spring 2023
-team: Sophia Spornraft, Isai Jisue Canedo, Luis Martinez, Chi Khanh Phan
+team: Sophia Spornraft, Isai Josue Canedo, Luis Martinez, Chi Khanh Phan
 contactEmail: eirmod.tempor@tum.de
 
 ### OPTIONAL FURTHER DETAILS
@@ -20,9 +19,7 @@ outputs:
     url: http://google.com
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 gallery:
- -  pic6.png
- -  pic6.png
- -  salty_egg.jpg
+ -  Teamfoto.png
 ---
 
 In response to the challenge "Does the EU AI Act promote social sustainable AI?" we developed
