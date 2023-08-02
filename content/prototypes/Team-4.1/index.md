@@ -1,6 +1,7 @@
 ---
 name: Amendments to the EU AI Act
 subtitle: A policy memo with the scope of improving the current version of the EU AI Act in a social sustainability framework.
+date: "2023-06-25"
 featuredImage: "Foto.jpg"
 challenge:  How does the EU’s AI Act promote socially sustainable AI?
 year: Spring 23
