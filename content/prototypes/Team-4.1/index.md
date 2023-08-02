@@ -4,8 +4,7 @@ subtitle: A policy memo with the scope of improving the current version of the E
 featuredImage: "Foto.jpg"
 challenge:  How does the EU’s AI Act promote socially sustainable AI?
 year: Spring 23
-team: Silvia Cirolini, Özge Demir, Fatma Ben Yahia, Marco 
-Mata, Lisa Putter
+team: Silvia Cirolini, Özge Demir, Fatma Ben Yahia, Marco Mata, Lisa Putter
 contactEmail: silvia.cirolini@tum.de, ozgedemir198@gmail.com, fatma.beny@yahoo.fr, marcotulio.sm956@gmail.com, l.v.putter@student.tue.nl
 ---
 
