@@ -1,43 +1,21 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Challenge Team 1
-subtitle: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-date: "2015-05-01"
+name: Marine+
+subtitle: An improved model for detecting marine litter in coastal ocean pictures
+date: "2023-06-25"
 featuredImage: pic6.png #image in same folder as this file
-challenge: challenge-slug
+challenge: Marine Litter: Can you beat the experts?
 year: Spring 2023
-team: Lorem ipsum, Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor
-contactEmail: eirmod.tempor@tum.de
+team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
+contactEmail: simonlcherv@gmail.com – https://www.linkedin.com/in/simon-chervenak-2240a6143/ ,https://www.linkedin.com/in/zeynep-duran-455088198
+
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: site
-    label: Project report and some reaaaaaaly long title
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor elit
  -  type: pdf
     label: Project report
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-gallery:
- -  pic6.png
- -  pic6.png
- -  salty_egg.jpg
+    url: "ProjectReport1.pdf"
+    description: Further information about the project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-### Lecture from some year 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kjThZ6tSHdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Excepteur sint occaecat cupidatat 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+The MARIDA dataset contains annotated images from twelve locations around the world. These images are annotated with many classes, including multiple types of water and plants, but our challenge focuses on marine litter. Our goal is to aid with the creation of a model that will help clean up our oceans and save our planet. The researchers made a basic neural network structure and provided us with tools to train and test that structure. To improve upon it, we changed the way it learns by encouraging it to focus on less common examples, since the marine litter was a very underrepresented portion of the images. We also shifted the locations of the data it was trained on to make it better at generalizing to unseen locations. Our solution increased accuracy by common AI metrics, but can still be improved by further examination of the data.
