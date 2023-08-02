@@ -4,7 +4,7 @@ name: Objective Argument Extraction: A Neutral Approach to Analyzing Articles
 subtitle: An analytical framework for objectively extracting key claims from
 articles and evaluating their logical coherence and supporting evidence.
 date: "2023-06-25"
-featuredImage: pic6.png #image in same folder as this file
+featuredImage: pic2.png #image in same folder as this file
 challenge: Mining arguments
 year: Spring 2023
 team: Nicholas Menzel, Karolina Senoner, Annika Markoff, Onur Alpaslan
@@ -12,18 +12,13 @@ contactEmail: nicholas.menzel@tum.de, karola.senoner@gmail.com, annika.markoff@h
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: site
-    label: Project report and some reaaaaaaly long title
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor elit
  -  type: pdf
     label: Project report
-    url: http://google.com
+    url: "ProjectReport.pdf"
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 gallery:
- -  pic6.png
- -  pic6.png
- -  salty_egg.jpg
+ -  "FinalPromt.png"
+ -  "MiningArguments.png"
 ---
 
 The final prototype presents a prompt designed to address the challenge of extracting and
