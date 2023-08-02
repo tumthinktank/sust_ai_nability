@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Objective Argument Extraction":" A Neutral Approach to Analyzing Articles
+name: Objective Argument Extraction A Neutral Approach to Analyzing Articles #: funktioniert leider nicht
 subtitle: An analytical framework for objectively extracting key claims from
 articles and evaluating their logical coherence and supporting evidence.
 date: "2023-06-25"
