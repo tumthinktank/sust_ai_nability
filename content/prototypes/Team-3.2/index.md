@@ -4,7 +4,7 @@ name: ArguMiner
 subtitle: Our prototype extracts arguments from discussions to improve decision-making by
 providing the essence of the conversation.
 date: "2023-06-25"
-featuredImage: "Argumetn_Mining-1.svg" #image in same folder as this file
+featuredImage: "Argument_Mining-1.svg" #image in same folder as this file
 challenge: Argument Mining
 team: Pia Koller, Nina Mandl, Leon Oskui, Mert Türkekul
 contactEmail: Koller.Pia@campus.lmu.de, Nina.Mandl@campus.lmu.de, Leon.Oskui@campus.lmu.de, M.Tuerkekul@campus.lmu.de
