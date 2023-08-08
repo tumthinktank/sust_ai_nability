@@ -1,23 +1,23 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: AI Transforms the Fashion Industry for Circularity
-subtitle: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-date: "2015-05-01"
+name: AI for circular economy in Fashion
+subtitle: A business model powered by different technologies, with an emphasis on AI, to create a Circular Fashion Industry.
+date: "2023-06-25"
 featuredImage: "Foto2.jpg" #image in same folder as this file
-challenge: challenge-slug
+challenge: AI transforms the Fashion Industry for Circularity.
 year: Spring 2023
 team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng, Teresa Akumu Opiyo
-contactEmail: eirmod.tempor@tum.de
+#contactEmail:
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
  -  type: site
-    label: Project report and some reaaaaaaly long title
-    url: http://google.com
+    label: SAP Recommerce - Product Teaser
+    url: https://www.sap.com/assetdetail/2023/04/0c9b2cb5-707e-0010-bca6-c68f7e60039b.html
     description: Lorem ipsum dolor sit amet, consectetur adipiscing Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor elit
  -  type: pdf
     label: Project report
-    url: http://google.com
+    url: "Report.pdf"
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 gallery:
  -  "Foto1.jpg"
@@ -27,19 +27,4 @@ gallery:
  -  "Insta_Post3.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-### Lecture from some year 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kjThZ6tSHdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Excepteur sint occaecat cupidatat 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+SAP Recommerce aims to enhance circularity by reusing items, but there is untapped potential for true circularity. The integration of Digital Twin, Blockchain, and AI technologies is proposed to achieve this. This solution enables the entire fashion supply chain, providing information to customers about product origins and environmental impact and offering incentives for sustainable choices. Additionally, AI systems assist retailers in decision-making and sorting returned items, promoting reusing, remaking, or recycling options. This business model creates a circular fashion economy by delaying disposal and maximizing sustainability. The integrated software as a service and business model involves all value chain actors, offering traceability, and transparency. Digital Twin facilitates simulations, environmental impact calculations, and authentication, while Blockchain ensures trustful traceability and information unity. Artificial Intelligence supports garment screening, optimizing circular processes, and Large Language Models engage customers through nudging and gamification activities. The Digital Twin is created and updated throughout the value chain. Its information and processes are added to the Blockchain, customers can return garments and receive incentives while providing updates, and the AI tool suggests reuse, resale, rent, remake, or recycle options based on the information available, all recorded in the Digital Product Passport (DPP) and Blockchain.
