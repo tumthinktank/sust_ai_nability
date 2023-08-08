@@ -14,11 +14,11 @@ outputs:
  -  type: pdf
     label: Project report
     url: "report.pdf"
-    description: Standardizing Sustainability Indicators For AI Model Cards
+    description: Further information about the progress, milestones, and roadblocks.
 -   type: pdf
     label: Model Card
     url: "Model Card.pdf"
-    description:
+    description: Example of the project
 gallery:
  -  "Teamfoto1.jpg"
  -  "Teamfoto2.jpg"
