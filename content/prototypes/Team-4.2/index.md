@@ -10,16 +10,14 @@ contactEmail: eirmod.tempor@tum.de
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: site
-    label: Project report and some reaaaaaaly long title
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor elit
  -  type: pdf
     label: Project report
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    url: "Project_Report.pdf"
+    description: Further information about the progress, milestones, and roadblocks.
 gallery:
- -  Teamfoto.png
+ -  "Teamfoto.png"
+ -  "Teamfoto2.jpg"
+
 ---
 
 In response to the challenge "Does the EU AI Act promote social sustainable AI?" we developed
@@ -31,14 +29,3 @@ Our aim was to ensure that the AI Act promotes the principles of social sustaina
 design, development and deployment of AI technology. We believe that these amendments, if
 adopted, would significantly enhance the Act's effectiveness in fostering a socially sustainable
 AI ecosystem within the European Union.
-
-### Lecture from some year 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kjThZ6tSHdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Excepteur sint occaecat cupidatat 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
