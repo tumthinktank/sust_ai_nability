@@ -1,8 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: ArguMiner
-subtitle: Our prototype extracts arguments from discussions to improve decision-making by
-providing the essence of the conversation.
+subtitle: "Our prototype extracts arguments from discussions to improve decision-making by providing the essence of the conversation."
 date: "2023-06-25"
 featuredImage: "Argument_Mining-1.svg" #image in same folder as this file
 challenge: Argument Mining

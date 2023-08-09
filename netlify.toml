@@ -19,3 +19,14 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+# Production context: all deploys from the Production branch
+# set in your site’s Branches settings in the UI will inherit
+# these settings.
+[context.production.environment]
+  MODE = "PLACEHOLDER"
+
+# Deploy Preview context: all deploys generated from
+# a pull/merge request will inherit these settings.
+[context.branch-deploy.environment]
+  MODE = "PREVIEW"
