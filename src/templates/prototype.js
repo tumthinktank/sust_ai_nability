@@ -14,7 +14,7 @@ const PostWrapper = styled.article``
 const Infobox = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  
+
   @media ${device.tablet} {
     grid-template-columns: 1fr 1fr;
   }
@@ -47,6 +47,24 @@ const Infobox = styled.div`
   .right {
     background: var(--color-light);
   }
+`
+
+const Gallery = styled.section`
+
+  div{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  
+    @media ${device.tablet} {
+      grid-template-columns: ${props => (props.sum > 2) ? "1fr 1fr 1fr" : (props.sum > 1) ? "1fr 1fr" : "1fr"};
+    }
+  }
+
+  .gatsby-image-wrapper{
+    aspect-ratio: 3/2
+  }
+  
 `
 
 const PrototypeTemplate = ({
@@ -129,12 +147,14 @@ const PrototypeTemplate = ({
         )}
 
         {galleryImages.length > 0 && (
-          <section className="gallery">
+          <Gallery className="gallery" sum={galleryImages.length}>
             <h2>Impressions</h2>
-            {galleryImages.map(img => (
-              <GatsbyImage image={img} alt="" />
-            ))}
-          </section>
+            <div>
+              {galleryImages.map(img => (
+                <GatsbyImage image={img} alt="" />
+              ))}
+            </div>
+          </Gallery>
         )}
       </PostWrapper>
     </Layout>
@@ -202,7 +222,7 @@ export const pageQuery = graphql`
             gatsbyImageData(
               layout: CONSTRAINED
               placeholder: BLURRED
-              aspectRatio: 1.4
+              aspectRatio: 1.5
             )
           }
         }

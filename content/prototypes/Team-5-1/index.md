@@ -4,7 +4,7 @@ name: Green AI Model Cards
 subtitle: With this new model card the environmental factors of AI models are as easily comparable as a card game.
 date: "2015-06-025"
 featuredImage: "Teamfoto.png" #image in same folder as this file
-challenge: AI Model Cards - a new concept to standardize environmental reporting for AI model
+challenge: ai-model-cards
 year: Spring 2023
 team: Kerstin Forster, Sarah Grotkasten, David-Peregrin Hain, Kristina Pavlovic, Suchithra, Negash Desalegn Weldekiros
 contactEmail: eirmod.tempor@tum.de
