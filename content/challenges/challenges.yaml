@@ -11,7 +11,7 @@
   expert: Dr Paul Springer
 - slug: fashion-industry
   title: AI transforms the Fashion Industry for Circularity.
-  description: The fashion industry faces social, environmental, and economic sustainability challenges, with issues such as unsafe working conditions, carbon emissions, waste crisis, and inadequate waste management. A Digital Product Passport (DPP) is emerging to address these challenges, aiming to share essential sustainability and circularity information across economic actors and empower consumers to make sustainable choices. The DPP requirements cover various aspects of the product life cycle and create the need for innovation management in areas like brand-customer interaction, authentication, warehouse management, and demonstrating sustainability's impact on business. The goal is to create a circular value chain while ensuring compliance and maintaining or growing profit margins.
+  description: "The fashion industry faces social, environmental, and economic sustainability challenges, with issues such as unsafe working conditions, carbon emissions, waste crisis, and inadequate waste management. A Digital Product Passport (DPP) is emerging to address these challenges, aiming to share essential sustainability and circularity information across economic actors and empower consumers to make sustainable choices. The DPP requirements cover various aspects of the product life cycle and create the need for innovation management in areas like brand-customer interaction, authentication, warehouse management, and demonstrating sustainability's impact on business. The goal is to create a circular value chain while ensuring compliance and maintaining or growing profit margins."
   year: Spring 2023
   expert: Carina Legl
 - slug: mining-arguments
@@ -45,7 +45,7 @@
   year: Spring 2023
   expert: Johannes Leon Kirnberger
 - slug: analyzer-data
-  title: “Unlock circularity and avoid waste.”
+  title: "Unlock circularity and avoid waste."
   description: Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital.
   year: Spring 2023
   expert: Stefan Hauser
