@@ -4,11 +4,10 @@ name: Marine+
 subtitle: An improved model for detecting marine litter in coastal ocean pictures
 date: "2023-06-25"
 featuredImage: "oceanPlastic.jpg"
-challenge: Marine Litter Can you beat the experts?
+challenge: marine-litter
 year: Spring 2023
 team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
-contactEmail: simonlcherv@gmail.com https://www.linkedin.com/in/simon-chervenak-2240a6143/ ,https://www.linkedin.com/in/zeynep-duran-455088198
-
+contactEmail: simonlcherv@gmail.com
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
