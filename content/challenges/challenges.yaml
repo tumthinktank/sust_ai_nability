@@ -23,6 +23,11 @@
   description: The challenge involved mining arguments using LLMs to combat misinformation and enhance democracy. The goal was to develop effective prompts and flows for extracting arguments from texts, enabling informed decisions on sustainability-related topics.
   year: Spring 2023
   expert: Vinzent Ellissen
+- slug: argument-mining
+  title: Argument Mining
+  description: The challenge of argument mining involves extracting and analyzing arguments from textual sources, such as discussions or debates, to identify and understand the underlying claims, evidence, and reasoning. By uncovering and organizing arguments, argument mining aims to provide insights, facilitate information synthesis, and support decision-making processes.
+  year: Spring 2023
+  expert: Vinzent Ellissen
 - slug:
   title:
   description:
