@@ -1,8 +1,4 @@
-- slug: ai-model-cards
-  title: "AI Model Cards - a new concept to standardize environmental reporting for AI model"
-  description: "Does the EU AI Act promote social sustainable AI?"
-  year: Spring 2023
-  expert: Hello World Expert
+
 - slug: another-unique-slug
   title: Forem ipsum dolor sit amet consectetur
   description: When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
@@ -31,6 +27,11 @@
 - slug: eu-ai-act
   title: "How does the EU’s AI Act promote socially sustainable AI?"
   description: "The challenge involved a policy analysis of the EU’s AI Act in its current version, evaluate how the AI Act both promote and penalize socially sustainable AI systems. The goal was to provide some suggestions for improvement to be forward to German MEP and shadow rapporteur, Alex Voss."
+  year: Spring 2023
+  expert: Felix Rank
+- slug: ai-model-cards
+  title: "Does the EU AI Act promote socially sustainable AI?"
+  description: "The challenge focused on the European AI Act with regards to social sustainability. Based on an assessment of the current version in the European Parliament, we were asked to identify shortcomings and develop policy recommendations in the form of amendments."
   year: Spring 2023
   expert: Felix Rank
 - slug:

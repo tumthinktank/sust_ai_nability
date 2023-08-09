@@ -13,7 +13,7 @@ outputs:
  -  type: pdf
     label: Project Report
     url: "Project-Report.pdf"
-    description: Futher information about the Challenge Argument Mining
+    description: Further information about the progress, milestones, and roadblocks.
 gallery:
  -  "Amendment1.png"
  -  "Amendment2.png"
