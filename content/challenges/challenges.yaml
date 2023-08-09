@@ -44,8 +44,8 @@
   description: The challenge is to propose clearly defined sustainability indicators that could be included as part of a standardization drive for AI model cards, which can provide regulators with comparable benchmarks that measure sustainability practices of AI models across regulatory environments
   year: Spring 2023
   expert: Johannes Leon Kirnberger
-- slug:
-  title:
-  description:
+- slug: analyzer-data
+  title: “Unlock circularity and avoid waste.”
+  description: Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital.
   year: Spring 2023
-  expert:
+  expert: Stefan Hauser
