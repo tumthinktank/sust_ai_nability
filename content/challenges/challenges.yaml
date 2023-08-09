@@ -39,6 +39,11 @@
   description: Our challenge was to get an overview of the current situation of AI model cards and environmental sustainability. We should find the most common indicators and how they are calculated and were asked to add additional ones.
   year: Spring 2023
   expert: Johannes Leon Kirnberger
+- slug: ai-model-cards2
+  title: "AI Model Cards – a new concept to standardize environmental reporting for AI models?"
+  description: The challenge is to propose clearly defined sustainability indicators that could be included as part of a standardization drive for AI model cards, which can provide regulators with comparable benchmarks that measure sustainability practices of AI models across regulatory environments
+  year: Spring 2023
+  expert: Johannes Leon Kirnberger
 - slug:
   title:
   description:
