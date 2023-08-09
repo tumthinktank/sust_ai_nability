@@ -34,6 +34,11 @@
   description: "The challenge focused on the European AI Act with regards to social sustainability. Based on an assessment of the current version in the European Parliament, we were asked to identify shortcomings and develop policy recommendations in the form of amendments."
   year: Spring 2023
   expert: Felix Rank
+- slug: ai-model-cards
+  title: "AI Model Cards - a new concept to standardize environmental reporting for AI model"
+  description: Our challenge was to get an overview of the current situation of AI model cards and environmental sustainability. We should find the most common indicators and how they are calculated and were asked to add additional ones.
+  year: Spring 2023
+  expert: Johannes Leon Kirnberger
 - slug:
   title:
   description:
