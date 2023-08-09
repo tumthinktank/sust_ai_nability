@@ -12,13 +12,13 @@ team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng,
 ### OPTIONAL FURTHER DETAILS
 outputs:
  -  type: site
-    label: SAP Recommerce - Product Teaser
+    label: SAP Recommerce
     url: https://www.sap.com/assetdetail/2023/04/0c9b2cb5-707e-0010-bca6-c68f7e60039b.html
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing Dolor sit Amet, Consetetur sadipscing, Elitr Sed, Diam Nonumy, Eirmod Tempor elit
+    description: Product Teaser
  -  type: pdf
     label: Project report
     url: "Report.pdf"
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    description: Further information about the progress, milestones, and roadblocks.
 gallery:
  -  "Foto1.jpg"
  -  "Foto2.jpg"

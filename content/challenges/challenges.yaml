@@ -18,6 +18,11 @@
   description: The fashion industry faces social, environmental, and economic sustainability challenges, with issues such as unsafe working conditions, carbon emissions, waste crisis, and inadequate waste management. A Digital Product Passport (DPP) is emerging to address these challenges, aiming to share essential sustainability and circularity information across economic actors and empower consumers to make sustainable choices. The DPP requirements cover various aspects of the product life cycle and create the need for innovation management in areas like brand-customer interaction, authentication, warehouse management, and demonstrating sustainability's impact on business. The goal is to create a circular value chain while ensuring compliance and maintaining or growing profit margins.
   year: Spring 2023
   expert: Carina Legl
+- slug: mining-arguments
+  title: Mining arguments
+  description: The challenge involved mining arguments using LLMs to combat misinformation and enhance democracy. The goal was to develop effective prompts and flows for extracting arguments from texts, enabling informed decisions on sustainability-related topics.
+  year: Spring 2023
+  expert: Vinzent Ellissen
 - slug:
   title:
   description:
