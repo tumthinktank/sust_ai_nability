@@ -28,6 +28,11 @@
   description: The challenge of argument mining involves extracting and analyzing arguments from textual sources, such as discussions or debates, to identify and understand the underlying claims, evidence, and reasoning. By uncovering and organizing arguments, argument mining aims to provide insights, facilitate information synthesis, and support decision-making processes.
   year: Spring 2023
   expert: Vinzent Ellissen
+- slug: eu-ai-act
+  title: "How does the EU’s AI Act promote socially sustainable AI?"
+  description: "The challenge involved a policy analysis of the EU’s AI Act in its current version, evaluate how the AI Act both promote and penalize socially sustainable AI systems. The goal was to provide some suggestions for improvement to be forward to German MEP and shadow rapporteur, Alex Voss."
+  year: Spring 2023
+  expert: Felix Rank
 - slug:
   title:
   description:

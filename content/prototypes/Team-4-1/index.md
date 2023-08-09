@@ -3,21 +3,21 @@ name: Amendments to the EU AI Act
 subtitle: A policy memo with the scope of improving the current version of the EU AI Act in a social sustainability framework.
 date: "2023-06-25"
 featuredImage: "Foto.jpg"
-challenge:  How does the EU’s AI Act promote socially sustainable AI?
+challenge: eu-ai-act
 year: Spring 23
 team: Silvia Cirolini, Özge Demir, Fatma Ben Yahia, Marco Mata, Lisa Putter
-contactEmail: silvia.cirolini@tum.de, ozgedemir198@gmail.com, fatma.beny@yahoo.fr, marcotulio.sm956@gmail.com, l.v.putter@student.tue.nl
+contactEmail: silvia.cirolini@tum.de
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
  -  type: pdf
     label: Project Report
-    url: "Report_EU_AI_Act_Group 4.1-1.pdf"
+    url: "Project-Report.pdf"
     description: Futher information about the Challenge Argument Mining
 gallery:
- -  "Amendment 1.png"
- -  "Amendment 2.png"
- -  "Amendment 3.png"
+ -  "Amendment1.png"
+ -  "Amendment2.png"
+ -  "Amendment3.png"
 ---
 
 The outcome of this challenge was a policy memo with more than ten amendments that 
