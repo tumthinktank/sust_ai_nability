@@ -24,9 +24,9 @@
 # set in your site’s Branches settings in the UI will inherit
 # these settings.
 [context.production.environment]
-  MODE = "PLACEHOLDER"
+  GATSBY_MODE = "PLACEHOLDER"
 
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.branch-deploy.environment]
-  MODE = "PREVIEW"
+  GATSBY_MODE = "PREVIEW"
