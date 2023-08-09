@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: Johannes Leon Kirnberger
-shortDescription: Policy consultant for AI and sustainability at the Organisation for Economic Co-operation and Development
+shortDescription: "Policy consultant for AI and sustainability at the Organisation for Economic Co-operation and Development"
 date: "2023-05-12"
 image: "Johannes-Kirnberger.jpeg" #image in same folder as this file
 type: ["Challenge giver", "Expert"] #["Challenge giver, Expert"]

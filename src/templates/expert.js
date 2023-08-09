@@ -8,7 +8,13 @@ import Seo from "../components/seo"
 import Navbar from "../components/navbar"
 import ListItem from "../components/listItem"
 
-const PostWrapper = styled.article``
+const PostWrapper = styled.article`
+  .legal {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 4em;
+  }
+`
 
 const ExpertTemplate = ({
   data: { site, markdownRemark: post, allChallengesYaml: challenges },
@@ -72,7 +78,7 @@ const ExpertTemplate = ({
         {initiatedChallenges.length > 0 && (
           <section className="challenges">
             <h2>Challenges</h2>
-            {initiatedChallenges.map((c,i) => (
+            {initiatedChallenges.map((c, i) => (
               <ListItem label={c.year} key={i}>
                 <strong>{c.title}</strong>
 
@@ -80,6 +86,14 @@ const ExpertTemplate = ({
               </ListItem>
             ))}
           </section>
+        )}
+
+        {post.frontmatter.caption && (
+          <footer className="legal">
+            {post.frontmatter.further.map((link, i) => (
+              <p>{post.frontmatter.caption}</p>
+            ))}
+          </footer>
         )}
       </PostWrapper>
     </Layout>
@@ -129,7 +143,7 @@ export const pageQuery = graphql`
             gatsbyImageData(
               layout: CONSTRAINED
               placeholder: BLURRED
-              aspectRatio: 1.9
+              aspectRatio: 1.7
             )
           }
         }
@@ -139,6 +153,7 @@ export const pageQuery = graphql`
           url
           description
         }
+        caption
       }
     }
   }

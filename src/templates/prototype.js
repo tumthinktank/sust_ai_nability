@@ -47,24 +47,29 @@ const Infobox = styled.div`
   .right {
     background: var(--color-light);
   }
+
+  .legal{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 4em;
+  }
 `
 
 const Gallery = styled.section`
-
-  div{
+  div {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-  
+
     @media ${device.tablet} {
-      grid-template-columns: ${props => (props.sum > 2) ? "1fr 1fr 1fr" : (props.sum > 1) ? "1fr 1fr" : "1fr"};
+      grid-template-columns: ${props =>
+        props.sum > 2 ? "1fr 1fr 1fr" : props.sum > 1 ? "1fr 1fr" : "1fr"};
     }
   }
 
-  .gatsby-image-wrapper{
-    aspect-ratio: 3/2
+  .gatsby-image-wrapper {
+    aspect-ratio: 3/2;
   }
-  
 `
 
 const PrototypeTemplate = ({
@@ -156,6 +161,14 @@ const PrototypeTemplate = ({
             </div>
           </Gallery>
         )}
+
+        {post.frontmatter.caption && (
+          <footer className="legal">
+            {post.frontmatter.further.map((link, i) => (
+              <p>{post.frontmatter.caption}</p>
+            ))}
+          </footer>
+        )}
       </PostWrapper>
     </Layout>
   )
@@ -189,6 +202,7 @@ export const pageQuery = graphql`
         year
         team
         contactEmail
+        caption
         outputs {
           type
           label

@@ -1,10 +1,11 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Dr. Anne Mollen
-shortDescription: Co-founder of the German Forum for Ethical Machine Decision Making
+name: "Dr. Anne Mollen"
+shortDescription: "Co-founder of the German Forum for Ethical Machine Decision Making"
 date: "2023-04-28"
 image: "Anne-Mollen.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
+caption: "Credits: Photo by XYZ"
 
 ### OPTIONAL FURTHER DETAILS
 further:

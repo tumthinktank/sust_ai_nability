@@ -222,6 +222,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       further: [Link]
       type: [String]
       challenges: [ChallengesYaml] @link (by: "expert.frontmatter.name", from: "frontmatter: name") # backref not working
+      caption: String
     }
 
     type ChallengesYaml implements Node {
