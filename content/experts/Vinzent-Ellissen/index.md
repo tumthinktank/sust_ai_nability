@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Vinzent Ellissen"
-shortDescription: Managing Director of undiced GmBH
+shortDescription: Managing Director of Undiced GmbH
 date: "2023-06-09"
 image: "Vinzent_Ellissen.jpg" #image in same folder as this file
 type: ["Challenge giver"] #["Expert"]
