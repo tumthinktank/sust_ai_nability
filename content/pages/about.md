@@ -1,5 +1,7 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+abstract: Welcome to the project website of sustAInability! 
+sustAInability is a joint project between Hochschule München University of Applied Sciences of Munich and Technical University of Munich, which researches the opportunities and interdependencies, and developes technical and non-technical solution approaches at the intersection of AI and sustainability. 
+
 logos:
   - image: hm.png
     url: https://hm.de
