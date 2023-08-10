@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Milagros Miceli
+name: Dr. Milagros Miceli
 shortDescription: Sociologist and computer scientist
 date: "2023-05-26"
 image: "Milagros_Miceli_web.png" #image in same folder as this file
@@ -12,7 +12,7 @@ further:
  -  type: url
     label: Homepage Weizenbaum Insitute
     url: https://www.weizenbaum-institut.de/
-    description: Further information about the Wizenbaum Insitute
+    description: Further information about the Weizenbaum Insitute
  -  type: url
     label: Homepage DAIR Insitute
     url: https://www.dair-institute.org/
