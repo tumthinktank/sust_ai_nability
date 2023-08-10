@@ -5,9 +5,9 @@ subtitle: A circular business model powered by different digital technologies, w
 date: "2023-06-25"
 featuredImage: "Foto2.jpg" #image in same folder as this file
 challenge: fashion-industry
-year: Spring 2023
+year: Spring 2023 
 team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng, Teresa Akumu Opiyo
-#contactEmail:
+
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
