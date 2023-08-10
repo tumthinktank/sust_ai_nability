@@ -1,11 +1,11 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Charlotte Böhm"
-shortDescription: "Professor for Computer Science and Mathematics at Hochschule München University of Applied Sciences"
+shortDescription: "Researcher and Community Manager at Hochschule München"
 date: "2023-04-26"
-image: "Gudrun_Socher.png" #image in same folder as this file
-type: ["Expert", "Team"] #["Challenge giver, Expert"]
-caption: "Credits: Photo by Julia Bergmeister"
+image: "Portrait_HM_CB.JPG" #image in same folder as this file
+type: ["Team"] #["Challenge giver, Expert"]
+caption: "Credits: Photo by Jessica Rudorf"
 
 ### OPTIONAL FURTHER DETAILS
 further:
@@ -14,13 +14,14 @@ further:
     url: https://sites.hm.edu/mucdai/
     description: Further information about MUC.DAI 
  -  type: url
-    label: Linked-in Gudrun Socher
-    url: https://www.linkedin.com/in/gudrun-socher/
-    description: Find here the Linked-in Profil of Gudrun Socher 
+    label: Linked-in Charlotte Böhm
+    url: https://www.linkedin.com/in/charlotte-b%C3%B6hm-84b39a60/
+    description: Find here the Linked-in Profil of Charlotte Böhm
 ---
 
-Prof. Dr. Gudrun Socher has been a professor of computer science at Munich University of Applied Sciences since 2006 and has been head of MUC.DAI (Munich Center for Digital Sciences) at Munich University of Applied Sciences since 2020. Since completing her doctorate, she has been working on artificial intelligence (AI) technologies and wants to ensure that as many students as possible in all degree progrms acquire a basic technical understanding of AI and are thus able to play an active role in shaping the digital transformation. 
- 
+Charlotte Böhm connects likeminded people and creates communities and networks within the field of digital sciences and AI at the Munich Center for Digital Sciences and AI (MUC.DAI) at Hochschule München University of Applied Sciences. 
+
+Together with Helene v. Schwichow, she is a coach at the joint project sustAInability. 
 
 ### Munich Center for Digital Sciences (MUC.DAI)
 
