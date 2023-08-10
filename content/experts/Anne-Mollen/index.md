@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Dr. Anne Mollen"
-shortDescription: "Senior Policy and Advocacy Managerin bei AlgorithmWatch."
+shortDescription: "Senior Policy and Advocacy Managerin at AlgorithmWatch"
 date: "2023-04-28"
 image: "Anne-Mollen.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
