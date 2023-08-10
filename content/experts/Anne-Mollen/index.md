@@ -1,11 +1,11 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Dr. Anne Mollen"
-shortDescription: "Co-founder of the German Forum for Ethical Machine Decision Making"
+shortDescription: "Senior Policy and Advocacy Managerin bei AlgorithmWatch."
 date: "2023-04-28"
 image: "Anne-Mollen.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
-caption: "Credits: Photo by XYZ"
+caption: "Credits: Photo by Anne Mollen"
 
 ### OPTIONAL FURTHER DETAILS
 further:
