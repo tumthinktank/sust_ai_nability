@@ -3,7 +3,7 @@
 name: Prof. Dr. Gudrun Socher
 shortDescription: "Professor for Computer Science and Mathematics at Hochschule München University of Applied Sciences"
 date: "2023-04-26"
-image: "Gudrun_Socher" #image in same folder as this file
+image: "Gudrun_Socher.png" #image in same folder as this file
 type: ["Expert", "Team"] #["Challenge giver, Expert"]
 caption: "Credits: Photo by Julia Bergmeister"
 
