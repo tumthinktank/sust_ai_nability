@@ -2,7 +2,7 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Prof. Dr. Stefan Wurster"
 shortDescription: Professorship of Policy Analysis at Technical University of Munich 
-date: "2015-04-28"
+date: "2023-04-28"
 image: "Stefan-Wurster.webp" #image in same folder as this file
 type: ["Expert"] #["Expert"]
 

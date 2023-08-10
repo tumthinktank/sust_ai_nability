@@ -2,28 +2,27 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: Prof. Dr. Gudrun Socher
 shortDescription: Professor for Computer Science and Mathematics at Hochschule München University of Applied Sciences 
-date: "2015-05-01"
-image: "pic9.png" #image in same folder as this file
-type: ["Challenge giver", "Expert", "Team"] #["Challenge giver, Expert"]
+date: "2023-04-26"
+image: "Gudrun_Socher" #image in same folder as this file
+type: ["Expert", "Team"] #["Challenge giver, Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  type: pdf
-    label: Project report
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
- -  type: pdf
-    label: Project report
-    url: http://google.com
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ -  type: url
+    label: Homepage MUC.DAI
+    url: https://sites.hm.edu/mucdai/
+    description: Further information about MUC.DAI 
+ -  type: url
+    label: Linked-in Gudrun Socher
+    url: https://www.linkedin.com/in/gudrun-socher/
+    description: Find here the Linked-in Profil of Gudrun Socher 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Prof. Dr. Gudrun Socher has been a professor of computer science at Munich University of Applied Sciences since 2006 and has been head of MUC.DAI (Munich Center for Digital Sciences) at Munich University of Applied Sciences since 2020. Since completing her doctorate, she has been working on artificial intelligence (AI) technologies and wants to ensure that as many students as possible in all degree progrms acquire a basic technical understanding of AI and are thus able to play an active role in shaping the digital transformation. 
+ 
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+### Munich Center for Digital Sciences (MUC.DAI)
 
-### Excepteur sint occaecat cupidatat 
+MUC.DAI is the Munich Center for Digital Sciences and Arfificial Intelligence at the Hochschule München University of Applied Sciences. Since 2021 a new generation of students are tought in interdisciplinary Bachelor programms and learn a new digital mindset to solve society's biggest challenges. 
+Find out more about MUC.DAI: https://sites.hm.edu/mucdai/
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
