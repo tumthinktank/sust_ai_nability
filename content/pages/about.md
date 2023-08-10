@@ -1,6 +1,5 @@
 ---
-abstract: Welcome to the project website of sustAInability! 
-sustAInability is a joint project between Hochschule München University of Applied Sciences of Munich and Technical University of Munich, which researches the opportunities and interdependencies, and developes technical and non-technical solution approaches at the intersection of AI and sustainability. 
+abstract: "Welcome to the project website of sustAInability! sustAInability is a joint project between Hochschule München University of Applied Sciences of Munich and Technical University of Munich, which researches the opportunities and interdependencies, and developes technical and non-technical solution approaches at the intersection of AI and sustainability."
 
 logos:
   - image: hm.png
