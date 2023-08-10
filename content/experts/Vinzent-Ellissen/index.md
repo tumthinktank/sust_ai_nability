@@ -3,7 +3,7 @@
 name: "Vinzent Ellissen"
 shortDescription: Managing Director of undiced GmBH
 date: "2023-06-09"
-image: "Vinzent_Elissen.jpg" #image in same folder as this file
+image: "Vinzent_Ellissen.jpg" #image in same folder as this file
 type: ["Challenge giver"] #["Expert"]
 
 ### OPTIONAL FURTHER DETAILS
