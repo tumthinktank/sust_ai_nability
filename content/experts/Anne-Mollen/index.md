@@ -12,7 +12,7 @@ further:
  -  type: url
     label: Homepage SustAIn
     url: https://algorithmwatch.org/en/sustain/
-    description: Further information about the project
+    description: Further information about the project sustAin
 ---
 
 Dr. Anne Mollen is a communication and media scholar at the University of Münster, especially working on questions of digitisation and sustainability as well as democratic and societal impacts of Artificial Intelligence. 

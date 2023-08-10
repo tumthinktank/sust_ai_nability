@@ -5,13 +5,14 @@ shortDescription: "Solution Manager at SAP"
 date: "2023-06-09"
 image: "Carina-Legl.jpeg" #image in same folder as this file
 type: ["Challenge giver"] #["Challenge giver, Expert"]
+caption: "Credits: Photo by Carina Legl"
 
 ### OPTIONAL FURTHER DETAILS
 further:
  -  type: url
-    label: LinkedIn-Profil Carina Legl
+    label: LinkedIn Carina Legl
     url: https://www.linkedin.com/in/carinalegl/
-    description:
+    description: Find here the Linked-in Profil of Carina Legl
  -  type: url
     label: Website SAP
     url: https://www.sap.com/
@@ -19,7 +20,7 @@ further:
  -  type: url
     label: LinedkIn-Profil SAP
     url: https://www.linkedin.com/company/sap/
-    description:
+    description: Find here the Linked-in Profil of SAP
 ---
 
 Carina Legl is with SAP since 2017, working in various roles of solution management and business development and strategy with focus on sustainability for consumer industries. Carina’s strong passion for sustainability is demonstrated through her commitment to collaborating with industry, academia, and non-profit organizations, while focusing in her part-time doctorate with Edinburgh Napier University specifically on circular economy in the fashion industry.

@@ -5,6 +5,7 @@ shortDescription: "Policy consultant for AI and sustainability at the Organisati
 date: "2023-05-12"
 image: "Johannes-Kirnberger.jpeg" #image in same folder as this file
 type: ["Challenge giver", "Expert"] #["Challenge giver, Expert"]
+caption: "Credits: Photo by Johannes Kirnberger"
 
 ### OPTIONAL FURTHER DETAILS
 further:
