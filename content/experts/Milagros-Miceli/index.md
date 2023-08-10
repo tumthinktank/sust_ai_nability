@@ -3,9 +3,9 @@
 name: Milagros Miceli
 shortDescription: Sociologist and computer scientist
 date: "2023-05-26"
-image: "Milagros-Miceli.jpg" #image in same folder as this file
+image: "Milagros_Miceli_web.png" #image in same folder as this file
 type: ["Expert"] #["Expert"]
-caption: "Credits: Photo by Milagros Miceli"
+caption: "Credits: Photo by Katharina Stefes"
 
 ### OPTIONAL FURTHER DETAILS
 further:
