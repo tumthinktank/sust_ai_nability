@@ -5,6 +5,7 @@ shortDescription: Professorship of Policy Analysis at Technical University of Mu
 date: "2023-04-28"
 image: "Stefan-Wurster.webp" #image in same folder as this file
 type: ["Expert"] #["Expert"]
+caption: "Credits: Photo by Julia Bergmeister"
 
 ### OPTIONAL FURTHER DETAILS
 further:
