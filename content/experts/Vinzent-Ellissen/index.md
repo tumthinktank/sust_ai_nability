@@ -1,16 +1,22 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Vinzent Ellissen"
-# shortDescription: Professorship of Policy Analysis at Technical University of Munich 
-date: "2015-04-28"
-# image: "Stefan-Wurster.webp" #image in same folder as this file
-type: ["Expert"] #["Expert"]
+shortDescription: Managing Director of undiced GmBH
+date: "2023-06-09"
+image: "Vinzent_Elissen.jpg" #image in same folder as this file
+type: ["Challenge giver"] #["Expert"]
 
 ### OPTIONAL FURTHER DETAILS
 # further:
 #  -  type: pdf
-#     label: Project report
-#     url: http://google.com
-#     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#     label: Homepage
+#     url: https://undiced.com/
+#     description: Website undiced GmbH
 ---
 
+Vinzent Ellissen is a tech founder with passion for technology, sustainability and democracy and one of the Managing Directors of Undiced GmbH.
+He is part of the steering committee and chair of the board of the young group of the Bavarian Economic Advisory Council (Wirtschaftsbeirat Bayern), a politically independent professional association that fosters the dialogue between politics, economy, science and society. 
+
+### About Undiced GmbH
+
+Undiced GmbH makes secure online publication easier and applies artificial intelligence in the field of publishing.
