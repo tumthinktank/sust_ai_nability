@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Dr. Paul Springer"
+name: "Paul Springer"
 shortDescription: Co-Founder & Managing Director MI4people gGmbH
 date: "2023-06-09"
 image: "Stefan-Wurster.webp" #image in same folder as this file
