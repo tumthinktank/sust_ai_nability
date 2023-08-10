@@ -5,6 +5,7 @@ shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed d
 date: "2015-05-01"
 image: "HvS_2mb.jpg" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
+caption: "Credits: Photo by Nora Hollstein"
 
 ### OPTIONAL FURTHER DETAILS
 further:
