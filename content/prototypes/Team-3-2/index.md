@@ -14,7 +14,7 @@ outputs:
     label: Project Report
     url: "Project_Report_sustAInability.pdf"
     description: Further information about the progress, milestones, and roadblocks.
- gallery:
+gallery:
  -  "Argument-Mining-1.png"
  -  "Argument-Mining-2.png"
  -  "Argument-Mining-3.png"
