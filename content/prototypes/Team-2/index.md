@@ -3,7 +3,7 @@
 name: AI for circular economy in Fashion
 subtitle: A circular business model powered by different digital technologies, with an emphasis on AI, to accelerate the shift to a Circular Fashion Industry.
 date: "2023-06-25"
-featuredImage: "Foto2.jpg" #image in same folder as this file
+featuredImage: "matt-seymour_unsplash.jpg" #image in same folder as this file
 challenge: fashion-industry
 year: Spring 2023 
 team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng, Teresa Akumu Opiyo
