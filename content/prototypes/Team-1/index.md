@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Marine+
-subtitle: An improved model for detecting marine litter in coastal ocean pictures
+name: "Marine+"
+subtitle: "An improved model for detecting marine litter in coastal ocean pictures"
 date: "2023-06-25"
 featuredImage: "oceanPlastic.jpg"
 challenge: marine-litter
