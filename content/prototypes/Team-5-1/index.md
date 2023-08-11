@@ -7,7 +7,7 @@ featuredImage: "Foto.jpg" #image in same folder as this file
 challenge: ai-model-cards
 year: Spring 2023
 team: Kerstin Forster, Sarah Grotkasten, David-Peregrin Hain, Kristina Pavlovic, Suchithra, Negash Desalegn Weldekiros
-contactEmail: eirmod.tempor@tum.de
+contactEmail: 
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
