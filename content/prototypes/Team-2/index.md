@@ -11,7 +11,7 @@ team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng,
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: site
+ -  type: url
     label: SAP Recommerce
     url: https://www.sap.com/assetdetail/2023/04/0c9b2cb5-707e-0010-bca6-c68f7e60039b.html
     description: Product Teaser
