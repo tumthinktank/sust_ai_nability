@@ -7,7 +7,7 @@ featuredImage: "Foto2.jpg" #image in same folder as this file
 challenge: fashion-industry
 year: Spring 2023 
 team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng, Teresa Akumu Opiyo
-
+contact: "charlotte.boehm@hm.edu" 
 
 ### OPTIONAL FURTHER DETAILS
 outputs:

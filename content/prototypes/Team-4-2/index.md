@@ -6,7 +6,7 @@ featuredImage: "Foto.jpg" #image in same folder as this file
 challenge: eu-ai-act2
 year: Spring 2023
 team: Sophia Spornraft, Isai Josue Canedo, Luis Martinez, Chi Khanh Phan
-contactEmail: eirmod.tempor@tum.de
+contactEmail: 
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
