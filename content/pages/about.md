@@ -35,6 +35,6 @@ If you are working on the intersection of AI and sustainability and would like t
 
 ## Contact
 
-"Helene von Schwichow (TUM), helene.schwichow(at)tum.de"
+Helene von Schwichow (TUM), helene.schwichow(at)tum.de
 
-"Charlotte Böhm (HM), charlotte.boehm(at)hm.edu"
+Charlotte Böhm (HM), charlotte.boehm(at)hm.edu
