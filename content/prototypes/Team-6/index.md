@@ -2,12 +2,12 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Review Analyzer Textual and Visual Data"
 subtitle: "Processing image and textual review data to provide product improvement suggestions with short- and long-term action plans."
-featuredImage: "Teamfoto.jpg" #image in same folder as this file
+featuredImage: "tobias-tullius-unsplash.jpg" #image in same folder as this file
 challenge: analyzer-data
 year: Spring 2023
 team: "Sarah Sykora, Maria Ivanova, Verena Vogt, Samet Berk Oksuz, Zeynep Kocaahmet"
 contactEmail: ssykora@calpoly.edu
-caption: "Credits: Title picture by Diana Weidmann"
+caption: "Credits: Photo by Tobias Tullius/ unsplash"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
