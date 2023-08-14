@@ -3,7 +3,7 @@
 name: Helene von Schwichow
 shortDescription: Researcher and Project Manager at Technical University of Munich
 date: "2015-05-01"
-image: "HvS_2mb.jpg" #image in same folder as this file
+image: "HvS_Foto.jpg" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
 caption: "Credits: Photo by Nora Hollstein"
 
