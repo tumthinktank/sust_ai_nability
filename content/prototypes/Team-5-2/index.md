@@ -3,7 +3,7 @@
 name: OECD Greendicators
 subtitle: Sustainability indicators for AI model cards – measuring environmental footprint of AI practices in a comprehensive approach
 date: "2015-06-25"
-featuredImage: "Teamfoto2.jpg" #image in same folder as this file
+featuredImage: "Casino_freepixel.jpg" #image in same folder as this file
 challenge: ai-model-cards2
 year: Spring 2023
 team: Carmen Ng, Salma Tarik, Olivia Steen, Inkeri Halme, Mikaela Manolva
