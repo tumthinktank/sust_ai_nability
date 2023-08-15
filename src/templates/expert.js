@@ -90,9 +90,7 @@ const ExpertTemplate = ({
 
         {post.frontmatter.caption && (
           <footer className="legal">
-            {post.frontmatter.further.map((link, i) => (
-              <p>{post.frontmatter.caption}</p>
-            ))}
+            <p>{post.frontmatter.caption}</p>
           </footer>
         )}
       </PostWrapper>

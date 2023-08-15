@@ -9,7 +9,12 @@ import ListItem from "../components/listItem"
 import Navbar from "../components/navbar"
 import { device } from "../utils/device"
 
-const PostWrapper = styled.article``
+const PostWrapper = styled.article`
+.legal {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-top: 4em;
+}`
 
 const Infobox = styled.div`
   display: grid;
@@ -164,9 +169,7 @@ const PrototypeTemplate = ({
 
         {post.frontmatter.caption && (
           <footer className="legal">
-            {post.frontmatter.further.map((link, i) => (
-              <p>{post.frontmatter.caption}</p>
-            ))}
+            <p>{post.frontmatter.caption}</p>
           </footer>
         )}
       </PostWrapper>
