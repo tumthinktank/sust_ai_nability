@@ -94,6 +94,7 @@ const NavStrip = styled.div`
     font-size: 1rem;
     font-weight: 600;
     font-family: var(--fontFamily-emphasis);
+    cursor: pointer;
 
     @media ${device.tablet} {
       // writing-mode: sideways-lr;
