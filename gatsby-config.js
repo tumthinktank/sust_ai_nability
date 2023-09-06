@@ -16,8 +16,8 @@ module.exports = {
   siteMetadata: {
     title: `sustAInability – Perspectives and Prototypes`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Larissa Wunderlich`,
+      summary: `For TUM Think Tank and Hochschule München`,
     },
     description: `sustAInability aims to contemplate AI and sustainability from different disciplinary perspectives. Based on a broad understanding of sustainability - encompassing aspects on the ecological, economic and social dimensions - an innovative teaching and learning space for students is to be created in order to explore the manifold potentials as well as challenges of AI-based applications, to critically reflect and to translate them into application-oriented projects.`,
     siteUrl: `https://www.hfp.tum.de/policy/projekte-in-forschung-lehre/lehrprojekte/digitalisierungskolleg-sustainability/`,

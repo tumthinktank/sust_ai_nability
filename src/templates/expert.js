@@ -148,7 +148,9 @@ export const pageQuery = graphql`
         further {
           type
           label
-          url
+          url {
+            publicURL
+          }
           description
         }
         caption

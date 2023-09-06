@@ -113,7 +113,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       challenges.forEach((node) => {
         // console.log("node name:", node.expert.frontmatter.name)
         // console.log("post name:", post.childMarkdownRemark.frontmatter.name)
-        if(node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name){
+        if(node.expert && node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name){
           // console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
           post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
           post.childMarkdownRemark.frontmatter.challenges.push(node)
@@ -237,7 +237,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Link{
       type: String
       label: String
-      url: String
+      url: File @fileByRelativePath
       description: String
     }
 
