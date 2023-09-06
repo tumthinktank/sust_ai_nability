@@ -1,17 +1,18 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: Dr. Anne Mollen
-shortDescription: Co-founder of the German Forum for Ethical Machine Decision Making
+name: "Dr. Anne Mollen"
+shortDescription: "Senior Policy and Advocacy Managerin at AlgorithmWatch"
 date: "2023-04-28"
 image: "Anne-Mollen.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
+caption: "Credits: Photo by Anne Mollen"
 
 ### OPTIONAL FURTHER DETAILS
 further:
  -  type: url
     label: Homepage SustAIn
     url: https://algorithmwatch.org/en/sustain/
-    description: Further information about the project
+    description: Further information about the project sustAin
 ---
 
 Dr. Anne Mollen is a communication and media scholar at the University of Münster, especially working on questions of digitisation and sustainability as well as democratic and societal impacts of Artificial Intelligence. 

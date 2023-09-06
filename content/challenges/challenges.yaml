@@ -1,10 +1,46 @@
+
+- slug: marine-litter
+  title: "Marine Litter: Can you beat the experts?"
+  description: "Researchers have annotated a dataset containing pictures from around the world to pick out pixels containing marine debris. Others have proposed a basic model to detect this litter. The challenge is: can you make their model better?" 
+  year: Spring 2023
+  expert: Dr. Paul Springer
+- slug: fashion-industry
+  title: AI transforms the Fashion Industry for Circularity.
+  description: "The fashion industry faces social, environmental, and economic sustainability challenges, with issues such as unsafe working conditions, carbon emissions, waste crisis, and inadequate waste management. A Digital Product Passport (DPP) addresses these challenges, aiming to share essential sustainability and circularity information across industry stakeholders and empower consumers to make sustainable choices. The DPP requirements cover various aspects of the product life cycle and create the need for innovation management in areas like brand-customer interaction, authentication, warehouse management, and demonstrating sustainability's impact on business. The goal is to create a circular fashion value chain while ensuring compliance and maintaining or growing profit margins."
+  year: Spring 2023
+  expert: Carina Legl
+- slug: mining-arguments
+  title: Mining arguments
+  description: The challenge involved mining arguments using LLMs to combat misinformation and enhance democracy. The goal was to develop effective prompts and flows for extracting arguments from texts, enabling informed decisions on sustainability-related topics.
+  year: Spring 2023
+  expert: Vinzent Ellissen
+- slug: argument-mining
+  title: Argument Mining
+  description: The challenge of argument mining involves extracting and analyzing arguments from textual sources, such as discussions or debates, to identify and understand the underlying claims, evidence, and reasoning. By uncovering and organizing arguments, argument mining aims to provide insights, facilitate information synthesis, and support decision-making processes.
+  year: Spring 2023
+  expert: Vinzent Ellissen
+- slug: eu-ai-act
+  title: "How does the EU’s AI Act promote socially sustainable AI?"
+  description: "The challenge involved a policy analysis of the EU’s AI Act in its current version, evaluate how the AI Act both promote and penalize socially sustainable AI systems. The goal was to provide some suggestions for improvement to be forward to German MEP and shadow rapporteur, Alex Voss."
+  year: Spring 2023
+  expert: Felix Rank
+- slug: eu-ai-act2
+  title: "Does the EU AI Act promote socially sustainable AI?"
+  description: "The challenge focused on the European AI Act with regards to social sustainability. Based on an assessment of the current version in the European Parliament, we were asked to identify shortcomings and develop policy recommendations in the form of amendments."
+  year: Spring 2023
+  expert: Felix Rank
 - slug: ai-model-cards
   title: "AI Model Cards - a new concept to standardize environmental reporting for AI model"
-  description: "Does the EU AI Act promote social sustainable AI?"
+  description: Our challenge was to get an overview of the current situation of AI model cards and environmental sustainability. We should find the most common indicators and how they are calculated and were asked to add additional ones.
   year: Spring 2023
-  expert: Hello World Expert
-- slug: another-unique-slug
-  title: Forem ipsum dolor sit amet consectetur
-  description: When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+  expert: Johannes Leon Kirnberger
+- slug: ai-model-cards2
+  title: "AI Model Cards – a new concept to standardize environmental reporting for AI models?"
+  description: The challenge is to propose clearly defined sustainability indicators that could be included as part of a standardization drive for AI model cards, which can provide regulators with comparable benchmarks that measure sustainability practices of AI models across regulatory environments
   year: Spring 2023
-  expert: Hello World Expert
+  expert: Johannes Leon Kirnberger
+- slug: analyzer-data
+  title: "Unlock circularity and avoid waste."
+  description: "Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital."
+  year: Spring 2023
+  expert: Stefan Hauser

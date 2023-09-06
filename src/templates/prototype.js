@@ -9,7 +9,12 @@ import ListItem from "../components/listItem"
 import Navbar from "../components/navbar"
 import { device } from "../utils/device"
 
-const PostWrapper = styled.article``
+const PostWrapper = styled.article`
+.legal {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-top: 4em;
+}`
 
 const Infobox = styled.div`
   display: grid;
@@ -47,24 +52,29 @@ const Infobox = styled.div`
   .right {
     background: var(--color-light);
   }
+
+  .legal{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 4em;
+  }
 `
 
 const Gallery = styled.section`
-
-  div{
+  div {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-  
+
     @media ${device.tablet} {
-      grid-template-columns: ${props => (props.sum > 2) ? "1fr 1fr 1fr" : (props.sum > 1) ? "1fr 1fr" : "1fr"};
+      grid-template-columns: ${props =>
+        props.sum > 2 ? "1fr 1fr 1fr" : props.sum > 1 ? "1fr 1fr" : "1fr"};
     }
   }
 
-  .gatsby-image-wrapper{
-    aspect-ratio: 3/2
+  .gatsby-image-wrapper {
+    aspect-ratio: 3/2;
   }
-  
 `
 
 const PrototypeTemplate = ({
@@ -137,7 +147,7 @@ const PrototypeTemplate = ({
             <h2>Outputs</h2>
             {post.frontmatter.outputs.map(output => (
               <ListItem label={output.type}>
-                <a href="output.url" target="_blank" rel="noreferrer nofollow">
+                <a href={output.url} target="_blank" rel="noreferrer nofollow">
                   {output.label}
                 </a>
                 <p>{output.description}</p>
@@ -155,6 +165,12 @@ const PrototypeTemplate = ({
               ))}
             </div>
           </Gallery>
+        )}
+
+        {post.frontmatter.caption && (
+          <footer className="legal">
+            <p>{post.frontmatter.caption}</p>
+          </footer>
         )}
       </PostWrapper>
     </Layout>
@@ -189,6 +205,7 @@ export const pageQuery = graphql`
         year
         team
         contactEmail
+        caption
         outputs {
           type
           label

@@ -9,7 +9,7 @@ import Logo from "../assets/Logo.svg"
 // console.log("date: ", new Date(2023, 9, 1) > new Date());
 // console.log("mode: ", process.env.GATSBY_MODE)
 
-const ENV = new Date(2023, 9, 1) > new Date() ? process.env.GATSBY_MODE : "LIVE";
+const ENV = new Date(2023, 8, 9) > new Date() ? process.env.GATSBY_MODE : "LIVE";
 
 const LayoutWrapper = styled.div`
   display: flex;
@@ -94,6 +94,7 @@ const NavStrip = styled.div`
     font-size: 1rem;
     font-weight: 600;
     font-family: var(--fontFamily-emphasis);
+    cursor: pointer;
 
     @media ${device.tablet} {
       // writing-mode: sideways-lr;
