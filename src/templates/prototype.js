@@ -147,7 +147,7 @@ const PrototypeTemplate = ({
             <h2>Outputs</h2>
             {post.frontmatter.outputs.map(output => (
               <ListItem label={output.type}>
-                <a href="output.url" target="_blank" rel="noreferrer nofollow">
+                <a href={output.url} target="_blank" rel="noreferrer nofollow">
                   {output.label}
                 </a>
                 <p>{output.description}</p>

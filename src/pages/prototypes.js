@@ -70,21 +70,7 @@ const PrototypeOverview = ({ data, location }) => {
             </Item>
           ))}
         </Filter>
-        <Filter
-          label={
-            selectedChallenge === false
-              ? "Pick challenge"
-              : selectedChallenge.title
-          }
-          isActive={selectedChallenge === false ? false : true}
-          handleClick={handleChallengeClick}
-        >
-          {challenges.map(c => (
-            <Item key={c.slug} onClick={() => handleChallengeClick(c)}>
-              {c.title}
-            </Item>
-          ))}
-        </Filter>
+        
       </FilterBar>
       <PrototypeList year={selectedYear} challenge={selectedChallenge.slug} />
     </Layout>
