@@ -1,9 +1,4 @@
 
-- slug: another-unique-slug
-  title: Forem ipsum dolor sit amet consectetur
-  description: When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
-  year: Spring 2023
-  expert: Hello World Expert
 - slug: marine-litter
   title: "Marine Litter: Can you beat the experts?"
   description: "Researchers have annotated a dataset containing pictures from around the world to pick out pixels containing marine debris. Others have proposed a basic model to detect this litter. The challenge is: can you make their model better?" 
