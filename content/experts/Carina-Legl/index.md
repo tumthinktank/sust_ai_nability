@@ -11,15 +11,15 @@ caption: "Credits: Photo by Carina Legl"
 further:
  -  type: url
     label: LinkedIn Carina Legl
-    url: https://www.linkedin.com/in/carinalegl/
+    eUrl: https://www.linkedin.com/in/carinalegl/
     description: Find here the Linked-in Profil of Carina Legl
  -  type: url
     label: Website SAP
-    url: https://www.sap.com/
+    eUrl: https://www.sap.com/
     description: Further information about SAP
  -  type: url
     label: LinedkIn-Profil SAP
-    url: https://www.linkedin.com/company/sap/
+    eUrl: https://www.linkedin.com/company/sap/
     description: Find here the Linked-in Profil of SAP
 ---
 

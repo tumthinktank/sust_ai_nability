@@ -11,11 +11,11 @@ caption: "Credits: Photo by Jessica Rudorf"
 further:
  -  type: url
     label: Homepage MUC.DAI
-    url: https://sites.hm.edu/mucdai/
+    eUrl: https://sites.hm.edu/mucdai/
     description: Further information about MUC.DAI 
  -  type: url
     label: Linked-in Charlotte Böhm
-    url: https://www.linkedin.com/in/charlotte-b%C3%B6hm-84b39a60/
+    eUrl: https://www.linkedin.com/in/charlotte-b%C3%B6hm-84b39a60/
     description: Find here the Linked-in Profil of Charlotte Böhm
 ---
 

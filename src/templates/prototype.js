@@ -10,11 +10,12 @@ import Navbar from "../components/navbar"
 import { device } from "../utils/device"
 
 const PostWrapper = styled.article`
-.legal {
-  font-size: 0.8rem;
-  opacity: 0.6;
-  margin-top: 4em;
-}`
+  .legal {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 4em;
+  }
+`
 
 const Infobox = styled.div`
   display: grid;
@@ -53,7 +54,7 @@ const Infobox = styled.div`
     background: var(--color-light);
   }
 
-  .legal{
+  .legal {
     font-size: 0.8rem;
     opacity: 0.6;
     margin-top: 4em;
@@ -145,13 +146,17 @@ const PrototypeTemplate = ({
         {post.frontmatter.outputs && (
           <section className="output">
             <h2>Outputs</h2>
-            {post.frontmatter.outputs.map(output => (
-              <ListItem label={output.type}>
-                <a href={output.url} target="_blank" rel="noreferrer nofollow">
-                  {output.label}
-                </a>
-                <p>{output.description}</p>
-              </ListItem>
+            {post.frontmatter.outputs.map((link, i) => (
+              <ListItem label={link.type} key={i}>
+              <a
+                href={link.iUrl ? link.iUrl.publicURL : link.eUrl}
+                target="_blank"
+                rel="noreferrer nofollow"
+              >
+                {link.label}
+              </a>
+              <p>{link.description}</p>
+            </ListItem>
             ))}
           </section>
         )}
@@ -209,7 +214,10 @@ export const pageQuery = graphql`
         outputs {
           type
           label
-          url
+          eUrl
+          iUrl{
+            publicURL
+          }
           description
         }
         challenge {

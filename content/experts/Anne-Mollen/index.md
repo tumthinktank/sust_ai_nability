@@ -11,7 +11,7 @@ caption: "Credits: Photo by Anne Mollen"
 further:
  -  type: url
     label: Homepage SustAIn
-    url: https://algorithmwatch.org/en/sustain/
+    eUrl: https://algorithmwatch.org/en/sustain/
     description: Further information about the project sustAin
 ---
 

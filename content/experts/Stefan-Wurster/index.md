@@ -11,11 +11,11 @@ caption: "Credits: Photo by Stefan Wurster"
 further:
  -  type: url
     label: Homepage HfP
-    url: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
+    eUrl: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
     description: Further information about the Professorship for Policy Analysis
  -  type: url
     label: Portrait Stefan Wurster
-    url: https://www.hfp.tum.de/en/policy/team/prof-dr-stefan-wurster/
+    eUrl: https://www.hfp.tum.de/en/policy/team/prof-dr-stefan-wurster/
     description: Find here more information about Prof. Dr. Stefan Wurster
 ---
 

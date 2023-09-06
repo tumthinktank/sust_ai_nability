@@ -32,15 +32,12 @@ const Homewrapper = styled.div`
   position: relative;
   margin: -2rem -4rem;
   padding: 2rem 4rem;
-  pointer-events: none;
 
   @media ${device.tablet} {
     padding: 2rem 50% 2rem 4rem;
   }
 
-
   @media ${device.tablet} {
-
     ${BackgroundStyles};
     background-image: url(${cubus});
 
@@ -48,12 +45,13 @@ const Homewrapper = styled.div`
       content: "";
       position: absolute;
       top: 0;
-      left: 0;  
+      left: 0;
       width: 100%;
       height: 100%;
       opacity: 0;
       transition: opacity 2s ease-out; /* Adjust the transition duration as desired */
-      
+      pointer-events: none;
+
       ${BackgroundStyles};
       background-image: url(${cubusOverlay});
     }
@@ -144,6 +142,9 @@ const OverflowArea = styled.div`
 
         a {
           text-decoration: none;
+          &:hover{
+            text-decoration: 8px underline #00e08aaa;
+          }
         }
       }
     }
@@ -196,8 +197,7 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
             {post.frontmatter.legal && (
               <ul>
                 {post.frontmatter.legal.map((link, i) => (
-                  <li
-                    key={i}>
+                  <li key={i}>
                     <a
                       target="_blank"
                       rel="noreferrer nofollow"

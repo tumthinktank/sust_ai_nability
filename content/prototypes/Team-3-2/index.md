@@ -12,7 +12,7 @@ contactEmail: Koller.Pia@campus.lmu.de
 outputs:
  -  type: pdf
     label: Project Report
-    url: "Project_Report_sustAInability.pdf"
+    iUrl: "Project_Report_sustAInability.pdf"
     description: Further information about the progress, milestones, and roadblocks.
 gallery:
  - "Argument-Mining-1.png"

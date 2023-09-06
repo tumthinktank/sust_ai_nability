@@ -11,7 +11,7 @@ caption: "Credits: Photo by Johannes Kirnberger"
 further:
  -  type: url
     label: Homepage OECD
-    url: https://www.oecd.org/germany/
+    eUrl: https://www.oecd.org/germany/
     description: Further information about OECD
 ---
 

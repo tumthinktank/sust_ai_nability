@@ -13,11 +13,11 @@ contactEmail: "nicholas.menzel@tum.de"
 outputs:
  -  type: pdf
     label: Project report
-    url: "ProjectReport.pdf"
+    iUrl: "ProjectReport.pdf"
     description: Further information about the progress, milestones, and roadblocks.
  -  type: png
     label: the final product
-    url: "FinalPromt.png"
+    iUrl: "FinalPromt.png"
     description: The final product
 gallery:
  -  "FinalPromt.png"

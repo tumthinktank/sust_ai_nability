@@ -11,11 +11,11 @@ caption: "Credits: Photo by Julia Bergmeister"
 further:
  -  type: url
     label: Homepage MUC.DAI
-    url: https://sites.hm.edu/mucdai/
+    eUrl: https://sites.hm.edu/mucdai/
     description: Further information about MUC.DAI 
  -  type: url
     label: Linked-in Gudrun Socher
-    url: https://www.linkedin.com/in/gudrun-socher/
+    eUrl: https://www.linkedin.com/in/gudrun-socher/
     description: Find here the Linked-in Profil of Gudrun Socher 
 ---
 

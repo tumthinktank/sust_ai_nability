@@ -13,11 +13,11 @@ contactEmail: carmen.ng@tum.de
 outputs:
  -  type: pdf
     label: Project report
-    url: "report.pdf"
+    iUrl: "report.pdf"
     description: "Further information about the progress, milestones, and roadblocks."
  -  type: pdf
     label: Model Card
-    url: "Model-Card.pdf"
+    iUrl: "Model-Card.pdf"
     description: " "
 gallery:
  -  "Teamfoto1.jpg"

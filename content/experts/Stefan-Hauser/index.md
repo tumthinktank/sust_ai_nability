@@ -10,7 +10,7 @@ type: ["Challenge giver"]
 further:
  -  type: url
     label: Homepage Imagify
-    url: http://www.loconsumer.com/
+    eUrl: http://www.loconsumer.com/
     description: Further information about the project Imagify
 ---
 

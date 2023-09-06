@@ -11,11 +11,11 @@ caption: "Credits: Photo by Julia Gundlach"
 further:
  -  type: url
     label: Homepage reframe [Tech] 
-    url: https://www.reframetech.de/en/
+    eUrl: https://www.reframetech.de/en/
     description: Further information about project reframe [Tech]
  -  type: pdf
     label: Homepage Bertelsmann Stiftung
-    url: https://www.bertelsmann-stiftung.de/de/startseite
+    eUrl: https://www.bertelsmann-stiftung.de/de/startseite
     description: Further information about Bertelsmann Stiftung
 ---
 
