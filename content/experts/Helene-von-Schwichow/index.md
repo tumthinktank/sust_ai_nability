@@ -11,11 +11,11 @@ caption: "Credits: Photo by Nora Hollstein"
 further:
  -  type: url
     label: Linked-in Profile Helene v. Schwichow
-    url: https://www.linkedin.com/in/helene-v-schwichow-82b791105/
+    eUrl: https://www.linkedin.com/in/helene-v-schwichow-82b791105/
     description: Find here the Linked-in Profile of Helene von Schwichow 
  -  type: url
     label: Homepage Professorship for Policy Analysis
-    url: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
+    eUrl: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
     description: Further information about the Professorship for Policy Analysis
 ---
 

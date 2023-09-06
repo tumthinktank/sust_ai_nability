@@ -14,7 +14,7 @@ contactEmail: simonlcherv@gmail.com
 outputs:
  -  type: pdf
     label: Project report
-    url: "ProjectReport1.pdf"
+    iUrl: "ProjectReport1.pdf"
     description: Further information about the progress, milestones, and roadblocks.
 ---
 

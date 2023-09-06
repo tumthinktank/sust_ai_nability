@@ -10,7 +10,7 @@ type: ["Challenge giver"] #["Expert"]
 further:
  -  type: url
     label: Homepage MI4people gGmbH
-    url: https://www.mi4people.org/
+    eUrl: https://www.mi4people.org/
     description: Further information about MI4people gGmbH
 ---
 

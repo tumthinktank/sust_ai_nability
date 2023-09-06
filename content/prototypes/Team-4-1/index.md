@@ -12,7 +12,7 @@ contactEmail: silvia.cirolini@tum.de
 outputs:
  -  type: pdf
     label: Project Report
-    url: "Project-Report.pdf"
+    iUrl: "Project-Report.pdf"
     description: Further information about the progress, milestones, and roadblocks.
 gallery:
  -  "Amendment1.png"

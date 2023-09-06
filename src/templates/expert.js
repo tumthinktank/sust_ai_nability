@@ -66,7 +66,11 @@ const ExpertTemplate = ({
             <h2>Further</h2>
             {post.frontmatter.further.map((link, i) => (
               <ListItem label={link.type} key={i}>
-                <a href="output.url" target="_blank" rel="noreferrer nofollow">
+                <a
+                  href={link.iUrl ? link.iUrl.publicURL : link.eUrl}
+                  target="_blank"
+                  rel="noreferrer nofollow"
+                >
                   {link.label}
                 </a>
                 <p>{link.description}</p>
@@ -148,7 +152,8 @@ export const pageQuery = graphql`
         further {
           type
           label
-          url {
+          eUrl
+          iUrl {
             publicURL
           }
           description
