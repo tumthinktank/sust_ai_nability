@@ -32,6 +32,7 @@ const Homewrapper = styled.div`
   position: relative;
   margin: -2rem -4rem;
   padding: 2rem 4rem;
+  pointer-events: none;
 
   @media ${device.tablet} {
     padding: 2rem 50% 2rem 4rem;
