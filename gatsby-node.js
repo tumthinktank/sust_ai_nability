@@ -82,13 +82,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const prototypes = result.data.prototypes.nodes
-  console.log("prototypes result: ", prototypes)
+  // console.log("prototypes result: ", prototypes)
 
   const experts = result.data.experts.nodes
-  console.log("experts result: ", experts)
+  // console.log("experts result: ", experts)
 
   const challenges = result.data.challenges.nodes
-  console.log("challenges result: ", challenges)
+  // console.log("challenges result: ", challenges)
 
   // Create prototype pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
@@ -111,10 +111,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   if (experts.length > 0) {
     experts.forEach((post, index) => {
       challenges.forEach((node) => {
-        console.log("node name:", node.expert.frontmatter.name)
-        console.log("post name:", post.childMarkdownRemark.frontmatter.name)
+        // console.log("node name:", node.expert.frontmatter.name)
+        // console.log("post name:", post.childMarkdownRemark.frontmatter.name)
         if(node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name){
-          console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
+          // console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
           post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
           post.childMarkdownRemark.frontmatter.challenges.push(node)
         }
