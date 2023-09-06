@@ -11,11 +11,11 @@ caption: "Credits: Photo by Katharina Stefes"
 further:
  -  type: url
     label: Homepage Weizenbaum Insitute
-    url: https://www.weizenbaum-institut.de/
+    eUrl: https://www.weizenbaum-institut.de/
     description: Further information about the Weizenbaum Insitute
  -  type: url
     label: Homepage DAIR Insitute
-    url: https://www.dair-institute.org/
+    eUrl: https://www.dair-institute.org/
     description: Further information about the DAIR Insitute
 ---
 

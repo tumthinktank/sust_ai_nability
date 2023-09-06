@@ -10,7 +10,7 @@ type: ["Challenge giver"] #["Expert"]
 # further:
 #  -  type: pdf
 #     label: Homepage
-#     url: https://undiced.com/
+#     eUrl: https://undiced.com/
 #     description: Website undiced GmbH
 ---
 

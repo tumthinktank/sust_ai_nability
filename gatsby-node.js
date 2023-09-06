@@ -52,9 +52,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
-            frontmatter{
+            frontmatter {
               name
-              challenges{
+              challenges {
                 title
               }
             }
@@ -62,9 +62,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
       challenges: allChallengesYaml {
-        nodes{
-          expert{
-            frontmatter{
+        nodes {
+          expert {
+            frontmatter {
               name
             }
           }
@@ -96,26 +96,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (prototypes.length > 0) {
     prototypes.forEach((post, index) => {
-      if(post.childMarkdownRemark){
-      createPage({
-        path: "prototype" + post.childMarkdownRemark.fields.slug,
-        component: prototype,
-        context: {
-          id: post.childMarkdownRemark.id,
-        },
-      })
-    }
+      if (post.childMarkdownRemark) {
+        createPage({
+          path: "prototype" + post.childMarkdownRemark.fields.slug,
+          component: prototype,
+          context: {
+            id: post.childMarkdownRemark.id,
+          },
+        })
+      }
     })
   }
 
   if (experts.length > 0) {
     experts.forEach((post, index) => {
-      challenges.forEach((node) => {
+      challenges.forEach(node => {
         // console.log("node name:", node.expert.frontmatter.name)
         // console.log("post name:", post.childMarkdownRemark.frontmatter.name)
-        if(node.expert && node.expert.frontmatter.name === post.childMarkdownRemark.frontmatter.name){
+        if (
+          node.expert &&
+          node.expert.frontmatter.name ===
+            post.childMarkdownRemark.frontmatter.name
+        ) {
           // console.log("post challenges:", post.childMarkdownRemark.frontmatter.challenges)
-          post.childMarkdownRemark.frontmatter.challenges = post.childMarkdownRemark.frontmatter.challenges || []
+          post.childMarkdownRemark.frontmatter.challenges =
+            post.childMarkdownRemark.frontmatter.challenges || []
           post.childMarkdownRemark.frontmatter.challenges.push(node)
         }
       })
@@ -139,31 +144,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-
+    // console.log("Slug creation", node, value)
     createNodeField({
       name: `slug`,
       node,
       value,
     })
   }
-}
-
-// exports.createResolvers = ({ createResolvers }) => {
-//   const resolvers = {
-//     MarkdownRemark: {
-//       challenges: {
-//         resolve(source, _, context) {
-//           const expertName = source.frontmatter.name;
-//           const challenges = context.nodeModel.findAll({ type: 'ChallengesYaml',});
-
-//           return challenges.filter(challenge => challenge.expert.frontmatter.name === expertName);
-//         },
-//       },
-//     },
-//   };
-
-//   createResolvers(resolvers);
-// };
 
 /**
  * @type {import('gatsby').GatsbyNode['createSchemaCustomization']}
@@ -177,7 +164,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   // Also explicitly define the Markdown frontmatter
   // This way the "MarkdownRemark" queries will return `null` even when no
   // blog posts are stored inside "content/blog" instead of returning an error
-  createTypes(`
+  const typeDefs = (`
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
@@ -237,7 +224,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Link{
       type: String
       label: String
-      url: File @fileByRelativePath
+      iUrl: File @fileByRelativePath
+      eUrl: String
       description: String
     }
 
@@ -255,4 +243,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       slug: String
     }
   `)
+
+  createTypes(typeDefs)
+
 }

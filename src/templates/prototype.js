@@ -146,17 +146,17 @@ const PrototypeTemplate = ({
         {post.frontmatter.outputs && (
           <section className="output">
             <h2>Outputs</h2>
-            {post.frontmatter.outputs.map(output => (
-              <ListItem label={output.type}>
-                <a
-                  href={output.url.publicURL}
-                  target="_blank"
-                  rel="noreferrer nofollow"
-                >
-                  {output.label}
-                </a>
-                <p>{output.description}</p>
-              </ListItem>
+            {post.frontmatter.outputs.map((link, i) => (
+              <ListItem label={link.type} key={i}>
+              <a
+                href={link.iUrl ? link.iUrl.publicURL : link.eUrl}
+                target="_blank"
+                rel="noreferrer nofollow"
+              >
+                {link.label}
+              </a>
+              <p>{link.description}</p>
+            </ListItem>
             ))}
           </section>
         )}
@@ -214,7 +214,8 @@ export const pageQuery = graphql`
         outputs {
           type
           label
-          url {
+          eUrl
+          iUrl{
             publicURL
           }
           description

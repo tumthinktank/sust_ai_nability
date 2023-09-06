@@ -12,7 +12,7 @@ contactEmail:
 outputs:
  -  type: pdf
     label: Project report
-    url: "Project_Report.pdf"
+    iUrl: "Project_Report.pdf"
     description: Further information about the progress, milestones, and roadblocks.
 gallery:
  -  "Teamfoto.png"
