@@ -10,11 +10,7 @@ contactEmail: ssykora@calpoly.edu
 caption: "Credits: Photo by Tobias Tullius/ unsplash"
 
 ### OPTIONAL FURTHER DETAILS
-outputs:
- -  type: pdf
-    label: Project report
-    url: Group6-Report.pdf
-    description: Further information about the progress, milestones, and roadblocks.
+
 gallery:
  -  Foto1.png
 ---
