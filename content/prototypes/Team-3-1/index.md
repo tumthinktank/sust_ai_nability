@@ -4,7 +4,7 @@ name: "Objective Argument Extraction, A Neutral Approach to Analyzing Articles"
 subtitle: "An analytical framework for objectively extracting key claims from articles and evaluating their logical coherence and supporting evidence."
 date: "2023-06-25"
 featuredImage: "pixabay-team3-1.jpg" #image in same folder as this file
-challenge: mining-arguments
+challenge: argument-mining
 year: Spring 2023
 team: Nicholas Menzel, Karolina Senoner, Annika Markoff, Onur Alpaslan
 contactEmail: "nicholas.menzel@tum.de"

@@ -3,7 +3,7 @@ name: EU’s social sustAInability booster
 subtitle: "Three amendments aimed at enhancing social sustainability within the AI Act that will be proposed to the European Parliament"
 date: "2015-05-01"
 featuredImage: "pixabay_team4-2.jpg" #image in same folder as this file
-challenge: eu-ai-act2
+challenge: eu-ai-act
 year: Spring 2023
 team: Sophia Spornraft, Isai Josue Canedo, Luis Martinez, Chi Khanh Phan
 contactEmail: 

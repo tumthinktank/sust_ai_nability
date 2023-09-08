@@ -9,11 +9,6 @@
   description: "The fashion industry faces social, environmental, and economic sustainability challenges, with issues such as unsafe working conditions, carbon emissions, waste crisis, and inadequate waste management. A Digital Product Passport (DPP) addresses these challenges, aiming to share essential sustainability and circularity information across industry stakeholders and empower consumers to make sustainable choices. The DPP requirements cover various aspects of the product life cycle and create the need for innovation management in areas like brand-customer interaction, authentication, warehouse management, and demonstrating sustainability's impact on business. The goal is to create a circular fashion value chain while ensuring compliance and maintaining or growing profit margins."
   year: Spring 2023
   expert: Carina Legl
-- slug: mining-arguments
-  title: Mining Arguments
-  description: The challenge involved mining arguments using LLMs to combat misinformation and enhance democracy. The goal was to develop effective prompts and flows for extracting arguments from texts, enabling informed decisions on sustainability-related topics.
-  year: Spring 2023
-  expert: Vinzent Ellissen
 - slug: argument-mining
   title: Mining Arguments
   description: The challenge of argument mining involves extracting and analyzing arguments from textual sources, such as discussions or debates, to identify and understand the underlying claims, evidence, and reasoning. By uncovering and organizing arguments, argument mining aims to provide insights, facilitate information synthesis, and support decision-making processes.
@@ -24,17 +19,7 @@
   description: "The challenge involved a policy analysis of the EU’s AI Act in its current version, evaluate how the AI Act both promote and penalize socially sustainable AI systems. The goal was to provide some suggestions for improvement to be forward to German MEP and shadow rapporteur, Alex Voss."
   year: Spring 2023
   expert: Felix Rank
-- slug: eu-ai-act2
-  title: "Does the EU AI Act promote socially sustainable AI?"
-  description: "The challenge focused on the European AI Act with regards to social sustainability. Based on an assessment of the current version in the European Parliament, we were asked to identify shortcomings and develop policy recommendations in the form of amendments."
-  year: Spring 2023
-  expert: Felix Rank
 - slug: ai-model-cards
-  title: "AI Model Cards - a new concept to standardize environmental reporting for AI models"
-  description: Our challenge was to get an overview of the current situation of AI model cards and environmental sustainability. We should find the most common indicators and how they are calculated and were asked to add additional ones.
-  year: Spring 2023
-  expert: Johannes Leon Kirnberger
-- slug: ai-model-cards2
   title: "AI Model Cards - a new concept to standardize environmental reporting for AI models"
   description: The challenge is to propose clearly defined sustainability indicators that could be included as part of a standardization drive for AI model cards, which can provide regulators with comparable benchmarks that measure sustainability practices of AI models across regulatory environments
   year: Spring 2023
