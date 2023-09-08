@@ -26,8 +26,7 @@ const ExpertOverview = ({ data, location }) => {
     <Layout location={location} title={siteTitle} mode="expert">
       <Navbar title="Experts and challenge givers" overview></Navbar>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      With expert input and real world challenges from different organisations, we shed light on the different perspectives within the framework of sustainability and AI.
       </p>
       <FilterBar>
         <Filter

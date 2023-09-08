@@ -40,8 +40,7 @@ const PrototypeOverview = ({ data, location }) => {
     <Layout location={location} title={siteTitle} mode="prototype">
       <Navbar title="Prototypes" overview></Navbar>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Facing real-world problems in the intersection of sustainability and AI, interdisciplinary groups of students create prototypes for technical and non-technical solutions. 
       </p>
       <FilterBar>
         <Filter
