@@ -82,7 +82,8 @@ const VisibleArea = styled.div` #
     padding: 1rem;
 
     @media ${device.tablet} {
-      top: 2rem;
+      top: 1rem;
+      padding: 3rem 1rem;
       // background: transparent;
     }
   }
