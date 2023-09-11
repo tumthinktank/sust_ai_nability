@@ -5,6 +5,7 @@ subtitle: "Our prototype extracts arguments from discussions to improve decision
 date: "2023-06-25"
 featuredImage: "Argument-Mining-1.png" #image in same folder as this file
 challenge: argument-mining
+year: Spring 2023
 team: Pia Koller, Nina Mandl, Leon Oskui, Mert Türkekul
 contactEmail: Koller.Pia@campus.lmu.de
 
