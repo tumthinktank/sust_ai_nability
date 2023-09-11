@@ -19,11 +19,11 @@ outputs:
     label: Project report
     iUrl: "Report.pdf"
     description: Further information about the progress, milestones, and roadblocks.
- -  type: jpg
+ -  type: pdf
     label: Instagram Post
     iUrl: "Insta_Post.jpg"
     description: Example for post for Instagram
--   type: jpg
+-   type: pdf
     label: Instagram Post
     iUrl: "Insta_Post3.jpg"
     description: Example for post for Instagram
