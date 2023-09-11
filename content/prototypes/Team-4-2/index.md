@@ -6,6 +6,7 @@ featuredImage: "pixabay_team4-2.jpg" #image in same folder as this file
 challenge: eu-ai-act
 year: Spring 2023
 team: Sophia Spornraft, Isai Josue Canedo, Luis Martinez, Chi Khanh Phan
+contactEmail: 
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
