@@ -8,7 +8,7 @@ challenge: argument-mining
 year: Spring 2023
 team: Pia Koller, Nina Mandl, Leon Oskui, Mert Türkekul
 contactEmail: Koller.Pia@campus.lmu.de
-caption: "Credits: Photo by "
+caption: "Credits: Photo by Pixabay/quimono.jpg"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
