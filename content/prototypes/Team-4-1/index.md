@@ -2,11 +2,12 @@
 name: Amendments to the EU AI Act
 subtitle: A policy memo with the scope of improving the current version of the EU AI Act in a social sustainability framework.
 date: "2023-06-25"
-featuredImage: "Foto.jpg"
+featuredImage: "pixabay_team4-1.jpg"
 challenge: eu-ai-act
 year: "Spring 2023"
 team: Silvia Cirolini, Özge Demir, Fatma Ben Yahia, Marco Mata, Lisa Putter
 contactEmail: silvia.cirolini@tum.de
+caption: "Credits: Photo by Ralph/ pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:

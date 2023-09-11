@@ -8,6 +8,7 @@ challenge: marine-litter
 year: Spring 2023
 team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
 contactEmail: simonlcherv@gmail.com
+caption: "Credits: Photo by Richard Carey/ Fotolia"
 
 
 ### OPTIONAL FURTHER DETAILS

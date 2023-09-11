@@ -8,6 +8,7 @@ challenge: argument-mining
 year: Spring 2023
 team: Nicholas Menzel, Karolina Senoner, Annika Markoff, Onur Alpaslan
 contactEmail: "nicholas.menzel@tum.de"
+caption: "Credits: Photo by DaModernDaVinci/ pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
