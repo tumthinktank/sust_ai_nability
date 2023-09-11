@@ -7,6 +7,7 @@ featuredImage: "matt-seymour_unsplash.jpg" #image in same folder as this file
 challenge: fashion-industry
 year: Spring 2023 
 team: Katarina Prokić, Sanam Jan Sulaimankhil, Eden Castaneira Rios, Jian Peng, Teresa Akumu Opiyo
+caption: "Credits: Photo by Diana Weidmann, Matt Seymour/ unsplash"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:

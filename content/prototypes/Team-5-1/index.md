@@ -3,11 +3,12 @@
 name: Green AI Model Cards
 subtitle: With this new model card the environmental factors of AI models are as easily comparable as a card game.
 date: "2015-06-025"
-featuredImage: "Foto.jpg" #image in same folder as this file
+featuredImage: "pixabay_team5-1.jpg" #image in same folder as this file
 challenge: ai-model-cards
 year: Spring 2023
 team: Kerstin Forster, Sarah Grotkasten, David-Peregrin Hain, Kristina Pavlovic, Suchithra, Negash Desalegn Weldekiros
 contactEmail: 
+caption: "Credits: Photo by PIRO/ pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:

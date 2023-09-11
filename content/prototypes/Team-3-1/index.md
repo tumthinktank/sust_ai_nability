@@ -1,13 +1,14 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Objective Argument Extraction, A Neutral Approach to Analyzing Articles"
+name: "Objective Argument Extraction: A Neutral Approach to Analyzing Articles"
 subtitle: "An analytical framework for objectively extracting key claims from articles and evaluating their logical coherence and supporting evidence."
 date: "2023-06-25"
-featuredImage: "AI_Team3-1.jpg" #image in same folder as this file
-challenge: mining-arguments
+featuredImage: "pixabay-team3-1.jpg" #image in same folder as this file
+challenge: argument-mining
 year: Spring 2023
 team: Nicholas Menzel, Karolina Senoner, Annika Markoff, Onur Alpaslan
 contactEmail: "nicholas.menzel@tum.de"
+caption: "Credits: Photo by DaModernDaVinci/ pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
@@ -16,9 +17,9 @@ outputs:
     iUrl: "ProjectReport.pdf"
     description: Further information about the progress, milestones, and roadblocks.
  -  type: png
-    label: the final product
+    label: The final product
     iUrl: "FinalPromt.png"
-    description: The final product
+    description: Promt of the final product
 gallery:
  -  "FinalPromt.png"
  -  "MiningArguments.png"
