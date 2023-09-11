@@ -5,12 +5,12 @@ logos:
   - image: hm.png
     url: https://hm.de
   - image: tum.png
-    url: https://tum.de
+    url: https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt/impressum
 legal:
   - label: Imprint
     url: https://tum.de
   - label: Privacy Policy
-    url: https://tum.de
+    url: https://www.tum.de/en/privacy-policy
 ---
 
 ## About sustAInability
