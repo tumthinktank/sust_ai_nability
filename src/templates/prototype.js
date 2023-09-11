@@ -125,12 +125,14 @@ const PrototypeTemplate = ({
             <div className="right">
               <h2>Team</h2>
               <p>{post.frontmatter.team}</p>
-              <p>
-                Contact:{" "}
-                <a href={`mailto:${post.frontmatter.contactEmail}`}>
-                  {post.frontmatter.contactEmail}
-                </a>
-              </p>
+              {post.frontmatter.contactEmail && (
+                <p>
+                  Contact:{" "}
+                  <a href={`mailto:${post.frontmatter.contactEmail}`}>
+                    {post.frontmatter.contactEmail}
+                  </a>
+                </p>
+              )}
             </div>
           )}
         </Infobox>
@@ -148,15 +150,15 @@ const PrototypeTemplate = ({
             <h2>Outputs</h2>
             {post.frontmatter.outputs.map((link, i) => (
               <ListItem label={link.type} key={i}>
-              <a
-                href={link.iUrl ? link.iUrl.publicURL : link.eUrl}
-                target="_blank"
-                rel="noreferrer nofollow"
-              >
-                {link.label}
-              </a>
-              <p>{link.description}</p>
-            </ListItem>
+                <a
+                  href={link.iUrl ? link.iUrl.publicURL : link.eUrl}
+                  target="_blank"
+                  rel="noreferrer nofollow"
+                >
+                  {link.label}
+                </a>
+                <p>{link.description}</p>
+              </ListItem>
             ))}
           </section>
         )}
@@ -215,7 +217,7 @@ export const pageQuery = graphql`
           type
           label
           eUrl
-          iUrl{
+          iUrl {
             publicURL
           }
           description
