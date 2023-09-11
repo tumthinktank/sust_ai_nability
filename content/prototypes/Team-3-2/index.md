@@ -16,15 +16,15 @@ outputs:
     label: Project Report
     iUrl: "Project_Report_sustAInability.pdf"
     description: Further information about the progress, milestones, and roadblocks.
--  type: png
+ -  type: png
     label: Prototype 1
     iUrl: "Argument-Mining-1.png"
     description: Example for prototype
--  type: png
+ -  type: png
     label: Prototype 2
     iUrl: "Argument-Mining-2.png"
     description: Example for prototype
--  type: png
+ -  type: png
     label: Prototype 3
     iUrl: "Argument-Mining-3.png"
     description: Example for prototype
