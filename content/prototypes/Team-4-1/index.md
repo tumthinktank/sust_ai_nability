@@ -28,8 +28,6 @@ outputs:
     iUrl: "Amendment3.png"
     description: Extract from the EU Amendment
 
-gallery:
- -  "Amendment1.png"
 ---
 
 The outcome of this challenge was a policy memo with more than ten amendments that 
