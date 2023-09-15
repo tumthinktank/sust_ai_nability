@@ -171,7 +171,7 @@ const OverflowArea = styled.div`
 `
 
 const Home = ({ data: { site, markdownRemark: post }, location }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
+  const siteTitle = site.siteMetadata?.title || `SustAInability · Perspecives and Prototypes for a Sustainable AI`
 
   // Generate images for gallery
   let logos = []
