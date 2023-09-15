@@ -6,12 +6,6 @@ import styled from "styled-components"
 import { device } from "../utils/device"
 import Logo from "../assets/Logo.svg"
 
-// console.log("date: ", new Date(2023, 8, 9) < new Date());
-// console.log("mode: ", process.env.GATSBY_MODE)
-
-// const ENV = new Date(2023, 8, 9) > new Date() ? process.env.GATSBY_MODE : "LIVE";
-// console.log("go to: ", ENV)
-
 const LayoutWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -113,8 +107,8 @@ const NavStrip = styled.div`
     &.inactive {
       cursor: not-allowed;
       opacity: 0.5;
-      &:hover{
-      background: inherit;
+      &:hover {
+        background: inherit;
       }
     }
   }
@@ -180,14 +174,6 @@ const Layout = ({ location, title, children, mode = "default" }) => {
       navigate("/")
     }
 
-    //  setTimeout(() => {
-    //     scroll.scrollMore(400, {
-    //       duration: 500,
-    //       delay: 500,
-    //       smooth: 'easeOut',
-    //     });
-    //   }, isHomePage ? 0 : 1000);
-
     setTimeout(
       () => {
         if (isHomePage) {
@@ -210,103 +196,61 @@ const Layout = ({ location, title, children, mode = "default" }) => {
     )
   }
 
-  // if (ENV === ("PREVIEW" || "LIVE")) {
-    return (
-      <LayoutWrapper mode="here">
-        {!isRootPath && (
-          <Header>
-            <div>
-              <Link to="/">
-                <Logo viewBox="0 0 272.854 47.379" />
-              </Link>
-              <p className="blurb">A project by TUM and Hochschule München.</p>
-            </div>
-          </Header>
-        )}
-        {mode === "default" && (
-          <Content className="hasBackground" isRootPath={isRootPath}>
-            <>{children}</>
-          </Content>
-        )}
-        <NavStrip>
-          <FancyLink
-            to="about"
-            smooth={true}
-            duration={500}
-            delay={50}
-            onClick={handleScroll}
-          >
-            <VerticalText>About</VerticalText>
-          </FancyLink>
-        </NavStrip>
-        {mode === "prototype" && (
-          <Content isRootPath={isRootPath}>
-            <>{children}</>
-          </Content>
-        )}
-        <NavStrip active={mode === "prototype" ? true : false}>
-          <Link to="/prototypes">
-            <VerticalText>Prototypes</VerticalText>
-          </Link>
-        </NavStrip>
-        {mode === "expert" && (
-          <Content isRootPath={isRootPath}>
-            <>{children}</>
-          </Content>
-        )}
-        <NavStrip active={mode === "expert" ? true : false}>
-          <Link to="/experts">
-            <VerticalText>Perspectives</VerticalText>
-          </Link>
-        </NavStrip>
-      </LayoutWrapper>
-    )
-  // } else if (ENV === "PLACEHOLDER") {
-  //   return (
-  //     <LayoutWrapper>
-  //       {!isRootPath && (
-  //         <Header>
-  //           <div>
-  //             <Link to="/">
-  //               <Logo viewBox="0 0 272.854 47.379" />
-  //             </Link>
-  //             <p className="blurb">A project by TUM and Hochschule München.</p>
-  //           </div>
-  //         </Header>
-  //       )}
-  //       {mode === "default" && (
-  //         <Content className="hasBackground" isRootPath={isRootPath}>
-  //           <>{children}</>
-  //         </Content>
-  //       )}
-  //       <NavStrip>
-  //         <FancyLink
-  //           to="about"
-  //           smooth={true}
-  //           duration={500}
-  //           delay={50}
-  //           onClick={handleScroll}
-  //         >
-  //           <VerticalText>About</VerticalText>
-  //         </FancyLink>
-  //       </NavStrip>
-  //       <NavStrip active={false}>
-  //         <Link class="inactive" aria-disabled="true">
-  //           <VerticalText>Prototypes</VerticalText>
-  //         </Link>
-  //       </NavStrip>
-  //       <NavStrip active={false}>
-  //         <Link class="inactive" aria-disabled="true">
-  //           <VerticalText>Perspectives</VerticalText>
-  //         </Link>
-  //       </NavStrip>
-  //     </LayoutWrapper>
-  //   )
-  // } else {
-  //   ;<LayoutWrapper>
-  //     <p>Choose mode</p>
-  //   </LayoutWrapper>
-  // }
+  return (
+    <LayoutWrapper mode="here">
+      {!isRootPath && (
+        <Header>
+          <div>
+            <Link to="/">
+              <Logo viewBox="0 0 272.854 47.379" />
+            </Link>
+            <p className="blurb">A project by TUM and Hochschule München.</p>
+          </div>
+        </Header>
+      )}
+      {mode === "default" && (
+        <Content className="hasBackground" isRootPath={isRootPath}>
+          <>{children}</>
+        </Content>
+      )}
+      {mode === "subpage" && (
+        <Content isRootPath={isRootPath}>
+          <>{children}</>
+        </Content>
+      )}
+      <NavStrip>
+        <FancyLink
+          to="about"
+          smooth={true}
+          duration={500}
+          delay={50}
+          onClick={handleScroll}
+        >
+          <VerticalText>About</VerticalText>
+        </FancyLink>
+      </NavStrip>
+      {mode === "prototype" && (
+        <Content isRootPath={isRootPath}>
+          <>{children}</>
+        </Content>
+      )}
+      <NavStrip active={mode === "prototype" ? true : false}>
+        <Link to="/prototypes">
+          <VerticalText>Prototypes</VerticalText>
+        </Link>
+      </NavStrip>
+      {mode === "expert" && (
+        <Content isRootPath={isRootPath}>
+          <>{children}</>
+        </Content>
+      )}
+      <NavStrip active={mode === "expert" ? true : false}>
+        <Link to="/experts">
+          <VerticalText>Perspectives</VerticalText>
+        </Link>
+      </NavStrip>
+    </LayoutWrapper>
+  )
 }
 
 export default Layout

@@ -8,7 +8,7 @@ logos:
     url: https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt/impressum
 legal:
   - label: Imprint
-    url: https://tum.de
+    url: /imprint
   - label: Privacy Policy
     url: https://www.tum.de/en/privacy-policy
 ---
@@ -28,17 +28,13 @@ sustAInability is a joint project by Technical University of Munich and Universi
 
 The following partners are involved in the digitalization lab: Hochschule für Politik (TUM), School of Management (TUM), TUM Think Tank, Munich Center for Digital Sciences and AI (MUC.DAI, HM).
 
-
-
 ## Call to Action
 
 Both topics - sustainability and artificial intelligence - are permanently in change and new aspects, tools and techniques arise. Therefore we are constantly looking for new experts and organisations who would like to contribute a real world challenge  from their practice to the course. 
 
 If you would like to contribute an input or challenge, feel free to reach out!
 
-
 ## Contact
-
 
 Helene von Schwichow (TUM): helene.schwichow(at)tum.de 
 
