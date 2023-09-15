@@ -10,7 +10,11 @@ contactEmail: ssykora@calpoly.edu
 caption: "Credits: Photo by Tobias Tullius/ unsplash"
 
 ### OPTIONAL FURTHER DETAILS
-
+outputs:
+ -  type: png
+    label: Prototype
+    iUrl: "Foto1.png"
+    description: Example of the prototype
 gallery:
  -  Foto1.png
  -  Teamfoto.jpg

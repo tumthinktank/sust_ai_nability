@@ -15,10 +15,19 @@ outputs:
     label: Project Report
     iUrl: "Project-Report.pdf"
     description: Further information about the progress, milestones, and roadblocks.
-gallery:
- -  "Amendment1.png"
- -  "Amendment2.png"
- -  "Amendment3.png"
+ -  type: png
+    label: Amendment 1
+    iUrl: "Amendment1.png"
+    description: Extract from the EU Amendment
+ -  type: png
+    label: Amendment 2
+    iUrl: "Amendment2.png"
+    description: Extract from the EU Amendment
+ -  type: png
+    label: Amendment 3
+    iUrl: "Amendment3.png"
+    description: Extract from the EU Amendment
+
 ---
 
 The outcome of this challenge was a policy memo with more than ten amendments that 

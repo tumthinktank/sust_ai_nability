@@ -20,6 +20,10 @@ outputs:
     label: The final product
     iUrl: "FinalPromt.png"
     description: Promt of the final product
+ -  type: png
+    label: Mining Arguments
+    iUrl: "MiningArguments.png"
+    description: Short explanation about the project
 gallery:
  -  "FinalPromt.png"
  -  "MiningArguments.png"
