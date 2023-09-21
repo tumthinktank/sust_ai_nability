@@ -24,9 +24,6 @@ outputs:
     label: Mining Arguments
     iUrl: "MiningArguments.png"
     description: Short explanation about the project
-gallery:
- -  "FinalPromt.png"
- -  "MiningArguments.png"
 ---
 
 The final prototype presents a prompt designed to address the challenge of extracting and
