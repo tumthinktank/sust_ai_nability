@@ -8,7 +8,7 @@ challenge: argument-mining
 year: Spring 2023
 team: Nicholas Menzel, Karolina Senoner, Annika Markoff, Onur Alpaslan
 contactEmail: "nicholas.menzel@tum.de"
-caption: "Credits: Photo by DaModernDaVinci/ pixabay"
+caption: "Credits: Photo by DaModernDaVinci/ pixabay; Illustrations by the students"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
@@ -39,5 +39,3 @@ relevant.The prompt establishes a consistent structure for multiple claims, faci
 of various articles. By implementing these features, the prototype enables analysts to extract and
 evaluate arguments in an unbiased manner, fostering a deeper understanding of the main claims
 and the supporting evidence within the given text.
-
-caption: "Credits: Titel picture by Gerd Altmann, pixabay"
