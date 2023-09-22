@@ -7,7 +7,7 @@ challenge: eu-ai-act
 year: Spring 2023
 team: Sophia Spornraft, Isai Josue Canedo, Luis Martinez, Chi Khanh Phan
 contactEmail: 
-caption: "Credits: Photo by Pixabay/Ralph"
+caption: "Credits: Photo by Diana Weidmann; Pixabay/Ralph"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
