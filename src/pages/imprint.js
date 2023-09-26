@@ -9,7 +9,7 @@ import styled from "styled-components"
 import LogoFull from "../assets/Logo-complete.svg"
 
 const ImprintWrapper = styled.div`
-  main p{
+  main p {
     white-space: pre-wrap;
   }
 
@@ -30,7 +30,7 @@ const ImprintWrapper = styled.div`
 
         a {
           text-decoration: none;
-          &:hover{
+          &:hover {
             text-decoration: 8px underline #00e08aaa;
           }
         }

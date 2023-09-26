@@ -1,8 +1,8 @@
 ---
 abstract: "Hochschule für Politik München \
-Richard-Wagner-Straße 1 \
-80333 München \
-Tel.: +49 89 907793 0"
+  Richard-Wagner-Straße 1 \
+  80333 München \
+  Tel.: +49 89 907793 0"
 
 logos:
   - image: hm.png
@@ -16,10 +16,10 @@ legal:
     url: https://www.tum.de/en/privacy-policy
 ---
 
-
 # Imprint
 
 ## Anschrift
+
 Hochschule für Politik München
 Richard-Wagner-Straße 1
 80333 München
@@ -30,8 +30,8 @@ Tel.: +49 89 907793 0
 Die Hochschule für Politik München ist eine Körperschaft des öffentlichen Rechts.
 Sie wird gesetzlich vertreten durch den Rektor, Prof. Dr. Urs Gasser.
 
-Umsatzsteuer-Identifikationsnummer 
-DE321199650  (gemäß § 27a Umsatzsteuergesetz)
+Umsatzsteuer-Identifikationsnummer
+DE321199650 (gemäß § 27a Umsatzsteuergesetz)
 
 ## Zuständige Aufsichtsbehörde
 
@@ -49,9 +49,8 @@ E-Mail: dorothea.woerner@hfp.tum.de und governance@hfp.tum.de
 Dieser Webauftritt basiert auf Gatsby und Markdown.
 Technischer Ansprechpartner für diese Website ist das Projekt-Team.
 
-Helene von Schwichow (TUM): helene.schwichow(at)tum.de 
+Helene von Schwichow (TUM): helene.schwichow(at)tum.de
 Charlotte Böhm (HM): charlotte.boehm(at)hm.edu
-
 
 ## Haftungshinweis
 

@@ -12,7 +12,8 @@ const Bar = styled.li`
   justify-content: space-between;
   align-items: center;
 
-  p, h1 {
+  p,
+  h1 {
     text-transform: uppercase;
     letter-spacing: 0.04rem;
     font-size: 1.2rem;
@@ -21,7 +22,7 @@ const Bar = styled.li`
     margin: 0;
   }
 
-  a{
+  a {
     height: 20px;
   }
 `
@@ -30,10 +31,11 @@ const Navbar = ({ title, link, overview }) => {
   return (
     <Bar>
       {overview ? <h1>{title}</h1> : <p>{title}</p>}
-      {!overview &&
-      <Link to={link}>
-        <Close />
-      </Link>}
+      {!overview && (
+        <Link to={link}>
+          <Close />
+        </Link>
+      )}
     </Bar>
   )
 }

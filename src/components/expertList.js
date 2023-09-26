@@ -5,7 +5,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { PostGrid, Post } from "./styledComponents"
 
 const ExpertList = ({ experts, type }) => {
-
   // console.log("here", experts)
 
   // Filter empty index.md (no name)
@@ -39,7 +38,12 @@ const ExpertList = ({ experts, type }) => {
               itemType="http://schema.org/Article"
             >
               <section>
-                {post.frontmatter.image && <GatsbyImage image={image} alt="" />}
+                {post.frontmatter.image && (
+                  <GatsbyImage
+                    image={image}
+                    alt={`Project image of ${title}`}
+                  />
+                )}
               </section>
               <header>
                 <h2>

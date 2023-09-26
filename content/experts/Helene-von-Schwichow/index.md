@@ -9,11 +9,11 @@ caption: "Credits: Photo by Nora Hollstein"
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  type: url
+  - type: url
     label: Linked-in Profile Helene v. Schwichow
     eUrl: https://www.linkedin.com/in/helene-v-schwichow-82b791105/
-    description: Find here the Linked-in Profile of Helene von Schwichow 
- -  type: url
+    description: Find here the Linked-in Profile of Helene von Schwichow
+  - type: url
     label: Homepage Professorship for Policy Analysis
     eUrl: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
     description: Further information about the Professorship for Policy Analysis
@@ -21,8 +21,7 @@ further:
 
 Helene v. Schwichow is a researcher at the chair for policy analysis at the Technical University of Munich (TUM). As the manager of the project “Digitainability,” she researches and teaches on the opportunities and risks of digital technologies for sustainable development. Before her work at TUM, she co-founded MOTIF Institute for Digital Culture, a think tank that worked at the intersection of technology and society. With MOTIF, she conducted various projects, including research on behalf of the Third Gender Equality Report on women in the platform economy and Digital Vereint, a platform that supports civil society organizations with open-source tools. She is also the co-initiator of Feminist Futures, a participatory art and advocacy project that uses sci-fi stories to discuss and re-imagine the internet from a feminist perspective. Helene has studied in Berlin and Paris and holds a master’s degree in communication in social and economic contexts from the Berlin University of the Arts.
 
-Together with Charlotte Böhm, she is a coach at the joint project sustAInability. 
-
+Together with Charlotte Böhm, she is a coach at the joint project sustAInability.
 
 ### Professorship for Policy Analysis
 

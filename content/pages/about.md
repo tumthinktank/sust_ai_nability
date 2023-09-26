@@ -15,12 +15,9 @@ legal:
 
 ## About sustAInability
 
-Sustainability and Artificial Intelligence are the two significant social transformations of our time and thus at the centre of scientific and political debates. On the one hand, AI-supported technologies are creating a wide range of opportunities for sustainability, for example in the field of energy transition or agriculture. On the other hand, AI also poses many risks and challenges for the environment and society: Examples range from the high energy consumption and carbon footprint of machine learning systems up to automated discrimination. 
+Sustainability and Artificial Intelligence are the two significant social transformations of our time and thus at the centre of scientific and political debates. On the one hand, AI-supported technologies are creating a wide range of opportunities for sustainability, for example in the field of energy transition or agriculture. On the other hand, AI also poses many risks and challenges for the environment and society: Examples range from the high energy consumption and carbon footprint of machine learning systems up to automated discrimination.
 
 In this four-year teaching and research project, we are addressing this area of tension and working together with experts and students on technical and non-technical solutions at the interface of AI & sustainability.
-
-
-
 
 ## Partner
 
@@ -30,13 +27,12 @@ The following partners are involved in the digitalization lab: Hochschule für P
 
 ## Call to Action
 
-Both topics - sustainability and artificial intelligence - are permanently in change and new aspects, tools and techniques arise. Therefore we are constantly looking for new experts and organisations who would like to contribute a real world challenge  from their practice to the course. 
+Both topics - sustainability and artificial intelligence - are permanently in change and new aspects, tools and techniques arise. Therefore we are constantly looking for new experts and organisations who would like to contribute a real world challenge from their practice to the course.
 
 If you would like to contribute an input or challenge, feel free to reach out!
 
 ## Contact
 
-Helene von Schwichow (TUM): helene.schwichow(at)tum.de 
+Helene von Schwichow (TUM): helene.schwichow(at)tum.de
 
 Charlotte Böhm (HM): charlotte.boehm(at)hm.edu
-

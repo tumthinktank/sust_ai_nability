@@ -12,21 +12,21 @@ caption: "Credits: Photo by DaModernDaVinci/ pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: pdf
+  - type: pdf
     label: Project report
     iUrl: "ProjectReport.pdf"
     description: Further information about the progress, milestones, and roadblocks.
- -  type: png
+  - type: png
     label: The final product
     iUrl: "FinalPromt.png"
     description: Promt of the final product
- -  type: png
+  - type: png
     label: Mining Arguments
     iUrl: "MiningArguments.png"
     description: Short explanation about the project
 gallery:
- -  "FinalPromt.png"
- -  "MiningArguments.png"
+  - "FinalPromt.png"
+  - "MiningArguments.png"
 ---
 
 The final prototype presents a prompt designed to address the challenge of extracting and

@@ -6,7 +6,7 @@ import { device } from "../utils/device"
 const Bar = styled.nav`
   margin-bottom: 2em;
 
-  & > div{
+  & > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;

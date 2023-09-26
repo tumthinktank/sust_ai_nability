@@ -1,32 +1,19 @@
-import React from "react"
+import React, { Suspense } from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import styled from "styled-components"
 import { device } from "../utils/device"
 
 import LogoFull from "../assets/Logo-complete.svg"
-import cubus from "../images/Cubus.png"
-import cubusOverlay from "../images/Cubus-overlay.png"
 import CubusMobile from "../assets/Cubus-mobile.svg"
 
-const BackgroundStyles = `
-  background-repeat: no-repeat;
-  background-position-y: calc(100vh-15rem);
-  background-size: 100vw auto;
-  background-attachment: none;
-  
-  @media ${device.tablet} {
-    background-repeat: no-repeat;
-    background-position-y: 0;
-    background-position-x: calc(100% - 15rem);
-    background-size: auto clamp(600px, 100vh, 800px);
-    background-attachment: fixed;
-  }
-`
+const BackgroundImage = React.lazy(() =>
+  import("../components/BackgroundImage")
+)
 
 const Homewrapper = styled.div`
   position: relative;
@@ -35,30 +22,6 @@ const Homewrapper = styled.div`
 
   @media ${device.tablet} {
     padding: 2rem 50% 2rem 4rem;
-  }
-
-  @media ${device.tablet} {
-    ${BackgroundStyles};
-    background-image: url(${cubus});
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: opacity 2s ease-out; /* Adjust the transition duration as desired */
-      pointer-events: none;
-
-      ${BackgroundStyles};
-      background-image: url(${cubusOverlay});
-    }
-
-    &:hover::after {
-      opacity: 1;
-    }
   }
 `
 
@@ -143,7 +106,7 @@ const OverflowArea = styled.div`
 
         a {
           text-decoration: none;
-          &:hover{
+          &:hover {
             text-decoration: 8px underline #00e08aaa;
           }
         }
@@ -171,7 +134,9 @@ const OverflowArea = styled.div`
 `
 
 const Home = ({ data: { site, markdownRemark: post }, location }) => {
-  const siteTitle = site.siteMetadata?.title || `SustAInability · Perspecives and Prototypes for a Sustainable AI`
+  const siteTitle =
+    site.siteMetadata?.title ||
+    `SustAInability · Perspecives and Prototypes for a Sustainable AI`
 
   // Generate images for gallery
   let logos = []
@@ -188,6 +153,7 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
           <p className="abstract">{post.frontmatter.abstract}</p>
           <CubusMobile className="cubus" width="100%" />
         </VisibleArea>
+
         <OverflowArea name="about">
           <p className="abstract">{post.frontmatter.abstract}</p>
           <p
@@ -231,6 +197,9 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
             )}
           </footer>
         </OverflowArea>
+        {/* <Suspense>
+          <BackgroundImage />
+        </Suspense> */}
       </Homewrapper>
     </Layout>
   )

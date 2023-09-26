@@ -16,6 +16,7 @@ const Seo = ({ description, title, children }) => {
           siteMetadata {
             title
             description
+            keywords
             social {
               twitter
             }
@@ -27,11 +28,13 @@ const Seo = ({ description, title, children }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const metaKeywords = site.siteMetadata?.keywords
 
   return (
     <>
       <title>{defaultTitle ? `${title} · ${defaultTitle}` : title}</title>
       <meta name="description" content={metaDescription} />
+      <meta name="keywords" content={metaKeywords} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />

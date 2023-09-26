@@ -132,7 +132,8 @@ const Content = styled.main`
 
   padding: 1rem;
   flex: auto 0 1;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: relative;
 
   @media screen and (min-height: 800px) {
