@@ -7,7 +7,7 @@ challenge: analyzer-data
 year: Spring 2023
 team: "Sarah Sykora, Maria Ivanova, Verena Vogt, Samet Berk Oksuz, Zeynep Kocaahmet"
 contactEmail: ssykora@calpoly.edu
-caption: "Credits: Photo by Tobias Tullius/ unsplash"
+caption: "Credits: Photo by Diana Weidmann, Tobias Tullius/ unsplash; Illustrations by the students"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:

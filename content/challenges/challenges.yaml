@@ -16,7 +16,7 @@
   expert: Vinzent Ellissen
 - slug: eu-ai-act
   title: "Does the EU AI Act promote socially sustainable AI?"
-  description: "The challenge involved a policy analysis of the EU’s AI Act in its current version, evaluate how the AI Act both promote and penalize socially sustainable AI systems. The goal was to provide some suggestions for improvement to be forward to German MEP and shadow rapporteur, Alex Voss."
+  description: "The challenge involves a detailed analysis of current version of the EU AI Act with a focus on the question: In how far does the EU AI Act promote social sustainability goals? The goal is to provide some suggestions for improvement to be forwarded to MEP and shadow rapporteur, Alex Voss."
   year: Spring 2023
   expert: Felix Rank
 - slug: ai-model-cards
@@ -26,6 +26,6 @@
   expert: Johannes Leon Kirnberger
 - slug: analyzer-data
   title: "Unlock circularity and avoid waste."
-  description: "Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital."
+  description: "Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital.  Support Imagify with a process that translates qualitative context information around photos into key-take-aways to help engineers and designers even more to minimize their time-efforts and maximize their ability to deduct actionable insights."
   year: Spring 2023
   expert: Stefan Hauser

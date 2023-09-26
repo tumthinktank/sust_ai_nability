@@ -8,7 +8,7 @@ challenge: ai-model-cards
 year: Spring 2023
 team: Carmen Ng, Salma Tarik, Olivia Steen, Inkeri Halme, Mikaela Manolva
 contactEmail: carmen.ng@tum.de
-caption: "Credits: Photo by casino/ freepixel"
+caption: "Credits: Photo by casino/ freepixel, Diana Weidmann; Illustrations by the students"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
