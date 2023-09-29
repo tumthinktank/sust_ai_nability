@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
-import queryString from 'query-string'
+import queryString from "query-string"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -17,16 +17,18 @@ const ExpertOverview = ({ data, location }) => {
   const types = [...new Set(allTypes.flatMap(item => item.frontmatter.type))]
 
   const queryParams = queryString.parse(location.search)
-  const [selectedType, setSelectedType] = useState(queryParams.type || false) 
+  const [selectedType, setSelectedType] = useState(queryParams.type || false)
 
-  const handleTypeClick = filter => 
+  const handleTypeClick = filter =>
     handleClick(setSelectedType, filter, "type", filter, location, queryParams)
 
   return (
     <Layout location={location} title={siteTitle} mode="expert">
       <Navbar title="Experts and challenge givers" overview></Navbar>
       <p>
-      With expert input and real world challenges from different organisations, we shed light on the different perspectives within the framework of sustainability and AI.
+        With expert input and real world challenges from different
+        organisations, we shed light on the different perspectives within the
+        framework of sustainability and AI.
       </p>
       <FilterBar>
         <Filter
@@ -41,7 +43,7 @@ const ExpertOverview = ({ data, location }) => {
           ))}
         </Filter>
       </FilterBar>
-      <ExpertList type={selectedType}/>
+      <ExpertList type={selectedType} />
     </Layout>
   )
 }

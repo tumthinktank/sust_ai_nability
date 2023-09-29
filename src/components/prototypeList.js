@@ -6,7 +6,6 @@ import { PostGrid, Post } from "./styledComponents"
 import ListItem from "./listItem"
 
 const PrototypeList = ({ prototypes, year, challenge }) => {
-  
   // Filter empty index.md (no name)
   let posts = prototypes.filter(
     p => p.childMarkdownRemark?.frontmatter.name != null
@@ -48,7 +47,10 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
             >
               <section>
                 {post.frontmatter.featuredImage && (
-                  <GatsbyImage image={image} alt="" />
+                  <GatsbyImage
+                    image={image}
+                    alt={`Project image of ${title}`}
+                  />
                 )}
               </section>
               <header>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 name: EU’s social sustAInability booster
 subtitle: "Three amendments aimed at enhancing social sustainability within the AI Act that have been proposed to the European Parliament"
@@ -11,14 +12,13 @@ caption: "Credits: Photo by Diana Weidmann, Pixabay/Ralph"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: pdf
+  - type: pdf
     label: Project report
     iUrl: "Project_Report.pdf"
     description: Further information about the progress, milestones, and roadblocks.
 gallery:
- -  "Teamfoto.png"
- -  "Teamfoto2.jpg"
-
+  - "Teamfoto.png"
+  - "Teamfoto2.jpg"
 ---
 
 In response to the challenge "Does the EU AI Act promote social sustainable AI?" we developed

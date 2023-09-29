@@ -10,10 +10,9 @@ team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongde
 contactEmail: simonlcherv@gmail.com
 caption: "Credits: Photo by Richard Carey/ Fotolia"
 
-
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: pdf
+  - type: pdf
     label: Project report
     iUrl: "ProjectReport1.pdf"
     description: Further information about the progress, milestones, and roadblocks.

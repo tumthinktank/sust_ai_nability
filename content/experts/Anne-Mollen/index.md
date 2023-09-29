@@ -9,13 +9,13 @@ caption: "Credits: Photo by Anne Mollen"
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  type: url
+  - type: url
     label: Homepage SustAIn
     eUrl: https://algorithmwatch.org/en/sustain/
     description: Further information about the project sustAin
 ---
 
-Dr. Anne Mollen is a communication and media scholar at the University of Münster, especially working on questions of digitisation and sustainability as well as democratic and societal impacts of Artificial Intelligence. 
+Dr. Anne Mollen is a communication and media scholar at the University of Münster, especially working on questions of digitisation and sustainability as well as democratic and societal impacts of Artificial Intelligence.
 
 She is also a Senior Research Advisor at the Berlin-based NGO Algorithmwatch, where she leads the project „SustAIn: Sustainability Index for Artificial Intelligence“. Anne has advised several political bodies on these questions.
 

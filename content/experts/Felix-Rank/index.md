@@ -9,13 +9,13 @@ caption: "Credits: Photo by Felix Rank"
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  type: url
+  - type: url
     label: Homepage EME
     url: www.df-eme.org
     description: Further information about the German Forum for Ethical Machine Decision Making
 ---
 
-Felix Rank is co-founder of the German Forum for Ethical Machine Decision Making, a think tank for the responsible use of algorithms and artificial intelligence. He has organized and moderated the TUM Speakers Series with guests such as Bill Gates, Kofi Annan and Eric Schmidt during his studies at the Technical University of Munich. As senior consultant, he is responsible for the digitalization of sales and marketing processes for a large insurance company. Since 2014, he has been involved in numerous student initiatives as well as non-profit organizations and is Global Shaper of the World Economic Forum. 
+Felix Rank is co-founder of the German Forum for Ethical Machine Decision Making, a think tank for the responsible use of algorithms and artificial intelligence. He has organized and moderated the TUM Speakers Series with guests such as Bill Gates, Kofi Annan and Eric Schmidt during his studies at the Technical University of Munich. As senior consultant, he is responsible for the digitalization of sales and marketing processes for a large insurance company. Since 2014, he has been involved in numerous student initiatives as well as non-profit organizations and is Global Shaper of the World Economic Forum.
 
 ### About German Forum for Ethical Machine Decision Making
 

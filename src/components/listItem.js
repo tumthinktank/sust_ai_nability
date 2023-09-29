@@ -10,7 +10,7 @@ const Item = styled.li`
   margin-left: 0;
 `
 
-const ListItem = ({label, children}) => {
+const ListItem = ({ label, children }) => {
   return (
     <Item>
       <Label>{label}</Label>
