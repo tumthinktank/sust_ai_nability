@@ -1,19 +1,9 @@
 ---
-abstract: "Hochschule für Politik München \
-  Richard-Wagner-Straße 1 \
-  80333 München \
-  Tel.: +49 89 907793 0"
-
-logos:
-  - image: hm.png
-    url: https://hm.de
-  - image: tum.png
-    url: https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt/impressum
 legal:
   - label: Imprint
     url: /imprint
   - label: Privacy Policy
-    url: https://www.tum.de/en/privacy-policy
+    url: /privacy
 ---
 
 # Imprint

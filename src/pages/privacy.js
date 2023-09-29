@@ -39,7 +39,7 @@ const PageWrapper = styled.div`
   }
 `
 
-const Imprint = ({ data: { site, markdownRemark: post }, location }) => {
+const Privacy = ({ data: { site, markdownRemark: post }, location }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
 
   return (
@@ -71,14 +71,14 @@ const Imprint = ({ data: { site, markdownRemark: post }, location }) => {
   )
 }
 
-export default Imprint
+export default Privacy
 
 /**
  * Head export to define metadata for the page
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Imprint" />
+export const Head = () => <Seo title="Privacy" />
 
 export const pageQuery = graphql`
   {
@@ -87,7 +87,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: "/imprint/" } }) {
+    markdownRemark(fields: { slug: { eq: "/privacy/" } }) {
       id
       html
       fields {

@@ -10,7 +10,7 @@ legal:
   - label: Imprint
     url: /imprint
   - label: Privacy Policy
-    url: https://www.tum.de/en/privacy-policy
+    url: /privacy
 ---
 
 ## About sustAInability
