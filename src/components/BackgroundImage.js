@@ -23,6 +23,7 @@ background-attachment: none;
 
 const BGImage = styled.div`
   display: none;
+  pointer-events: none;
 
   @media ${device.tablet} {
     display: block;
