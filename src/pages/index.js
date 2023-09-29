@@ -197,9 +197,9 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
             )}
           </footer>
         </OverflowArea>
-        {/* <Suspense>
+        <Suspense>
           <BackgroundImage />
-        </Suspense> */}
+        </Suspense>
       </Homewrapper>
     </Layout>
   )
