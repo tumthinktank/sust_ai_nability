@@ -31,7 +31,9 @@ Both topics - sustainability and artificial intelligence - are permanently in ch
 
 If you would like to contribute an input or challenge, feel free to reach out!
 
-If you are a TUM or HM student and would like to take part in the seminar: Look for SOT86750 in TUMOnline or send an email. 
+If you are a TUM or HM student and would like to take part in the seminar: 
+TUM Students: Look for SOT86750 in TUMOnline 
+HM Students: Write an email to charlotte.boehm (at) hm.edu
 
 ## Contact
 
