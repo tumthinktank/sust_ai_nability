@@ -11,7 +11,7 @@ caption: "Credits: Photo by Felix Rank"
 further:
   - type: url
     label: Homepage EME
-    url: www.df-eme.org
+    url: https://df-eme.org/
     description: Further information about the German Forum for Ethical Machine Decision Making
 ---
 
