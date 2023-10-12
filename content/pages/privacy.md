@@ -1,11 +1,5 @@
----
-legal:
-  - label: Imprint
-    url: /imprint
-  - label: Privacy Policy
-    url: /privacy
----
 
+=======
 # Privacy Policy
 
 Thank you for your interest in our website of our project sustAInability. Data protection is of a particularly high priority for us. The use of our website is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.
@@ -178,8 +172,3 @@ The criteria used to determine the period of storage of personal data is the res
 
 ## Provision of personal data as statutory or contractual requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the personal data; possible consequences of failure to provide such data
 We clarify that the provision of personal data is partly required by law (e.g. tax regulations) or can also result from contractual provisions (e.g. information on the contractual partner). Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded. Before personal data is provided by the data subject, the data subject must contact any employee. The employee clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.
-
-## Existence of automated decision-making
-As a responsible company, we do not use automatic decision-making or profiling.
-
-Developed by the specialists for LegalTech at Willing & Able that also developed the system for online agrement. The legal texts contained in our privacy policy generator have been provided and published by Prof. Dr. h.c. Heiko Jonny Maniero from the German Association for Data Protection and Christian Solmecke from WBS law.
