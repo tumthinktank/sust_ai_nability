@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Objective Argument Extraction: A Neutral Approach to Analyzing Articles"
@@ -12,15 +13,15 @@ caption: "Credits: Photo by DaModernDaVinci/ pixabay; Illustrations by the stude
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: pdf
+  - type: pdf
     label: Project report
     iUrl: "ProjectReport.pdf"
     description: Further information about the progress, milestones, and roadblocks.
- -  type: png
+  - type: png
     label: The final product
     iUrl: "FinalPromt.png"
     description: Promt of the final product
- -  type: png
+  - type: png
     label: Mining Arguments
     iUrl: "MiningArguments.png"
     description: Short explanation about the project
@@ -36,3 +37,5 @@ relevant.The prompt establishes a consistent structure for multiple claims, faci
 of various articles. By implementing these features, the prototype enables analysts to extract and
 evaluate arguments in an unbiased manner, fostering a deeper understanding of the main claims
 and the supporting evidence within the given text.
+
+

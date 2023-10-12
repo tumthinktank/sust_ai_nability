@@ -165,10 +165,11 @@ exports.createSchemaCustomization = ({ actions }) => {
   // Also explicitly define the Markdown frontmatter
   // This way the "MarkdownRemark" queries will return `null` even when no
   // blog posts are stored inside "content/blog" instead of returning an error
-  const typeDefs = (`
+  const typeDefs = `
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
+      keywords: String
       social: Social
     }
 
@@ -243,8 +244,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Fields {
       slug: String
     }
-  `)
+  `
 
   createTypes(typeDefs)
-
 }

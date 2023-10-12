@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: OECD Greendicators
@@ -12,18 +13,18 @@ caption: "Credits: Photo by casino/ freepixel, Diana Weidmann; Illustrations by 
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
- -  type: pdf
+  - type: pdf
     label: Project report
     iUrl: "report.pdf"
     description: "Further information about the progress, milestones, and roadblocks."
- -  type: pdf
+  - type: pdf
     label: Model Card
     iUrl: "Model-Card.pdf"
     description: " "
 gallery:
- -  "Teamfoto1.jpg"
- -  "Teamfoto2.jpg"
- -  "Teamfoto3.jpg"
+  - "Teamfoto1.jpg"
+  - "Teamfoto2.jpg"
+  - "Teamfoto3.jpg"
 ---
 
 While there is a growing industry trend to drive the standardization of information disclosure for accountability and transparency through AI model cards, current developments are limited to technical aspects and in most cases exclude sustainability metrics of AI practices. The OECD Greendicators offers a comprehensive set of benchmarks that should be included on AI model cards to comprehensively understand the sustainability impact of AI models encompassing the life cycle of AI practices from activities associated with model development, the infrastructural and energy frameworks facilitating AI practices, to ramifications beyond. In developing the prototype, the team investigated existing AI model cards, analyzed common sustainability indicators and their gaps, researched scientific literature and relevant sustainability reporting benchmarks, and holistically mapped four categories of sustainability indicators throughout AI life cycles. The prototype offers a set of measurable Key Performance Indicators (KPIs) that support policymakers in benchmarking sustainability practices of AI practices.

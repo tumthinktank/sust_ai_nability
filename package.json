@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "sustainability-ai",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Prototypes and Perpectives for a Sustainable AI",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Larissa Wunderlich",
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.0.3",
     "@fontsource/merriweather": "^5.0.2",
@@ -39,20 +36,14 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "sustaineble AI prototypes perspectives challenges TUM HM"
   ],
-  "license": "0BSD",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   }
 }

@@ -8,7 +8,7 @@ type: ["Challenge giver"]
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  type: url
+  - type: url
     label: Homepage Imagify
     eUrl: http://www.loconsumer.com/
     description: Further information about the project Imagify

@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Prof. Dr. Stefan Wurster"
-shortDescription: Professorship of Policy Analysis at Technical University of Munich 
+shortDescription: Professorship of Policy Analysis at Technical University of Munich
 date: "2023-04-28"
 image: "Stefan-Wurster.webp" #image in same folder as this file
 type: ["Expert", "Team"] #["Expert"]
@@ -9,11 +9,11 @@ caption: "Credits: Photo by Stefan Wurster"
 
 ### OPTIONAL FURTHER DETAILS
 further:
- -  type: url
+  - type: url
     label: Homepage HfP
-    eUrl: https://www.hfp.tum.de/en/policy/assistant-professorship-of-policy-analysis/
+    eUrl: https://www.hfp.tum.de/en/policy/home/
     description: Further information about the Professorship for Policy Analysis
- -  type: url
+  - type: url
     label: Portrait Stefan Wurster
     eUrl: https://www.hfp.tum.de/en/policy/team/prof-dr-stefan-wurster/
     description: Find here more information about Prof. Dr. Stefan Wurster

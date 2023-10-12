@@ -1,60 +1,61 @@
 ---
-abstract: "Hochschule für Politik München \
-Richard-Wagner-Straße 1 \
-80333 München \
-Tel.: +49 89 907793 0"
-
-logos:
-  - image: hm.png
-    url: https://hm.de
-  - image: tum.png
-    url: https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt/impressum
 legal:
   - label: Imprint
     url: /imprint
   - label: Privacy Policy
-    url: https://www.tum.de/en/privacy-policy
+    url: /privacy
 ---
-
 
 # Imprint
 
-## Anschrift
-Hochschule für Politik München
+## Address
+
+Technical University of Munich 
+School of Social Sciences and Technology 
+Project sustAInability
+Professorship for Policy Analysis
+Prof. Dr. Stefan Wurster
 Richard-Wagner-Straße 1
-80333 München
-Tel.: +49 89 907793 0
+80333 Munich
+phone.: +49 (0)89 907793 - 250
 
-## Vertretungsberechtigt
 
-Die Hochschule für Politik München ist eine Körperschaft des öffentlichen Rechts.
-Sie wird gesetzlich vertreten durch den Rektor, Prof. Dr. Urs Gasser.
+## Authorized to represent
 
-Umsatzsteuer-Identifikationsnummer 
-DE321199650  (gemäß § 27a Umsatzsteuergesetz)
+sustAInability is a project by the Assistant Professorship of Policy Analysis, TU Munich and the Munich Center for Digital Sciences and AI, Hochschule München University of Applied Sciences. It is legally represented by Prof. Dr. Stefan Wurster. 
 
-## Zuständige Aufsichtsbehörde
 
-Bayerische Staatsministerium für Wissenschaft und Kunst
+## VAT Identification number 
 
-## Inhaltlich verantwortlich
+DE321199650 (according to § 27a Turnover Tax Act)
 
-Prof. Dr. Urs Gasser und Dipl. Verw.Wiss. Dorothea Wörner
+## Responsible regulatory agency 
+
+Bavarian State Ministry for Science and Art
+
+## Responsible for the content
+
+Helene von Schwichow, Professorship of Policy Analysis, TU Munich 
 Richard-Wagner-Straße 1
-80333 München
-E-Mail: dorothea.woerner@hfp.tum.de und governance@hfp.tum.de
+80333 Munich
+E-Mail: helene.schwichow@tum.de 
 
-## Technische Umsetzung
+Charlotte Böhm, MUC.DAI, Hochschule München University of Applied Sciences
+Lothstr. 64
+80333 Munich 
+E-Mail: charlotte.boehm@hm.edu 
+Phone: 089 1265 3150
 
-Dieser Webauftritt basiert auf Gatsby und Markdown.
-Technischer Ansprechpartner für diese Website ist das Projekt-Team.
 
-Helene von Schwichow (TUM): helene.schwichow(at)tum.de 
+## Technical implementation 
+
+This website is based on Gatsby and Markdown. Technical contact is the project team: 
+
+Helene von Schwichow (TUM): helene.schwichow(at)tum.de
 Charlotte Böhm (HM): charlotte.boehm(at)hm.edu
 
+## Disclaimer 
 
-## Haftungshinweis
-
-Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
-
-Namentlich gekennzeichnete Beiträge in den Diskussionsbereichen geben die Meinung des Autors wieder. Für die Inhalte der Beiträge sind ausschließlich die Autoren zuständig.
+Despite careful control of the content, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.
+Contributions in the discussion areas marked by name reflect the opinion of the respective author. The authors are solely responsible for the content of their contributions.
+ 
