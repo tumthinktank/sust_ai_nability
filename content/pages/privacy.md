@@ -1,11 +1,5 @@
----
-legal:
-  - label: Imprint
-    url: /imprint
-  - label: Privacy Policy
-    url: /privacy
----
 
+=======
 # Privacy Policy
 
 Thank you for your interest in our website of our project sustAInability. Data protection is of a particularly high priority for us. The use of our website is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.
@@ -183,3 +177,4 @@ We clarify that the provision of personal data is partly required by law (e.g. t
 As a responsible company, we do not use automatic decision-making or profiling.
 
 Developed by the specialists for LegalTech at Willing & Able that also developed the system for online agrement. The legal texts contained in our privacy policy generator have been provided and published by Prof. Dr. h.c. Heiko Jonny Maniero from the German Association for Data Protection and Christian Solmecke from WBS law.
+>>>>>>> 1a73ef7951b9e6521bee64f2fd961f67b7ed94cf
