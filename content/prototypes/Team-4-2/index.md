@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: EU’s social sustAInability booster
 subtitle: "Three amendments aimed at enhancing social sustainability within the AI Act that have been proposed to the European Parliament"

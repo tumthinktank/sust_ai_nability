@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: AI for circular economy in Fashion

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: Green AI Model Cards
