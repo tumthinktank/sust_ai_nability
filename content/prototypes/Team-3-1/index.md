@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Objective Argument Extraction: A Neutral Approach to Analyzing Articles"
