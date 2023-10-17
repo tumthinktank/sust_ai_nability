@@ -23,7 +23,8 @@ background-attachment: none;
 
 const BGImage = styled.div`
   display: none;
-  pointer-events: none;
+  // pointer-events: none;
+  z-index: -10;
 
   @media ${device.tablet} {
     display: block;
@@ -49,6 +50,22 @@ const BGImage = styled.div`
 
       ${BackgroundStyles};
       background-image: url(${cubusOverlay});
+      animation: fadeInFromNone 5s ease-out;
+      animation-fill-mode: forwards;
+
+      @keyframes fadeInFromNone {
+        0% {
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
     }
 
     &:hover::after {
