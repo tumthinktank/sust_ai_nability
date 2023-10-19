@@ -27,11 +27,11 @@ The following partners are involved in the digitalization lab: School of Social 
 
 ## Call to Action
 
-Both topics - sustainability and artificial intelligence - are permanently in change and new aspects, tools and techniques arise. Therefore we are constantly looking for new experts and organisations who would like to contribute a real world challenge from their practice to the course.
+Both topics - sustainability and artificial intelligence - are permanently in transition and new aspects, tools and techniques arise. Therefore we are constantly looking for experts and organisations who would like to share their perspectives in the seminar. 
 
 If you would like to contribute an input or challenge, feel free to reach out!
 
-If you are a TUM or HM student and would like to take part in the seminar: 
+sustAInability is offered every semester at TUM and HM. If you are a TUM or HM student and would like to take part: 
 
 TUM Students: Look for SOT86750 in TUMOnline 
 
