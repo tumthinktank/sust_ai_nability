@@ -3,7 +3,7 @@
 name: Helene von Schwichow
 shortDescription: Researcher and Project Manager at Technical University of Munich
 date: "2015-05-01"
-image: "HvS_Foto.jpg" #image in same folder as this file
+image: "TUM_Policy_Analysis_Portraits_dianaweidmann_5.jpg" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
 caption: "Credits: Photo by Nora Hollstein"
 
@@ -19,7 +19,7 @@ further:
     description: Further profile information about Helene von Schwichow
 ---
 
-Helene v. Schwichow is a researcher at the chair for policy analysis at the Technical University of Munich (TUM). As the manager of the project “Digitainability,” she researches and teaches on the opportunities and risks of digital technologies for sustainable development. Before her work at TUM, she co-founded MOTIF Institute for Digital Culture, a think tank that worked at the intersection of technology and society. With MOTIF, she conducted various projects, including research on behalf of the Third Gender Equality Report on women in the platform economy and Digital Vereint, a platform that supports civil society organizations with open-source tools. She is also the co-initiator of Feminist Futures, a participatory art and advocacy project that uses sci-fi stories to discuss and re-imagine the internet from a feminist perspective. Helene has studied in Berlin and Paris and holds a master’s degree in communication in social and economic contexts from the Berlin University of the Arts.
+Helene v. Schwichow is a PhD researcher at the professorship for Policy Analysis at the Technical University of Munich (TUM). As the manager of the project “Digitainability,” she researches and teaches on the opportunities and risks of digital technologies for sustainable development. Before her work at TUM, she co-founded MOTIF Institute for Digital Culture, a think tank that worked at the intersection of technology and society. Helene has studied in Berlin and Paris and holds a master’s degree in communication in social and economic contexts from the Berlin University of the Arts.
 
 Together with Charlotte Böhm, she is a coach at the joint project sustAInability.
 

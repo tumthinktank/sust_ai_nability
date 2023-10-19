@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: AI for circular economy in Fashion
+name: AI for Circular Economy in Fashion
 subtitle: A circular business model powered by different digital technologies, with an emphasis on AI, to accelerate the shift to a Circular Fashion Industry.
 date: "2023-06-25"
 featuredImage: "matt-seymour_unsplash.jpg" #image in same folder as this file
