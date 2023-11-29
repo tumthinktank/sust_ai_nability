@@ -2,7 +2,7 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Dr. Theresa Züger"
 shortDescription: "Head of AI & Society Lab and Public Interest AI Research Group"
-date: "2023-04-29" #muss noch geändert werden
+date: "2023-10-27" #muss noch geändert werden
 image: "Theresa-Zueger.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
 caption: "Credits: Photo by Theresa Zueger"
