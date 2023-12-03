@@ -12,6 +12,19 @@ legal:
   - label: Privacy Policy
     url: /privacy
 ---
+## Public Pitch Night (Dec 3rd) will take place online
+
+Dear all, 
+due to the current weather condition and its effects on the public transport, our today's public Pitch Night of the sustAInability seminar will take place online on Zoom.  
+
+We start at 6pm here: 
+
+Zoom-Meeting beitreten
+https://hm-edu.zoom.us/j/61538807663?pwd=bzZ4bzFjV2NhU0ZpeE45VmUrSU9IZz09
+
+Meeting-ID: 615 3880 7663
+Passwort: 357491
+
 
 ## About sustAInability
 
