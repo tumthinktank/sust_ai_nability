@@ -5,7 +5,11 @@ logos:
   - image: hm.png
     url: https://hm.de
   - image: tum.png
-    url: https://www.tum.de/ueber-die-tum/kontakt-und-anfahrt/impressum
+    url: https://www.tum.de
+  - image: bidt.png
+    url: https://en.bidt.digital
+  - image: ministry.png
+    url: https://www.stmwk.bayern.de/englisch.html
 legal:
   - label: Imprint
     url: /imprint

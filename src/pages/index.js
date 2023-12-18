@@ -91,7 +91,9 @@ const OverflowArea = styled.div`
 
   footer {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
 
     ul {
       display: flex;
@@ -190,6 +192,7 @@ const Home = ({ data: { site, markdownRemark: post }, location }) => {
                       image={logo}
                       objectFit="contain"
                       alt="Logo sustAInability"
+
                     />
                   </a>
                 ))}
@@ -232,7 +235,7 @@ export const pageQuery = graphql`
         logos {
           image {
             childImageSharp {
-              gatsbyImageData(sizes: "200px")
+              gatsbyImageData(height: 80)
             }
           }
           url
