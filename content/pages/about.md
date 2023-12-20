@@ -44,9 +44,9 @@ HM Students: Write an email to charlotte.boehm@hm.edu
 ## Contact
 
 Helene von Schwichow (TUM): helene.schwichow@tum.de
-Visit our Instagram page: Instagram https://www.instagram.com/policytum/ 
+Visit our Instagram page of the Professorship Policy Analysis TUM: https://www.instagram.com/policytum/ 
 
 Charlotte Böhm (HM): charlotte.boehm@hm.edu
-Visit our Instagram page: Instagram
+Visit our Instagram page of MUC.DAI: https://www.instagram.com/muc.dai/
 
 
