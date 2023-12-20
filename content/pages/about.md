@@ -16,19 +16,6 @@ legal:
   - label: Privacy Policy
     url: /privacy
 ---
-## Public Pitch Night (Dec 3rd) will take place online
-
-Dear all, 
-due to the current weather condition and its effects on the public transport, our today's public Pitch Night of the sustAInability seminar will take place online on Zoom.  
-
-We start at 6pm here: 
-
-Zoom-Meeting beitreten
-https://hm-edu.zoom.us/j/61538807663?pwd=bzZ4bzFjV2NhU0ZpeE45VmUrSU9IZz09
-
-Meeting-ID: 615 3880 7663
-Passwort: 357491
-
 
 ## About sustAInability
 
@@ -38,7 +25,7 @@ In this four-year teaching and research project, we are addressing this area of 
 
 ## Partner
 
-sustAInability is a joint project by Technical University of Munich and University of Applied Sciences of Munich. As one out of ten so-called digitalization labs it is funded by the Bavarian State Ministry of Science and the Arts and coordinated by the Bavarian Research Institute for Digital Transformation (bidt).
+sustAInability is a joint project by Technical University of Munich and University of Applied Sciences of Munich. As one out of 13 so-called digitalization labs it is funded by the Bavarian State Ministry of Science and the Arts and coordinated by the Bavarian Research Institute for Digital Transformation (bidt).
 
 The following partners are involved in the digitalization lab: School of Social Sciences and Technology (TUM), School of Management (TUM), TUM Think Tank, Munich Center for Digital Sciences and AI (MUC.DAI, HM).
 
@@ -52,11 +39,14 @@ sustAInability is offered every semester at TUM and HM. If you are a TUM or HM s
 
 TUM Students: Look for SOT86750 in TUMOnline 
 
-HM Students: Write an email to charlotte.boehm (at) hm.edu
+HM Students: Write an email to charlotte.boehm@hm.edu
 
 ## Contact
 
-Helene von Schwichow (TUM): helene.schwichow(at)tum.de
+Helene von Schwichow (TUM): helene.schwichow@tum.de
+Visit our Instagram page: Instagram https://www.instagram.com/policytum/ 
 
-Charlotte Böhm (HM): charlotte.boehm(at)hm.edu
+Charlotte Böhm (HM): charlotte.boehm@hm.edu
+Visit our Instagram page: Instagram
+
 
