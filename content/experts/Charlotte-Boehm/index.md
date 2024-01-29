@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Charlotte Böhm"
-shortDescription: "Researcher and Community Manager at Hochschule München"
+shortDescription: "Lecturer and Community Manager at Hochschule München"
 date: "2015-04-10"
 image: "Portrait_HM_CB.JPG" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
