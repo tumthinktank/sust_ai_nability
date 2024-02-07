@@ -39,3 +39,8 @@
 #   description: "The SINE Foundation's challenge centers on using AI to verify product carbon footprints and improve data quality for sustainability initiatives, while managing complexities in carbon footprint calculations."
 #   year: Winter 2023
 #   expert: sine
+- slug: ethical-challenges-of-ai
+  title: "Didactic approaches to teaching ethical challenges of Artificial Intelligence"
+  description: "As AI causes prominent paradigm shifts in society, the demand for advanced knowledge of the ethical challenges of AI increases. By leveraging diverse didactical methods, we developed a workshop to sharpen industry and political actors’ expertise of ethical AI."
+  year: Winter 2023
+  expert: Felix Rank

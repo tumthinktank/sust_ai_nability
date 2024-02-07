@@ -1,23 +1,23 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Marine+"
-subtitle: "An improved model for detecting marine litter in coastal ocean pictures"
-date: "2023-06-25"
+name: "Workshop to M.A.R.S. - Managing AI Responsibly and Sustainably"
+subtitle: "We crafted a workshop to efficiently and effectively transmit knowledge about ethical AI for political and industry leaders."
+date: "2023-12-03"
 featuredImage: "oceanPlastic.jpg"
-challenge: marine-litter
-year: Spring 2023
-team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
-contactEmail: simonlcherv@gmail.com
-caption: "Credits: Photo by Richard Carey/ Fotolia"
+challenge: ethical-challenges-of-ai
+year: Winter 2023
+team: Alonso Zapata, Bisma Naushad, Mira Cecilia Mahavadi, Thilo Krechlak
+#contactEmail:
+caption: "Credits: Photo by "
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: Project report
-    iUrl: "ProjectReport1.pdf"
+    iUrl: "Report_Group3.pdf"
     description: Further information about the progress, milestones, and roadblocks.
 ---
 
-The MARIDA dataset contains annotated images from twelve locations around the world. These images are annotated with many classes, including multiple types of water and plants, but our challenge focuses on marine litter. Our goal is to aid with the creation of a model that will help clean up our oceans and save our planet. The researchers made a basic neural network structure and provided us with tools to train and test that structure. To improve upon it, we changed the way it learns by encouraging it to focus on less common examples, since the marine litter was a very underrepresented portion of the images. We also shifted the locations of the data it was trained on to make it better at generalizing to unseen locations. Our solution increased accuracy by common AI metrics, but can still be improved by further examination of the data.
+With the advent of AI as a revolutionary tool, it has brought upon several challenges related to ethical uses of the technology. Hence, the workshop to M.A.R.S. (Manage AI Responsibly and Sustainably) is introduced to train decisionmakers on these challenges. Aiming to help industrial and political professionals in leveraging the technological advancement responsibly, the workshop is designed to provide a space for knowledge sharing and reflection thereby enhancing awareness, reflection and retention of the ethics and AI nexus. To do so, various didactical tools are utilized. Among others, the workshop is envisioned to let participants engage with AI tools through an AI-Companion in group work, allow professionals to experience AI’s potential and challenges firsthand.
 
-caption: "Credits: Titel picture by Rich Carey/ Shutterstock"
+caption: "Credits: Titel picture by"
