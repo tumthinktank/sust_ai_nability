@@ -1,23 +1,29 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Marine+"
-subtitle: "An improved model for detecting marine litter in coastal ocean pictures"
-date: "2023-06-25"
-featuredImage: "oceanPlastic.jpg"
-challenge: marine-litter
-year: Spring 2023
-team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
-contactEmail: simonlcherv@gmail.com
-caption: "Credits: Photo by Richard Carey/ Fotolia"
+name: "AI-Powered PCF Verification System"
+subtitle: "Our prototype employs AI-driven Comparative Analysis Algorithms to improve accuracy and credibility in product carbon footprint calculations for sustainability initiatives."
+date: "2023-12-03"
+featuredImage: "BlackSalmon_shutterstock.png"
+challenge: verifying-product-carbon-footprints
+year: Winter 2023
+team: Aleks Aleksandrov, Anastasia Shulman
+contactEmail: anastasia.shulman@hm.edu
+caption: "Credits: Photo by Black Salmon/Shutterstock"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: Project report
-    iUrl: "ProjectReport1.pdf"
+    iUrl: "Report_Group2.2.pdf"
     description: Further information about the progress, milestones, and roadblocks.
+  - type: ulr
+    label: Interface mock-ups
+    eUrl: https://www.figma.com/file/swsje1pjimEaeMkBGx26WS/SINE-
+Verifying-Carbon-Footprints-Interface?type=design&node-id=0%3A1mode=designt=8GqZO8riLZSgZxqx-1
+    description: Interface mock-ups on Figma
 ---
 
-The MARIDA dataset contains annotated images from twelve locations around the world. These images are annotated with many classes, including multiple types of water and plants, but our challenge focuses on marine litter. Our goal is to aid with the creation of a model that will help clean up our oceans and save our planet. The researchers made a basic neural network structure and provided us with tools to train and test that structure. To improve upon it, we changed the way it learns by encouraging it to focus on less common examples, since the marine litter was a very underrepresented portion of the images. We also shifted the locations of the data it was trained on to make it better at generalizing to unseen locations. Our solution increased accuracy by common AI metrics, but can still be improved by further examination of the data.
+The solution leverages AI-driven Comparative Analysis Algorithms for the verification of Product Carbon Footprint (PCF) calculations. Faced with the challenge of diverse and proprietary data models used by companies, our solution benchmarks data against industry standards and similar products. A ranking algorithm assigns weighted scores based on factors such as raw material sourcing, manufacturing processes transportation, and end-of-life considerations Integrated with various certifications, the system ensures a comprehensive evaluation enhancing the accuracy of sustainability assessments. A user-friendly interface enables product and manufacturer searches, providing detailed reports on potential inconsistencies or data
+manipulations. This solution empowers stakeholders, including regulatory bodies and sustainability analysts, with actionable insights, promoting transparency, higher data quality, and environmentally responsible business practices for the promise of a decarbonized economy.
 
-caption: "Credits: Titel picture by Rich Carey/ Shutterstock"
+caption: "Credits: Title picture by Black Salmon/Shutterstock"

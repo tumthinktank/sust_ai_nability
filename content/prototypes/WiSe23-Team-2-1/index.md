@@ -2,7 +2,7 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Eco Oracle"
 subtitle: "The EcoOracle helps companies to verify the CO2 footprint of their purchases to fight greenwashing."
-date: "2023-06-25"
+date: "2023-12-03"
 featuredImage: "oceanPlastic.jpg"
 challenge: verifying-product-carbon-footprints
 year: Winter 2023
