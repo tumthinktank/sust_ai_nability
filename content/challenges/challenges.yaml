@@ -29,3 +29,13 @@
   description: "Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital.  Support Imagify with a process that translates qualitative context information around photos into key-take-aways to help engineers and designers even more to minimize their time-efforts and maximize their ability to deduct actionable insights."
   year: Spring 2023
   expert: Stefan Hauser
+- slug: sustainable-truth
+  title: "Sustainable Truth"
+  description: "How can we leverage AI to identify and validate sustainability assumptions?"
+  year: Winter 2023
+  expert: Vinzent Ellissen
+# - slug: verifying-product-carbon-footprints
+#   title: "Verifying Product Carbon Footprints"
+#   description: "The SINE Foundation's challenge centers on using AI to verify product carbon footprints and improve data quality for sustainability initiatives, while managing complexities in carbon footprint calculations."
+#   year: Winter 2023
+#   expert: sine

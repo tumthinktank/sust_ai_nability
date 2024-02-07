@@ -1,23 +1,28 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Marine+"
-subtitle: "An improved model for detecting marine litter in coastal ocean pictures"
+name: "Eco Oracle"
+subtitle: "The EcoOracle helps companies to verify the CO2 footprint of their purchases to fight greenwashing."
 date: "2023-06-25"
 featuredImage: "oceanPlastic.jpg"
-challenge: marine-litter
-year: Spring 2023
-team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
-contactEmail: simonlcherv@gmail.com
-caption: "Credits: Photo by Richard Carey/ Fotolia"
+challenge: verifying-product-carbon-footprints
+year: Winter 2023
+team: Carl Frederic, Markus Ertl, Sarah Gruber, Jiachen Wang
+#contactEmail:
+caption: "Credits: Photo by "
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: Project report
-    iUrl: "ProjectReport1.pdf"
+    iUrl: "Report_Group2.1_EcoOracle.pdf"
     description: Further information about the progress, milestones, and roadblocks.
+  - type: url
+    lable: Demo View
+    eUrl: https://sustainability.demo-view.de
+    description: Get your own impression of the tool yourself.
 ---
 
-The MARIDA dataset contains annotated images from twelve locations around the world. These images are annotated with many classes, including multiple types of water and plants, but our challenge focuses on marine litter. Our goal is to aid with the creation of a model that will help clean up our oceans and save our planet. The researchers made a basic neural network structure and provided us with tools to train and test that structure. To improve upon it, we changed the way it learns by encouraging it to focus on less common examples, since the marine litter was a very underrepresented portion of the images. We also shifted the locations of the data it was trained on to make it better at generalizing to unseen locations. Our solution increased accuracy by common AI metrics, but can still be improved by further examination of the data.
+The EcoOracle enables companies to check the CO2 footprint of their purchases for trustworthiness in order to combat greenwashing. A scoring system is used for this purpose. It calculates the sustainability score of a product taking all the steps of its production chain into account that have an influence on the carbon footprint of a product, for example the used materials and transportation routes. The prototype we developed uses a very simple calculation model that calculates the sum of the weighted production steps. However, the idea is to later replace this primitive calculation method with a neural network that will be able to calculate a more meaningful score based on real validated training data.
+Our concept is based on the production of a cotton T-shirt, but can be transferred to any other product. It starts with the cotton harvest and pre-processing and ends with the delivery to a store or the end user.
 
-caption: "Credits: Titel picture by Rich Carey/ Shutterstock"
+caption: "Credits: "
