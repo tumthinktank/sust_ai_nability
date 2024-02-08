@@ -1,23 +1,27 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Marine+"
-subtitle: "An improved model for detecting marine litter in coastal ocean pictures"
-date: "2023-06-25"
+name: "An AI tool for optimal pricing in the second-hand fashion market"
+subtitle: "Our AI model optimizes the price for pre-owned fashion items by collecting and analyzing all relevant factors that affect the price."
+date: "2023-12-03"
 featuredImage: "oceanPlastic.jpg"
-challenge: marine-litter
-year: Spring 2023
-team: Simon Chervenak, Oscar Röth, Mohamad Alkam,Zeynep Duran, Wasuwadee Kongdech, Ekaterina Gikalo
-contactEmail: simonlcherv@gmail.com
-caption: "Credits: Photo by Richard Carey/ Fotolia"
+challenge: ai-transforms-fashion-industry
+year: Winter 2023
+team: Philipp Striegl, Christopher Lepissier, Mohammadjavad Zamani Pozveh, Amna Nadeem
+contactEmail: philipp.striegl@outlook.com
+caption: "Credits: Photo by"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: Project report
-    iUrl: "ProjectReport1.pdf"
+    iUrl: "Report_Group4.2.pdf"
     description: Further information about the progress, milestones, and roadblocks.
+  - type: url
+    label: SAP Recommerce
+    eUrl: https://www.sap.com/products/crm/recommerce.html
+    description: More information about the SAP Recommerce
 ---
 
-The MARIDA dataset contains annotated images from twelve locations around the world. These images are annotated with many classes, including multiple types of water and plants, but our challenge focuses on marine litter. Our goal is to aid with the creation of a model that will help clean up our oceans and save our planet. The researchers made a basic neural network structure and provided us with tools to train and test that structure. To improve upon it, we changed the way it learns by encouraging it to focus on less common examples, since the marine litter was a very underrepresented portion of the images. We also shifted the locations of the data it was trained on to make it better at generalizing to unseen locations. Our solution increased accuracy by common AI metrics, but can still be improved by further examination of the data.
+Our fashion reselling prototype leverages AI for accurate pricing and crediting. Users upload an image and description of an item to sell. Computer vision and NLP models categorize attributes like style, brand, size, fabric, color, and condition. These deep learning algorithms are trained on large datasets of fashion images and descriptions, enabling faster and more accurate analysis than humans. The attributes are input to an AI pricing model which scans current resale market data to determine the optimal price. It accounts for brand trends, changing demands, competitor pricing, and other factors to ensure the fairest and most profitable price for both parties. In a nutshell, our AI-powered platform facilitates fashion resale by efficiently analyzing items and dynamically pricing them. This captures residual value from used fashion while reducing waste.
 
-caption: "Credits: Titel picture by Rich Carey/ Shutterstock"
+caption: "Credits: Titel picture by"
