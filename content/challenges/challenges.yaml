@@ -34,11 +34,11 @@
   description: "How can we leverage AI to identify and validate sustainability assumptions?"
   year: Winter 2023
   expert: Vinzent Ellissen
-# - slug: verifying-product-carbon-footprints
-#   title: "Verifying Product Carbon Footprints"
-#   description: "The SINE Foundation's challenge centers on using AI to verify product carbon footprints and improve data quality for sustainability initiatives, while managing complexities in carbon footprint calculations."
-#   year: Winter 2023
-#   expert: sine
+- slug: verifying-product-carbon-footprints
+  title: "Verifying Product Carbon Footprints"
+  description: "The SINE Foundation's challenge centers on using AI to verify product carbon footprints and improve data quality for sustainability initiatives, while managing complexities in carbon footprint calculations."
+  year: Winter 2023
+  expert: Aurel Stenzel
 - slug: ethical-challenges-of-ai
   title: "Didactic approaches to teaching ethical challenges of Artificial Intelligence"
   description: "As AI causes prominent paradigm shifts in society, the demand for advanced knowledge of the ethical challenges of AI increases. By leveraging diverse didactical methods, we developed a workshop to sharpen industry and political actors’ expertise of ethical AI."
@@ -49,3 +49,8 @@
   description: "How can AI-driven analysis and algorithms optimize pricing strategies for pre-owned fashion items and goods in the resale market, considering various factors such as market trends, consumer behavior, product condition, stocks, and demand fluctuations, to ensure competitive pricing and maximize profitability?"
   year: Winter 2023
   expert: Carina Legl
+- slug: sustainable-ecosystem
+  title: "Creating a fully sustainable startup ecosystem"
+  description: "The challenge is to create a simple yet interactive AI-based [tool, platform, SOLUTION - you name it!] that provides actionable guides for sustainability strategies for startups in each domain area of the TUM Venture Labs and all startups in Germany. So, each company can start green and stay green."
+  year: Winter 2023
+  expert: Lucia Lara
