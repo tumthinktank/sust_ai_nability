@@ -49,8 +49,8 @@
   description: "How can AI-driven analysis and algorithms optimize pricing strategies for pre-owned fashion items and goods in the resale market, considering various factors such as market trends, consumer behavior, product condition, stocks, and demand fluctuations, to ensure competitive pricing and maximize profitability?"
   year: Winter 2023
   expert: Carina Legl
-- slug: sustainable-ecosystem
-  title: "Creating a fully sustainable startup ecosystem"
-  description: "The challenge is to create a simple yet interactive AI-based [tool, platform, SOLUTION - you name it!] that provides actionable guides for sustainability strategies for startups in each domain area of the TUM Venture Labs and all startups in Germany. So, each company can start green and stay green."
-  year: Winter 2023
-  expert: Lucia Lara
+# - slug: sustainable-ecosystem
+#   title: "Creating a fully sustainable startup ecosystem"
+#   description: "The challenge is to create a simple yet interactive AI-based [tool, platform, SOLUTION - you name it!] that provides actionable guides for sustainability strategies for startups in each domain area of the TUM Venture Labs and all startups in Germany. So, each company can start green and stay green."
+#   year: Winter 2023
+#   expert: Lucia Lara
