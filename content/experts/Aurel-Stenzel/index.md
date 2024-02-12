@@ -3,7 +3,7 @@
 name: "Aurel Stenzel"
 shortDescription: "Mathematician and cofounder of the SINE Foundation"
 date: "2023-12-03"
-image: "Anne-Mollen.jpg" #image in same folder as this file
+image: "Aurel-Stenzel.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
 caption: "Credits: Photo by Aurel Stenzel"
 
