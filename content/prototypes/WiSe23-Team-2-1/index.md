@@ -17,7 +17,7 @@ outputs:
     iUrl: "Report_Group2.1_EcoOracle.pdf"
     description: Further information about the progress, milestones, and roadblocks.
   - type: url
-    lable: Demo View
+    label: Demo View
     eUrl: https://sustainability.demo-view.de
     description: Get your own impression of the tool yourself.
 ---
