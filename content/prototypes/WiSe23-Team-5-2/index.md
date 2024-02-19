@@ -3,7 +3,7 @@
 name: "GreenGuide"
 subtitle: "GreenGuide utilizes a comprehensive database and user input to offer personalized sustainability recommendations aligned with SDGs for startups with AI."
 date: "2023-12-03"
-featuredImage: "2group5.2_logo_text_blog.png"
+featuredImage: "group5.2_logo_text_blog.png"
 challenge: sustainable-ecosystem
 year: Winter 2023
 team: "Valentina de las Casas, Francisco de Asís Gómez, Timo Warendorf, Maria Federer"
