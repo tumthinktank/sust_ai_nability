@@ -24,7 +24,7 @@ outputs:
     label: Graph
     iUrl: "group5.2_graph_blog.png"
     description:
-    - type: png
+  - type: png
     label: Example
     iUrl: "group5.2_output_blog.pngf"
     description: Example of an output
