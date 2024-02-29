@@ -20,9 +20,9 @@ outputs:
     label: Interface mock-ups
     eUrl: "https://www.figma.com/file/swsje1pjimEaeMkBGx26WS/SINE-Verifying-Carbon-Footprints-Interface?type=design&node-id=0%3A1&mode=design&t=8GqZO8riLZSgZxqx-1"
     description: Interface mock-ups on Figma
-  - type: pptx
+  - type: pdf
     label: Presentation
-    iUrl: "Team2.2-SINE_Pitch.pptx"
+    iUrl: "Team2.2-SINE_Pitch.pdf"
     description: Presentation of the prototype
 ---
 
