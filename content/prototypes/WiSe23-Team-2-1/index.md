@@ -20,6 +20,10 @@ outputs:
     label: Demo View
     eUrl: https://sustainability.demo-view.de
     description: Demo of the tool.
+  - type: pdf
+    label: Presentation
+    iUrl: "Team2.1-SINE-Slides.pdf"
+    description: Presentation of the prototype
 ---
 
 The EcoOracle enables companies to check the CO2 footprint of their purchases for trustworthiness in order to combat greenwashing. A scoring system is used for this purpose. It calculates the sustainability score of a product taking all the steps of its production chain into account that have an influence on the carbon footprint of a product, for example the used materials and transportation routes. The prototype we developed uses a very simple calculation model that calculates the sum of the weighted production steps. However, the idea is to later replace this primitive calculation method with a neural network that will be able to calculate a more meaningful score based on real validated training data.

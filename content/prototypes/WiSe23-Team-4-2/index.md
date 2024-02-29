@@ -8,7 +8,7 @@ challenge: ai-transforms-fashion-industry
 year: Winter 2023
 team: Philipp Striegl, Christopher Lepissier, Mohammadjavad Zamani Pozveh, Amna Nadeem
 contactEmail: philipp.striegl@outlook.com
-caption: "Credits: Photo by  Miguel Á. Padriñán auf PixabayLinda Lioe/ Pixabay"
+caption: "Credits: Photo by  Miguel Á. Padriñán/ Pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
@@ -20,8 +20,12 @@ outputs:
     label: SAP Recommerce
     eUrl: https://www.sap.com/products/crm/recommerce.html
     description: More information about the SAP Recommerce
+  - type: url
+    label: "Ellen MacArthur Foundation: Vision of a circular economy for fashion"
+    eurl: https://www.ellenmacarthurfoundation.org/our-vision-of-a-circular-economy-for-fashion#:~:text=It%20is%20based%20on%20three,industry%2C%20and%20regenerates%20the%20environment.
+    description: Short article about a circular economy in fashion for environmental sustainability and social equity.
 ---
 
 Our fashion reselling prototype leverages AI for accurate pricing and crediting. Users upload an image and description of an item to sell. Computer vision and NLP models categorize attributes like style, brand, size, fabric, color, and condition. These deep learning algorithms are trained on large datasets of fashion images and descriptions, enabling faster and more accurate analysis than humans. The attributes are input to an AI pricing model which scans current resale market data to determine the optimal price. It accounts for brand trends, changing demands, competitor pricing, and other factors to ensure the fairest and most profitable price for both parties. In a nutshell, our AI-powered platform facilitates fashion resale by efficiently analyzing items and dynamically pricing them. This captures residual value from used fashion while reducing waste.
 
-caption: "Credits: Titel picture by Miguel Á. Padriñán auf Pixabay"
+caption: "Credits: Titel picture by Miguel Á. Padriñán/ Pixabay"
