@@ -36,5 +36,3 @@ gallery:
 ---
 
 Our AI Sustainability Roadmap Generator is a powerful tool that assists startups in integrating sustainability into their business models. It utilizes advanced AI to analyze each startup's unique situation and generate a customized roadmap tailored to their specific needs. This roadmap provides clear, actionable strategies for achieving sustainability across ecological, social, and economic dimensions. Its dynamic nature ensures that it remains relevant and practical as the startup evolves, and market conditions change. This AI-powered roadmap empowers startups to embed sustainability seamlessly into their business operations, aligning them with global standards and consumer expectations for a sustainable future.
-
-caption: "Credits: Titel picture by Anja/ Pixabay; Pictures by the students"

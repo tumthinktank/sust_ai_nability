@@ -23,5 +23,3 @@ outputs:
 ---
 
 The circular fashion economy initiative, wearagAIn, collaborates with SAP Recommerce to revolutionize the secondhand clothing market. SAP Recommerce facilitates the seamless handling and resale of pre-owned inventory, promoting a shift from a linear to a circular business model. This transformation not only extends customer lifetime value but also aligns with sustainability goals by minimizing additional carbon footprints. wearagAIn leverages cutting-edge SAP Recommerce technology and AI algorithms to establish a peer-to-peer marketplace with a focus on optimal pricing. The platform employs AI-driven analysis for comprehensive pricing factors, stringent quality control for authenticity, and a sustainability dashboard to quantify environmental impact. By addressing key determinants in pricing through extensive research and user insights, wearagAIn aims to redefine secondhand fashion, emphasizing transparency, trust, and measurable contributions to a sustainable fashion ecosystem.
-
-caption: "Credits: Titel picture by congerdesign/ Pixabay"

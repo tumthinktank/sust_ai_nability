@@ -27,5 +27,3 @@ outputs:
 ---
 
 Our fashion reselling prototype leverages AI for accurate pricing and crediting. Users upload an image and description of an item to sell. Computer vision and NLP models categorize attributes like style, brand, size, fabric, color, and condition. These deep learning algorithms are trained on large datasets of fashion images and descriptions, enabling faster and more accurate analysis than humans. The attributes are input to an AI pricing model which scans current resale market data to determine the optimal price. It accounts for brand trends, changing demands, competitor pricing, and other factors to ensure the fairest and most profitable price for both parties. In a nutshell, our AI-powered platform facilitates fashion resale by efficiently analyzing items and dynamically pricing them. This captures residual value from used fashion while reducing waste.
-
-caption: "Credits: Titel picture by Miguel Á. Padriñán/ Pixabay"
