@@ -22,7 +22,7 @@ outputs:
     description: More information about the SAP Recommerce
   - type: url
     label: "Ellen MacArthur Foundation: Vision of a circular economy for fashion"
-    eurl: https://www.ellenmacarthurfoundation.org/our-vision-of-a-circular-economy-for-fashion#:~:text=It%20is%20based%20on%20three,industry%2C%20and%20regenerates%20the%20environment.
+    eurl: https://www.ellenmacarthurfoundation.org/our-vision-of-a-circular-economy-for-fashion#:~:text=It%20is20based%20on%20three,industry%2C%20and%20regenerates%20the%20environment.
     description: Short article about a circular economy in fashion for environmental sustainability and social equity.
 ---
 
