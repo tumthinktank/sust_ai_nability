@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Lucía Lara Vargas"
-shortDescription: "Senior Policy and Advocacy Managerin at AlgorithmWatch"
+shortDescription: "Coach and Program Manager at TUM Venture Lab Sustainability & Circular"
 date: "2023-10-27"
 image: "Lucía-Lara-Vargas.jpg" #image in same folder as this file
 type: ["Challenge giver"] #["Expert"]
