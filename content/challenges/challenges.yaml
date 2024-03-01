@@ -29,3 +29,28 @@
   description: "Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital.  Support Imagify with a process that translates qualitative context information around photos into key-take-aways to help engineers and designers even more to minimize their time-efforts and maximize their ability to deduct actionable insights."
   year: Spring 2023
   expert: Stefan Hauser
+- slug: sustainable-truth
+  title: "Sustainable Truth"
+  description: "How can we leverage AI to identify and validate sustainability assumptions?"
+  year: Winter 2023
+  expert: Vinzent Ellissen
+- slug: verifying-product-carbon-footprints
+  title: "Verifying Product Carbon Footprints"
+  description: "The SINE Foundation's challenge centers on using AI to verify product carbon footprints and improve data quality for sustainability initiatives, while managing complexities in carbon footprint calculations."
+  year: Winter 2023
+  expert: Aurel Stenzel
+- slug: ethical-challenges-of-ai
+  title: "Didactic approaches to teaching ethical challenges of Artificial Intelligence"
+  description: "As AI causes prominent paradigm shifts in society, the demand for advanced knowledge of the ethical challenges of AI increases. By leveraging diverse didactical methods, we developed a workshop to sharpen industry and political actors’ expertise of ethical AI."
+  year: Winter 2023
+  expert: Felix Rank
+- slug: ai-transforms-fashion-industry
+  title: "AI Transforms the Fashion Industry for Circular Commerce"
+  description: "How can AI-driven analysis and algorithms optimize pricing strategies for pre-owned fashion items and goods in the resale market, considering various factors such as market trends, consumer behavior, product condition, stocks, and demand fluctuations, to ensure competitive pricing and maximize profitability?"
+  year: Winter 2023
+  expert: Carina Legl
+- slug: sustainable-ecosystem
+  title: "Creating a fully sustainable startup ecosystem"
+  description: "The challenge consists of establishing a sustainable startup ecosystem in which not only big companies, but also small companies are able to solve their problems concerning sustainability in all its dimensions."
+  year: Winter 2023
+  expert: Lucía Lara Vargas

@@ -80,6 +80,15 @@ body {
   color: var(--color-text);
 }
 
+
+
+@media (max-width: 767px) {
+  html, body, #___gatsby, #gatsby-focus-wrapper{
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
 footer {
   padding: var(--spacing-4) var(--spacing-0);
 }
