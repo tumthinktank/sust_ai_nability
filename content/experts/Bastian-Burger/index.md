@@ -1,11 +1,11 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Lucía Lara Vargas"
-shortDescription: "Coach and Program Manager at TUM Venture Lab Sustainability & Circular"
+name: "Bastian Burger"
+shortDescription: "Director for Software & AI at TUM Venture Labs"
 date: "2023-10-27"
-image: "Lucía-Lara-Vargas.jpg" #image in same folder as this file
+image: "Bastian-Burger.jpeg" #image in same folder as this file
 type: ["Challenge giver"] #["Expert"]
-caption: "Credits: Photo by Lucía Lara"
+caption: "Credits: Photo by Bastian Burger"
 
 ### OPTIONAL FURTHER DETAILS
 further:
@@ -13,9 +13,13 @@ further:
     label: Homepage TUM Venture Labs
     eUrl: https://www.tum-venture-labs.de/
     description: Further information about the TUM Venture Labs
+  - type: url
+    label: Website of Bastian Burger
+    eUrl: https://www.bastianburger.com
+    description: Start-up Blog of Bastian Burger
 ---
 
-Lucia is coach and Program Manager at TUM Venture Lab Sustainability & Circular. She leads educational initiatives in sustainable practices and supports start-ups that aspire to build circular and scalable business models. Currently, Lucia is actively involved in the development of the CleanTech Microclasses series, which aims to showcase the challenges and opportunities of creating businesses with positive impact.
+Bastian Burger is Director for Software & AI at TUM Venture Labs. He uses his expertise in the areas of business growth, AI, Web3, crypto and cybersecurity to support young founders in the first steps of their entrepreneurial careers up to Series A. His career began with the founding of blik, a pioneering startup in the field of industrial IoT and intralogistics, which he led as CEO from idea generation to market launch. He is also a lecturer and researcher in the field of psychological resilience and well-being of startup founders, with a special focus on well-being and narcissism.
 
 ### About TUM Venture Labs
  
