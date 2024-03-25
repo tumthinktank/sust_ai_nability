@@ -94,7 +94,7 @@ export const pageQuery = graphql`
       }
     }
     allChallengesYaml(
-      filter: { prototypes: { elemMatch: { id: { ne: "" } } } }
+      filter: { linkedPrototypes: { elemMatch: { id: { ne: "" } } } }
     ) {
       nodes {
         title

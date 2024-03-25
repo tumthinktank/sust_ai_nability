@@ -186,7 +186,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type MarkdownRemark implements Node @dontInfer{
       frontmatter: Frontmatter
       fields: Fields
-      challenges: [ChallengesYaml] @link(by: "expert.frontmatter.name")
+      # challenges: [ChallengesYaml] @link(by: "expert.frontmatter.name")
     }
 
     type Frontmatter {
@@ -210,7 +210,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       image: File @fileByRelativePath
       further: [Link]
       type: [String]
-      challenges: [ChallengesYaml] @link (by: "expert.frontmatter.name", from: "frontmatter: name") # backref not working
+      # challenges: [ChallengesYaml] @link(by: "expert.frontmatter.name", from: "frontmatter: name") # backref not working
       caption: String
     }
 
@@ -220,7 +220,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       year: String
       expert: MarkdownRemark @link(by: "frontmatter.name")
-      prototypes: [MarkdownRemark] @link(by: "frontmatter.challenge.slug", from: "slug") # backref working
+      experts: [MarkdownRemark] @link(by: "frontmatter.name")
+      linkedPrototypes: [MarkdownRemark] @link(by: "frontmatter.challenge.slug", from: "slug") # backref working
     }
 
     type Link{

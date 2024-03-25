@@ -45,6 +45,23 @@ const Infobox = styled.div`
   .left {
     background: var(--color-primary);
 
+    ul{
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+
+      li{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        &::marker{
+          content: "";
+        }
+      }
+    }
+
     a {
       text-decoration-color: white;
     }
@@ -112,13 +129,13 @@ const PrototypeTemplate = ({
                 <strong>{post.frontmatter.challenge.title}</strong>
               </p>
               <p>{post.frontmatter.challenge.description}</p>
-              <p>
-                <a
-                  href={`/expert${post.frontmatter.challenge.expert.fields.slug}`}
-                >
-                  {post.frontmatter.challenge.expert.frontmatter.name}
-                </a>
-              </p>
+              <ul>
+                {post.frontmatter.challenge.experts.map(e => (
+                  <li>
+                    <a href={`/expert${e.fields.slug}`}>{e.frontmatter.name}</a>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
           {post.frontmatter.team && (
@@ -225,7 +242,7 @@ export const pageQuery = graphql`
         challenge {
           title
           description
-          expert {
+          experts {
             fields {
               slug
             }
