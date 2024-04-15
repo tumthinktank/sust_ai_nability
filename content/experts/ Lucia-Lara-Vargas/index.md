@@ -19,7 +19,7 @@ Lucia is coach and Program Manager at TUM Venture Lab Sustainability & Circular.
 
 ### About TUM Venture Labs
  
-A network of Deep Tech & Life Science Incubators to nurture Innovation in Emerging Domains
+A network of Deep Tech & Life Science Incubators to nurture Innovation in Emerging Domains.
  
 We support you in turning your deep tech or life science idea into entrepreneurial impact - across the entire early life-cycle from idea generation to seed-capital for business launch. To do that, we combine deep domain expertise with entrepreneurial experience and a large ecosystem.
  

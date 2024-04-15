@@ -5,7 +5,7 @@ import { Label } from "./styledComponents"
 
 const Item = styled.li`
   display: grid;
-  grid-template-columns: 5rem 4fr;
+  grid-template-columns: 6rem 4fr;
   margin-bottom: 0.5rem;
   margin-left: 0;
 `

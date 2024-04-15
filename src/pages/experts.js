@@ -26,7 +26,7 @@ const ExpertOverview = ({ data, location }) => {
     <Layout location={location} title={siteTitle} mode="expert">
       <Navbar title="Experts and challenge givers" overview></Navbar>
       <p>
-        "Since the topic if AI and sustainability is very complex and interdisciplinary, we invite experts from different fields and organisations to share their perspectives in the seminar.
+        Since the topic if AI and sustainability is very complex and interdisciplinary, we invite experts from different fields and organisations to share their perspectives in the seminar.
       </p>
       <FilterBar>
         <Filter
