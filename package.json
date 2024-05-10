@@ -11,6 +11,7 @@
     "gatsby": "^5.10.0",
     "gatsby-plugin-image": "^3.10.0",
     "gatsby-plugin-manifest": "^5.10.0",
+    "gatsby-plugin-matomo": "^0.16.2",
     "gatsby-plugin-react-svg": "^3.3.0",
     "gatsby-plugin-sharp": "^5.10.0",
     "gatsby-plugin-sitemap": "^6.12.0",

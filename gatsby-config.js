@@ -121,6 +121,14 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '10',
+        matomoUrl: 'https://piwik.wunderjewel.de',
+        siteUrl: 'https://sustainability-ai.de'
+      }
+    },
   ],
   mapping: {
     mapping: {
