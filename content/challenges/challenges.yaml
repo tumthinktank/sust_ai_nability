@@ -66,3 +66,10 @@
   experts: 
     - Lucía Lara Vargas
     - Bastian Burger
+  - slug: e-waste #selber Name wie beim Code davor unter “challenge”
+  title: "Navigating e-waste from data centers"  # 1. Title of your prototype
+  description: "The challenge involves quantifying data center e-waste in Germany, estimating waste generation, assessing current regulations, and proposing improvements for data collection, policy, and recycling to address the growing environmental impact of data center equipment disposal." #5. Short description of your challenge
+  year: Sommer 2024 #Semester
+  experts: 
+    - Bastian Burger
+    #- Vanessa Forti #alle Experten, die die Challenge gestellt haben
