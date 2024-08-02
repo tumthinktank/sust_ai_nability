@@ -2,10 +2,10 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Aron Handreke"
 shortDescription: "Founder an CEO of ContainerGrid"
-date: "2023-04-29"
-image: "Aron-Handreke.jpg" #Foto in selben Ordner wie diese Datei
+date: "2024-04-29"
+image: "Aron-Handreke.png" #Foto in selben Ordner wie diese Datei
 type: ["Expert"] #["Expert"]
-caption: "Credits: Photo by Anne Mollen"
+caption: "Credits: Photo by ContainerGrid"
 
 ### OPTIONAL FURTHER DETAILS
 further: #hier können Links oder Dokumente aufgelistet werden
