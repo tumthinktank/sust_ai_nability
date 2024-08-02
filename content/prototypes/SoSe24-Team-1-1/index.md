@@ -3,23 +3,31 @@
 name: "Navigating e-waste from data centers"
 subtitle: "Our prototype analyzes German data center e-waste, evaluates current regulations, and proposes sustainable solutions to improve industry-wide e-waste management practices."
 date: "2024-06-25" # Datum vom Pitch
-featuredImage: "PublicDomainPictures-Pixabay.jpg" #Foto in selben Ordner wie diese Datei
+featuredImage: "Blog_post_image.jpg" #Bildquelle?
 challenge: e-waste
 year: Sommer 2024 #Semester
 team: Caroline Veau, Chiara Sabina Bariletto, Oliver Beringer, Jisna Kochukarotu, Rezoana Parvin, Agustin Miranda
 contactEmail:
-caption: "Credits: Photo by PublicDomainPictures/ Pixabay"
+caption: "Credits: Photo by unknown"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "Report_Group_Sustainable-Truth.pdf" #Pdf in selben Ordner wie diese Datei
+    iUrl: "Report_Unitar1_Team1-1.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
   - type: png
-    label: Prototype
-    iUrl: "Prototype.png"
-    description: Example of prototype "truth-o-meter"
+    label: Data Center Facts 1
+    iUrl: "Page1_Instapost_Unitar1.png"
+    description:
+  - type: png
+    label: Data Center Facts 2
+    iUrl: "Page2_Instapost_Unitar1.png"
+    description: Estimated E-waste in a graph
+  - type: png
+    label: Recommandations
+    iUrl: "Page3_Instapost_Unitar1.png"
+    description: Recommandations to reduce E-waste
 
 
 ---
