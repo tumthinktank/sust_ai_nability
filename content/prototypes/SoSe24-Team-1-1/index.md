@@ -5,7 +5,7 @@ subtitle: "Our prototype analyzes German data center e-waste, evaluates current 
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: "Blog_post_image.jpg" #Bildquelle?
 challenge: e-waste
-year: Sommer 2024 #Semester
+year: Spring 2024 #Semester
 team: Caroline Veau, Chiara Sabina Bariletto, Oliver Beringer, Jisna Kochukarotu, Rezoana Parvin, Agustin Miranda
 contactEmail:
 caption: "Credits: Photo by unknown"

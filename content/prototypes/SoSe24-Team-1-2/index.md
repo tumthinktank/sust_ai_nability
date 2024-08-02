@@ -5,7 +5,7 @@ subtitle: "Create a free tool to obtain e-waste estimation from sales that gives
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: #"Blog_post_image.jpg" #Bildquelle?
 challenge: e-waste
-year: Sommer 2024 #Semester
+year: Spring 2024 #Semester
 team: Alisa Valentiner, Jannik Vieler, Johanna Fritzmeier, Roser Nicolau Cerisuelo, Thomas Heipke, Niklas Evmenenko
 contactEmail: thomas.heipke@tum.de
 caption: "Credits: Photo by unknown"
