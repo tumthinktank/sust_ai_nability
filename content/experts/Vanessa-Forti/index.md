@@ -3,7 +3,7 @@
 name: "Vanessa Forti"
 shortDescription: "Associate Programme Officer at UNITAR-SCYCLE"
 date: "2024-04-29" #ungefähres Datum (beeinflusst nur die Reihenfolge auf der Website)
-image: "Vanessa-Forti.jpg" #Foto in selben Ordner wie diese Datei
+image: "Vanessa-Forti.png" #Foto in selben Ordner wie diese Datei
 type: ["Challenge giver"] #["Challenge giver, Expert"] kann beides oder nur eins sein
 caption: "Credits: Photo by Vanessa Forti"
 

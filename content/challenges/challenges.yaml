@@ -71,12 +71,10 @@
   description: "The challenge involves quantifying data center e-waste in Germany, estimating waste generation, assessing current regulations, and proposing improvements for data collection, policy, and recycling to address the growing environmental impact of data center equipment disposal." #5. Short description of your challenge
   year: Spring 2024
   experts: 
-    - Bastian Burger
-    #- Vanessa Forti #Unitar-sycyle
+    - Vanessa Forti
 - slug: waste-heat
   title: "Waste heat from data centers: from problem to solution"
   description: "We are addressing the question of how much waste heat is produced by data centers in Germany, how it can be efficiently reused, the challenges data centers currently face, and how existing and future regulations can influence its reuse."
   year: Spring 2024
   experts: 
-    - Bastian Burger
-    #- Leonard Burtscher #Umweltinstitut
+    - Leonard Burtscher

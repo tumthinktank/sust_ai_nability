@@ -5,7 +5,7 @@ shortDescription: "Professor of Innovation and Organization Design"
 date: "2024-05-23"
 image: "Oliver-Alexy.jpg" #image in same folder as this file
 type: ["Expert"] #["Expert"]
-caption: "Credits: Photo by Oliver Alexy"
+caption: "Credits: Photo by Diana Weidmann"
 
 ### OPTIONAL FURTHER DETAILS
 further:
