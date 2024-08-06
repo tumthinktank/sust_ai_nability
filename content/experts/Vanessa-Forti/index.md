@@ -2,13 +2,13 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Vanessa Forti"
 shortDescription: "Associate Programme Officer at UNITAR-SCYCLE"
-date: "2024-04-29" #ungefähres Datum (beeinflusst nur die Reihenfolge auf der Website)
-image: "Vanessa-Forti.png" #Foto in selben Ordner wie diese Datei
-type: ["Challenge giver"] #["Challenge giver, Expert"] kann beides oder nur eins sein
+date: "2024-04-29" 
+image: "Vanessa-Forti.png"
+type: ["Challenge giver"] 
 caption: "Credits: Photo by Vanessa Forti"
 
 ### OPTIONAL FURTHER DETAILS
-further: #hier können Links oder Dokumente aufgelistet werden
+further: 
   - type: url
     label: Homepage UNITAR-SCYCLE
     eUrl: https://www.scycle.info/  
@@ -44,4 +44,3 @@ UNITAR's Sustainable Cycles (SCYCLE) Programme has been a pivotal partner to the
 7.	Evaluation of policies and development of recommendations along the principals of sustainable development and especially UN’s Sustainable Development Goals.
 8.	Development and management of Public-Private-Partnerships to jointly work on scientific, but nevertheless applied basis.
 9.	Designing and conducting training, workshops and stakeholder consultations.
-

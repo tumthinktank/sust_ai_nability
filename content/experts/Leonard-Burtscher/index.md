@@ -17,10 +17,10 @@ further:
     label: Homepage of Dr. Leonard Burtscher
     eUrl: http://ileo.de/
     description: Further information about Dr. Leonard Burtscher
-  - type: url
-    label: Paper Energy efficiency of data centers
-    eUrl: https://www.umweltbundesamt.de/sites/default/files/medien/11867/dokumente/17052023_policy_paper_enefg_chancen_fuer_die_rechenzentrums_und_it-branche.pdf
-    description:
+  #- type: url
+    #label: Paper Energy efficiency of data centers
+    #eUrl: https://www.umweltbundesamt.de/sites/default/files/medien/11867/dokumente/17052023_policy_paper_enefg_chancen_fuer_die_rechenzentrums_und_it-branche.pdf
+    #description:
 ---
 
 Dr. Leonard Burtscher, born 1982, married, three children. Studied physics in Würzburg and Edinburgh; doctorate in astronomy at the Max Planck Institute for Astronomy, Heidelberg on "Mid-infrared interferometry of AGN cores" (2011); postdoc at the Max Planck Institute for Extraterrestrial Physics / Infrared Group, Garching near Munich; 2017-2022 staff scientist at Leiden University Observatory, Netherlands; co-founder of "Astronomers for Planet Earth" (2019); since September 2022 consultant for environmental and energy policy at the Umweltinstitut München e.V.
