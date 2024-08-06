@@ -3,7 +3,7 @@
 name: "Dr. Leonard Burtscher"
 shortDescription: "Consultant for environmental and energy policy at the Umweltinstitut München e.V."
 date: "2024-05-29"
-image: "Leonard-Burtscher.jpg"
+image: "Leonard-Burtscher.jpeg"
 type: ["Challenge giver"]
 caption: "Credits: Photo by Umweltinstitut München / Jörg Farys"
 
