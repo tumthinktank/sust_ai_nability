@@ -78,3 +78,9 @@
   year: Spring 2024
   experts: 
     - Dr. Leonard Burtscher
+- slug: product-circularity
+  title: "ProductGPT for product circularity"
+  description: "The challenge revolves around how ProductGPT can support the circularity of poducts and extend their lifetimes. This includes identifying, testing, and validating the most impactful use case, as well as enhancing and completing features and the overall user interface and experience."
+  year: Spring 2024
+  experts: 
+    - Christian Adler
