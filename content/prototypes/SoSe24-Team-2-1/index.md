@@ -8,7 +8,7 @@ challenge: waste-heat
 year: Spring 2024 #Spring/Winter
 team: Gabriel Brian-Grebot, Sophia Drimmel, Nicolas Haug, Vlad Panait, Patrick Mayer #6. Team members
 contactEmail: nicolas.haug@hm.edu
-caption: "Credits: Photo by PublicDomainPictures/ Pixabay"
+caption: "Credits: Photo by "
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
@@ -16,10 +16,24 @@ outputs:
     label: Project report #Name, der auf der Website zu sehen ist
     iUrl: "GreenHeatersReport-1.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
+  - type: pdf
+    label: Waste heat map script
+    iUrl: "wasteheat-code.pdf"
+    description: Matlab script of the waste heat map.
   - type: png
-    label: Prototype
-    iUrl: "Prototype.png"
-    description: Example of prototype "truth-o-meter"
+    label: Waste heat map 1
+    iUrl: "map-1.png"
+    description: Picture of the prototype.
+  - type: png
+    label: Waste heat map 1
+    iUrl: "map-2.png"
+    description: Picture of the prototype.
+  - type: png
+    label: Waste heat map 1
+    iUrl: "map-3.png"
+    description: Picture of the prototype.
+gallery:
+  -  "map-2.png"
 
 
 ---
