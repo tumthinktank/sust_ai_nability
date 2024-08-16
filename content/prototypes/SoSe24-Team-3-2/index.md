@@ -5,7 +5,7 @@ subtitle: "Our prototype empowers users to quickly access information, simplify 
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: "CoverPicture.jpg" #Foto in selben Ordner wie diese Datei
 challenge: product-circularity
-year: Spring 2023 #Spring/Winter
+year: Spring 2024 #Spring/Winter
 team: Karmen Bulai, Fabian Pfaff, Lea Sigethy, Josef Stolz, Hannah Koschinski, Paula Ulloa Krarup
 contactEmail:
 caption: "Credits: Photo by students"

@@ -5,7 +5,7 @@ subtitle: "AI-driven platform offering step-by-step repair guidance, connecting 
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: "repair_gpt-blog-image.png" #Foto in selben Ordner wie diese Datei
 challenge: product-circularity
-year: Spring 2023 #Spring/Winter
+year: Spring 2024 #Spring/Winter
 team: Eric Edelmann, Fabien Rieth, Lisa Schowalter, Bartholomew Sean Then, Moriz Trenkner, Abby Yue #6. Team members
 contactEmail:
 caption: "Credits: Photo by students"
