@@ -29,7 +29,7 @@ outputs:
     iUrl: "Productinformation2.png"
     description: Example of a productinformation
   - type: png
-    label: Prototype 1
+    label: Prototype 4
     iUrl: "CustomerReview.png"
     description: Example of a customer review
 gallery: #nur einfügen, wenn man direkt Bilder einfügen möchte
