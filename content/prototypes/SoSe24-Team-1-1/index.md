@@ -3,18 +3,18 @@
 name: "Navigating e-waste from data centers"
 subtitle: "Our prototype analyzes German data center e-waste, evaluates current regulations, and proposes sustainable solutions to improve industry-wide e-waste management practices."
 date: "2024-06-25" # Datum vom Pitch
-featuredImage: "Blog_post_image.jpg" #Bildquelle?
+featuredImage: "Bethany-Drouin_Pixabay.jpg"
 challenge: e-waste
 year: Spring 2024 #Semester
 team: Caroline Veau, Chiara Sabina Bariletto, Oliver Beringer, Jisna Kochukarotu, Rezoana Parvin, Agustin Miranda
 contactEmail:
-caption: "Credits: Photo by unknown"
+caption: "Credits: Photo by Bethany Drouin/ Pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "Report_Unitar1_Team1-1.pdf" #Pdf in selben Ordner wie diese Datei
+    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
   - type: png
     label: Data Center Facts 1
@@ -28,7 +28,10 @@ outputs:
     label: Recommandations
     iUrl: "Page3_Instapost_Unitar1.png"
     description: Recommandations to reduce E-waste
-
+gallery: #nur einfügen, wenn man direkt Bilder einfügen möchte
+  - "Page1_Instapost_Unitar1.png"
+  - "Page2_Instapost_Unitar1.png"
+  - "Page3_Instapost_Unitar1.png"
 
 ---
 

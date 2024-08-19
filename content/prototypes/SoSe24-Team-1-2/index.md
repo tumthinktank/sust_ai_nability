@@ -3,12 +3,12 @@
 name: "GreenCycle"
 subtitle: "Create a free tool to obtain e-waste estimation from sales that gives recommendation on data center sustainability."
 date: "2024-06-25" # Datum vom Pitch
-featuredImage: #"Blog_post_image.jpg" #Bildquelle?
+featuredImage: "Pete-Linforth_Pixabay.jpg"
 challenge: e-waste
 year: Spring 2024 #Semester
 team: Alisa Valentiner, Jannik Vieler, Johanna Fritzmeier, Roser Nicolau Cerisuelo, Thomas Heipke, Niklas Evmenenko
 contactEmail: thomas.heipke@tum.de
-caption: "Credits: Photo by unknown"
+caption: "Credits: Photo by Pete Linforth/ Pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
@@ -20,7 +20,8 @@ outputs:
     label: Prototype
     iUrl: "Bild1.png"
     description:
-
+gallery:
+  - "Bild1.png"
 
 ---
 
