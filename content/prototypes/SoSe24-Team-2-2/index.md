@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "GAID-Platform: German analysis and information database for data centers."
-subtitle: "A comprehensive platform providing data on data centers’ energy use and waste heat forsustainable urban planning and decision-making."
+subtitle: "A comprehensive platform providing data on data centers’ energy use and waste heat for sustainable urban planning and decision-making."
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: "PublicDomainPictures-Pixabay.jpg" #Foto in selben Ordner wie diese Datei
 challenge: waste-heat
@@ -14,12 +14,8 @@ caption: "Credits: Photo by "
 outputs:
   - type: pdf
     label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "ReHeatReport.pdf" #Pdf in selben Ordner wie diese Datei
+    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
-  - type: pdf
-    label: Waste heat map script
-    iUrl: "wasteheat-code.pdf"
-    description: Matlab script of the waste heat map.
   - type: jpg
     label: Waste heat map 1
     iUrl: "GAID_Platform.jpg"
@@ -38,6 +34,9 @@ outputs:
     description: Picture of the prototype.
 gallery:
   -  "GAID_Platform.jpg"
+  -  "GAID_Platform1.jpg"
+  -  "GAID_Platform2.jpg"
+  -  "GAID_Platform3.jpg"
 
 
 ---

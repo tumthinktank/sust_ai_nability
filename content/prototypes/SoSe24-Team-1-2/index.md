@@ -14,7 +14,7 @@ caption: "Credits: Photo by Clker-Free-Vector-Images/ Pixabay"
 outputs:
   - type: pdf
     label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "2NITAR_Report.pdf" #Pdf in selben Ordner wie diese Datei
+    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
   - type: png
     label: Prototype

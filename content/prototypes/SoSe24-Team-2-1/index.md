@@ -14,7 +14,7 @@ caption: "Credits: Photo by "
 outputs:
   - type: pdf
     label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "GreenHeatersReport-1.pdf" #Pdf in selben Ordner wie diese Datei
+    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
   - type: pdf
     label: Waste heat map script
@@ -33,7 +33,9 @@ outputs:
     iUrl: "map-3.png"
     description: Picture of the prototype.
 gallery:
+  -  "map-1.png"
   -  "map-2.png"
+  -  "map-3.png"
 
 
 ---
