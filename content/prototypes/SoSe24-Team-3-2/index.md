@@ -32,8 +32,12 @@ outputs:
     label: Prototype 4
     iUrl: "CustomerReview.png"
     description: Example of a customer review
-gallery: #nur einfügen, wenn man direkt Bilder einfügen möchte
-  -  "CoverPicture.jpg" #Foto in selben Ordner wie diese Datei
+gallery:
+  - "CoverPicture.jpg"
+  - "Takeback1.png"
+  - "Recommerce.jpg"
+  - "Productinformation2.png"
+  - "CustomerReview.png"
 
 ---
 Our solution encompasses five essential features: Decentralised Take-Backs, Recommerce, Detailed Product Information, Customer Reviews, and a Rewarding System. In detail, if the user wants to recycle or repair their product, Product-GPT provides information on take-back stations for recycling and repairing. Second, when the user wants to sell the product, Product-GPT facilitates peer-to-peer recommerce through a branded platform or a company program. Third, through detailed product information being provided by Product-GPT based on the costumers needs, the consumer confidence in their ability to care for clothing correctly is addressed. Fourth, through the integration of the analysis of costumer reviews important feedback will be provided to the company. Lastly, through a rewarding system where the costumer receives discounts when frequently using the app, costumers are encouraged to use our solution. Jointly they form a promising use case.
