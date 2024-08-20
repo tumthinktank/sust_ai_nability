@@ -3,12 +3,12 @@
 name: "GAID-Platform: German analysis and information database for data centers."
 subtitle: "A comprehensive platform providing data on data centers’ energy use and waste heat for sustainable urban planning and decision-making."
 date: "2024-06-25" # Datum vom Pitch
-featuredImage: "ri-Pixabay.jpg" #Foto in selben Ordner wie diese Datei
+featuredImage: "Peter-Skitterians_Pixabay.jpg" #Foto in selben Ordner wie diese Datei
 challenge: waste-heat
 year: Spring 2024 #Spring/Winter
 team: Belén Vásquez, Bilal Saeed, Ching Steven, Nicklas Nygaard, Leonie Gartner #6. Team members
 contactEmail: leonie.gartner@tum.de
-caption: "Credits: Photo by ri/ Pixabay"
+caption: "Credits: Photo by Peter Skitterians/ Pixabay"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
