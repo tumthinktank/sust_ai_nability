@@ -21,15 +21,15 @@ outputs:
     iUrl: "GAID_Platform.jpg"
     description: Picture of the prototype.
   - type: jpg
-    label: Waste heat map 1
+    label: Waste heat map 2
     iUrl: "GAID_Platform1.jpg"
     description: Picture of the prototype.
   - type: jpg
-    label: Waste heat map 1
+    label: Waste heat map 3
     iUrl: "GAID_Platform2.jpg"
     description: Picture of the prototype.
   - type: jpg
-    label: Waste heat map 1
+    label: Waste heat map 4
     iUrl: "GAID_Platform3.jpg"
     description: Picture of the prototype.
 gallery:
