@@ -14,7 +14,7 @@ caption: "Credits: Photo by students"
 outputs:
   - type: pdf
     label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "LoopID2-report.pdf" #Pdf in selben Ordner wie diese Datei
+    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
   - type: png
     label: Prototype 1
