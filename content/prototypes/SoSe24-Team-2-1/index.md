@@ -3,7 +3,7 @@
 name: "GreenHeat: Mapping Data Center Heat Reuse" # 1. Title of your prototype
 subtitle: "Interactive waste heat map of Germany with all relevant information for an efficient reuse of waste heat by data centers" # 2. One sentence explaining your prototype
 date: "2024-06-25" # Datum vom Pitch
-featuredImage: "map-2.png" #Foto in selben Ordner wie diese Datei
+featuredImage: "Titelfoto.png" #Foto in selben Ordner wie diese Datei
 challenge: waste-heat
 year: Spring 2024 #Spring/Winter
 team: Gabriel Brian-Grebot, Sophia Drimmel, Nicolas Haug, Vlad Panait, Patrick Mayer #6. Team members
