@@ -66,3 +66,27 @@
   experts: 
     - Lucía Lara Vargas
     - Bastian Burger
+- slug: e-waste
+  title: "Data centers, the new e-waste challenge?"
+  description: "The challenge involves quantifying data center e-waste in Germany, estimating waste generation, assessing current regulations, and proposing improvements for data collection, policy, and recycling to address the growing environmental impact of data center equipment disposal." #5. Short description of your challenge
+  year: Spring 2024
+  experts: 
+    - Vanessa Forti
+- slug: waste-heat
+  title: "Waste heat from data centers: From problem to solution"
+  description: "The Umweltinstitut München e.V. challenge leverages data center waste heat for energy efficiency and sustainability. The goal is to quantify waste heat and explore its potential for heating. This supports the renewable energy transition and Germany’s energy consumption reduction targets."
+  year: Spring 2024
+  experts: 
+    - Dr. Leonard Burtscher
+- slug: product-circularity
+  title: "ProductGPT for product circularity"
+  description: "The challenge revolves around how ProductGPT can support the circularity of products and extend their lifetimes. This includes identifying, testing, and validating the most impactful use case, as well as enhancing and completing features and the overall user interface and experience."
+  year: Spring 2024
+  experts: 
+    - Christian Adler
+- slug: resource-efficiency
+  title: "Resource Take-Back for increase in City of Munich resource efficiency"
+  description: "The challenge is to ensure transparent and consistent resource flows to provide recycled material of certified quality and in large quantities to meet BMW's needs and help the city of Munich achieve its recycling targets."
+  year: Spring 2024
+  experts: 
+    - Aron Handreke
