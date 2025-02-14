@@ -1,6 +1,6 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FILTERING
 name: "Digital Future Challenge"
-shortDescription: " "
+shortDescription: "Shaping the future digitally"
 date: "2025-02-14" # Approximate date for sorting
 image: "Digital-Future-Challenge.jpg" # Photo placed in the same folder as this file
 type: ["Expert"] # ["Challenge giver, Expert"] possible combinations
@@ -9,9 +9,9 @@ caption: "Credits: Photo by Digital Future Challenge"
 ### OPTIONAL FURTHER DETAILS
 further:
   - type: url
-    label: Homepage SustAIn
-    eUrl: https://algorithmwatch.org/en/sustain/
-    description: Further information about the project sustAin
+    label: Homepage Digital Future Challenge
+    eUrl: https://www.digital-future-challenge.de/digital-future-challenge/
+    description: Further information about the Digital Future Challenge
 ---
 
 The Digital Future Challenge (DFC) is a joint project  of the Deloitte Foundation and the D21 initiative with the aim of examining responsibility in the course of digitalization, or digital responsibility for short , from different perspectives and developing solutions for digital-ethical issues.  
