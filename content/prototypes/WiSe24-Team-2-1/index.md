@@ -1,13 +1,13 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GridnAltion"
-subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
+name: "Johnnys Crew"
+subtitle: "AI-Powered Driving Insights for Safer Roads & a Greener Future."
 date: "2025-01-21" # Datum vom Pitch
 featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+challenge: BMW
 year: Winter 2024 #Semester
-team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
-contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
+team: Sebastian Kiunke, Lisa Martha Joséphine Schwartz, Denis Werner, Rayen Fdhili
+contactEmail: 
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
@@ -25,5 +25,5 @@ gallery:
 
 ---
 
-To enable district heating operators to join flexibility markets to support load management and grid stability they must be able to deliver the full requested power within five minutes. Due to thermal inertia a power to heat to power system is not able to reach this limit. With our Deep Learning Tool, we want to predict the time of activation signal for such energy storage systems, so that grid operators are able to start their thermal engines prior to the signal of the grid operators. Therefore, we want to use open-source data such as weather, grid, historical and operating data to train our tool. This will allow district heating operators to use their infrastructure as power to heat to power energy storages to participate in load management of the German electricity grid.
+When was the last time a driving instructor sat next to you in the car and analyzed or improved your driving style? We are consistently observed and assessed at school, at work and in sport, so why not driving, which has a very high environmental impact and claims thousands of lives every year? JohnnysAI is a recommendation-based artificial intelligence that evaluates user behavior while driving and compares it with other drivers. Anyone who implements these improvements not only helps to protect the climate, but also saves money.
 
