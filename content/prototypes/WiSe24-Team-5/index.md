@@ -1,10 +1,10 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Hope Harbor"
-subtitle: "A Digital Safe Space for Children with Domestic Violence Experiences"
+subtitle: "Hope Harbor: A Digital Safe Space for Children with Domestic Violence Experiences"
 date: "2025-01-21" # Datum vom Pitch
 featuredImage: "Website-Photo.jpeg"
-challenge: HopeHarbor
+challenge: Barmer
 year: Winter 2024 #Semester
 team: Victoria Neubert, Johannes Henselmann, Rong Cong
 contactEmail: victoria.neubert@tum.de, johannes.henselmann@tum.de, rong.cong@tum.de
