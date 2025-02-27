@@ -4,7 +4,7 @@ name: "DigiDuo"
 subtitle: "Infrared AI: Revolutionizing Deutsche Bahn."
 date: "2025-01-21" # Datum vom Pitch
 featuredImage: "Website-Photo.jpg"
-challenge:DB
+challenge: DB
 year: Winter 2024 #Semester
 team: Dian Zhuang, Muhammad Zaeem Shaukat
 contactEmail: 
