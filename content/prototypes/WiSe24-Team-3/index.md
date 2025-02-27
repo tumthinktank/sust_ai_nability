@@ -4,7 +4,7 @@ name: "GridnAltion"
 subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
 date: "2025-01-21" # Datum vom Pitch
 featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+challenge: DBU-Deutsche-Bundesstiftung-Umwelt
 year: Winter 2024 #Semester
 team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
 contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
