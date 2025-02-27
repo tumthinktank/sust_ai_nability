@@ -1,13 +1,13 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GridnAltion"
-subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
+name: "NORA"
+subtitle: "Enhancing Women's Safety in Autonomous Public Transit."
 date: "2025-01-21" # Datum vom Pitch
-featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+featuredImage: "Website-Picture.jpg"
+challenge: Berlin-Verkehrsbetriebe-BVG
 year: Winter 2024 #Semester
-team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
-contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
+team: Catherine Laurensia, Chandana Mahesh, Clara Voß, Leon Löw
+contactEmail: 
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
@@ -16,14 +16,14 @@ outputs:
     label: Project report #Name, der auf der Website zu sehen ist
     iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
-  - type: png
+  - type: jpg
     label: Prototype
-    iUrl: "Website-Photo.png"
+    iUrl: "Website-Picture.jpg"
     description:
 gallery:
-  - "Website-Photo.png"
+  - "Website-Picture.jpg"
 
 ---
 
-To enable district heating operators to join flexibility markets to support load management and grid stability they must be able to deliver the full requested power within five minutes. Due to thermal inertia a power to heat to power system is not able to reach this limit. With our Deep Learning Tool, we want to predict the time of activation signal for such energy storage systems, so that grid operators are able to start their thermal engines prior to the signal of the grid operators. Therefore, we want to use open-source data such as weather, grid, historical and operating data to train our tool. This will allow district heating operators to use their infrastructure as power to heat to power energy storages to participate in load management of the German electricity grid.
-
+Our prototype enhances both comfort and security in autonomous buses through two interconnected features. First, an infotainment system—accessible via a tablet in front of each passenger—allows users to preview their destination in daylight, find the safest routes, and share their journey with friends and family. To further improve the travel experience, free Wi-Fi and charging ports are provided. Second, integrated sensors inside the bus assess situations in real-time using infrared
+technology. If a potentially critical situation arises, the system alerts passengers by displaying relevant information on their tablets. In such cases, each passenger has the option to connect directly with the BVG Control Room, where a human operator can assess the situation and take appropriate action. By combining these technologies, our solution enhances both the actual and perceived safety of autonomous buses, ensuring that all passengers feel secure and empowered to use this innovative form of transportation.
