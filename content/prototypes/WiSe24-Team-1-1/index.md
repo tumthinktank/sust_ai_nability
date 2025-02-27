@@ -1,13 +1,13 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GridnAltion"
-subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
+name: "BXA VanGuard"
+subtitle: "Empowering Women with Smart, Safe, and Informed Navigation."
 date: "2025-01-21" # Datum vom Pitch
-featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+featuredImage: "Website-Picture.jpg"
+challenge: Berlin-Verkehrsbetriebe-BVG
 year: Winter 2024 #Semester
-team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
-contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
+team:  Xinjie Jiang, Viswanath Amrutha 
+contactEmail:
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
@@ -16,14 +16,15 @@ outputs:
     label: Project report #Name, der auf der Website zu sehen ist
     iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
-  - type: png
+  - type: jpg
     label: Prototype
-    iUrl: "Website-Photo.png"
+    iUrl: "Website-Picture.jpg"
     description:
 gallery:
-  - "Website-Photo.png"
+  - "Website-Picture.jpg"
 
 ---
 
-To enable district heating operators to join flexibility markets to support load management and grid stability they must be able to deliver the full requested power within five minutes. Due to thermal inertia a power to heat to power system is not able to reach this limit. With our Deep Learning Tool, we want to predict the time of activation signal for such energy storage systems, so that grid operators are able to start their thermal engines prior to the signal of the grid operators. Therefore, we want to use open-source data such as weather, grid, historical and operating data to train our tool. This will allow district heating operators to use their infrastructure as power to heat to power energy storages to participate in load management of the German electricity grid.
+VanGuard integrates transport and crime data from institutions into its mobile app and in-vehicle kiosk system. The app, integrated with BVG Muva, uses an AI model for predictive analytics and image-based monitoring. This AI-driven approach enables route planning focused on safety by identifying potential risks through AV sensors and feeding optimized routes into the autonomous vehicle's (AV) navigation system. The system synthesizes commuter feedback and area-based insights gathered through an in-app community, enhancing safety and user experience. Emergency services can also tap into this ecosystem for timely interventions. By collecting and harmonizing diverse data inputs, VanGuard prioritizes safety parameters in route planning, fostering a secure commuting environment. The loop of continuous data gathering, analysis, and feedback creates a robust framework for safer urban mobility.
 
+---
