@@ -4,7 +4,7 @@ name: "Earthlytics"
 subtitle: "Enhancing DestinE with AI for an intuitive and engaging user experience."
 date: "2025-01-21" # Datum vom Pitch
 featuredImage: "Website-Photo.jpg"
-challenge: Earthlytics
+challenge: Serco
 year: Winter 2024 #Semester
 team: Mariia Kotenko, Juraj Marinic, Ray Rahnam, Felix Schmid-Lindenmayer
 contactEmail: 
