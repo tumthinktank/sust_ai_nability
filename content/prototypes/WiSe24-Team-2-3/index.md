@@ -1,29 +1,46 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GridnAltion"
-subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
+name: "RouteGuard"
+subtitle: "RouteGuard – Smart and Safe Cycling Navigation."
 date: "2025-01-21" # Datum vom Pitch
-featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+featuredImage: "1Website-Photo.png"
+challenge: BMW
 year: Winter 2024 #Semester
-team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
-contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
+team: Robin Cleve, Harsh Kumar, Amlanjyoti Kalita, Tariel Gabrielyan
+contactEmail: 
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
-  - type: pdf
-    label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
-    description: Further information about the progress, milestones, and roadblocks.
   - type: png
     label: Prototype
-    iUrl: "Website-Photo.png"
+    iUrl: "1Website-Photo.png"
     description:
-gallery:
-  - "Website-Photo.png"
-
+    - type: png
+    label: Prototype - 1
+    iUrl: "Device02.png"
+    description:
+- type: png
+    label: Prototype - 2
+    iUrl: "Website-photo1.png"
+    description:
+  - type: png
+    label: Prototype - 3
+    iUrl: "Website-Photo2.png"
+    description:
+ - type: png
+    label: Prototype - 4
+    iUrl: "Website-Photo3.png"
+    description:
+   
+  gallery:
+  - "1Website-Photo.png"
+  - "Device02.png"
+  - "Website-photo1.png"
+  - "Website-Photo2.png"
+  - "Website-Photo3.png"
 ---
 
-To enable district heating operators to join flexibility markets to support load management and grid stability they must be able to deliver the full requested power within five minutes. Due to thermal inertia a power to heat to power system is not able to reach this limit. With our Deep Learning Tool, we want to predict the time of activation signal for such energy storage systems, so that grid operators are able to start their thermal engines prior to the signal of the grid operators. Therefore, we want to use open-source data such as weather, grid, historical and operating data to train our tool. This will allow district heating operators to use their infrastructure as power to heat to power energy storages to participate in load management of the German electricity grid.
+RouteGuard is a data-driven cycling navigation app designed to enhance safety for urban cyclists. It aggregates data from police reports, insurance claims, and connected vehicle systems to provide route recommendations that prioritize accident-free paths. The app operates on a free and premium model, allowing users to access basic routing features for free while offering advanced safety insights as a premium service. By partnering with cities and organizations like BMW, RouteGuard also contributes to strategic data collection for urban planning and sustainability goals. The solution addresses increasing cycle accidents in high-traffic areas, helping individuals make informed travel decisions while supporting cities in optimizing their cycling infrastructure. With a user-friendly interface and strong data security measures, RouteGuard represents a practical and scalable approach to safer urban cycling.
+
 
