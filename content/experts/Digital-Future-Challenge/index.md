@@ -14,7 +14,7 @@ further:
     description: Further information about the Digital Future Challenge
 ---
 
-The Digital Future Challenge (DFC) is a joint project  of the Deloitte Foundation and the D21 initiative with the aim of examining responsibility in the course of digitalization, or digital responsibility for short , from different perspectives and developing solutions for digital-ethical issues.  
+The Digital Future Challenge (DFC) is a joint project of the Deloitte Foundation and the D21 initiative with the aim of examining responsibility in the course of digitalization, or digital responsibility for short , from different perspectives and developing solutions for digital-ethical issues.  
 
 ### About the Organizers
 
