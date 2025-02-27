@@ -1,13 +1,13 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GridnAltion"
-subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
+name: "SustAInavators"
+subtitle: "CARMA, the collaborative vehicle data platform, unifying all vehicle data in one single place."
 date: "2025-01-21" # Datum vom Pitch
 featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+challenge: BMW
 year: Winter 2024 #Semester
-team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
-contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
+team: Marcel Hofmann, Ahmed Mhamdi, Andreas Zwingler
+contactEmail: 
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
@@ -25,5 +25,5 @@ gallery:
 
 ---
 
-To enable district heating operators to join flexibility markets to support load management and grid stability they must be able to deliver the full requested power within five minutes. Due to thermal inertia a power to heat to power system is not able to reach this limit. With our Deep Learning Tool, we want to predict the time of activation signal for such energy storage systems, so that grid operators are able to start their thermal engines prior to the signal of the grid operators. Therefore, we want to use open-source data such as weather, grid, historical and operating data to train our tool. This will allow district heating operators to use their infrastructure as power to heat to power energy storages to participate in load management of the German electricity grid.
+CARMA is an universal and cohesive data platform for vehicle data. Our solution strives to be as open and fair as possible, with the goal of unifying all vehicle data in one single place. Data will be collected via the existing OBD interface, which every modern car has. We will collect vehicle data, like acceleration and fuel consumption via the OBD interface, consolidate it with the on board gps module, then encrypt and anonymise it and send it to CARMA. To ensure that other manufacturers are willing to share their data, we have created an attractive incentive system. This system is based on rewarding contributions, meaning the more data a manufacturer shares, the more it can receive. CARMA will not directly improve the sustainability or experience of driving, however it is crucial for developing tools that will achieve this, for example Intelligent Urban Infrastructure or Emission Optimisation.
 
