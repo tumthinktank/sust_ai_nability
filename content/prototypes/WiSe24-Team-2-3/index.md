@@ -20,7 +20,7 @@ outputs:
     label: Prototype - 1
     iUrl: "Device02.png"
     description:
-- type: png
+  - type: png
     label: Prototype - 2
     iUrl: "Website-photo1.png"
     description:
@@ -28,7 +28,7 @@ outputs:
     label: Prototype - 3
     iUrl: "Website-Photo2.png"
     description:
- - type: png
+  - type: png
     label: Prototype - 4
     iUrl: "Website-Photo3.png"
     description:
