@@ -1,29 +1,24 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GridnAltion"
-subtitle: "AI enhanced power to heat to power energy storage in district heating grids."
+name: "DigiDuo"
+subtitle: "Infrared AI: Revolutionizing Deutsche Bahn."
 date: "2025-01-21" # Datum vom Pitch
-featuredImage: "Website-Photo.png"
-challenge: GridnAltion
+featuredImage: "Website-Photo.jpg"
+challenge:DB
 year: Winter 2024 #Semester
-team: Kilian Golinski, Henry Klein, Alper Kinaci, Bikram Dutta
-contactEmail: kilian.golinski@tum.de, henry.klein@tum.de
+team: Dian Zhuang, Muhammad Zaeem Shaukat
+contactEmail: 
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
-  - type: pdf
-    label: Project report #Name, der auf der Website zu sehen ist
-    iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
-    description: Further information about the progress, milestones, and roadblocks.
-  - type: png
+  - type: jpg
     label: Prototype
-    iUrl: "Website-Photo.png"
+    iUrl: "Website-Photo.jpg"
     description:
 gallery:
-  - "Website-Photo.png"
+  - "Website-Photo.jpg"
 
 ---
 
-To enable district heating operators to join flexibility markets to support load management and grid stability they must be able to deliver the full requested power within five minutes. Due to thermal inertia a power to heat to power system is not able to reach this limit. With our Deep Learning Tool, we want to predict the time of activation signal for such energy storage systems, so that grid operators are able to start their thermal engines prior to the signal of the grid operators. Therefore, we want to use open-source data such as weather, grid, historical and operating data to train our tool. This will allow district heating operators to use their infrastructure as power to heat to power energy storages to participate in load management of the German electricity grid.
-
+By utilizing infrared cameras, we balance AI-driven data applications like intelligent seat management and threat detection with passenger privacy concerns. This approach ensures ethical data collection while enhancing train safety, operational efficiency, and fostering trust in innovative rail solutions.
