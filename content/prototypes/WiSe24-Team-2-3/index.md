@@ -33,7 +33,7 @@ outputs:
     iUrl: "Website-Photo3.png"
     description:
    
-  gallery:
+gallery:
   - "1Website-Photo.png"
   - "Device02.png"
   - "Website-photo1.png"
