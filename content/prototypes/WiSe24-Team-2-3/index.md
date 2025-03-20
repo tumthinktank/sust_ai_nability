@@ -17,19 +17,19 @@ outputs:
     iUrl: "1Website-Photo.png"
     description:
   - type: png
-    label: Prototype - 1
+    label: Prototype1
     iUrl: "Device02.png"
     description:
   - type: png
-    label: Prototype - 2
+    label: Prototype2
     iUrl: "Website-photo1.png"
     description:
   - type: png
-    label: Prototype - 3
+    label: Prototype3
     iUrl: "Website-Photo2.png"
     description:
   - type: png
-    label: Prototype - 4
+    label: Prototype4
     iUrl: "Website-Photo3.png"
     description:
    
