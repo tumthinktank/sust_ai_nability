@@ -27,7 +27,7 @@ const ExpertTemplate = ({
   let initiatedChallenges = challenges.nodes
   // console.log("a", initiatedChallenges)
   initiatedChallenges = initiatedChallenges.filter(
-    c => c.experts.some(expert => expert.frontmatter.name === post.frontmatter.name)
+    c => c.experts.some(expert => expert?.frontmatter?.name === post?.frontmatter?.name)
   )
   // console.log("b", initiatedChallenges)
 
