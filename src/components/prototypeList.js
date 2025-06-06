@@ -64,7 +64,7 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
               <footer>
                 <ul>
                   {post.frontmatter.challenge?.title && (
-                    <ListItem label="Prototype">
+                    <ListItem label="Challenge">
                       {post.frontmatter.challenge.title}
                     </ListItem>
                   )}

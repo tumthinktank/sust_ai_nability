@@ -15,7 +15,7 @@ const ExpertList = ({ experts, type }) => {
   // Apply filters
   if (type) {
     posts = posts.filter(p =>
-      p.childMarkdownRemark.frontmatter.type.includes(type)
+      p.childMarkdownRemark?.frontmatter?.type.includes(type)
     )
   }
 
@@ -65,7 +65,7 @@ export default function MyExpertList(props) {
   const data = useStaticQuery(graphql`
     {
       experts: allFile(
-        sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
+        sort: { childMarkdownRemark: { frontmatter: { name: ASC } } }
         limit: 1000
         filter: {
           sourceInstanceName: { eq: "expert" }
