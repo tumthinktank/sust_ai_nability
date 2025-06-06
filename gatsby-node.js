@@ -21,6 +21,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Get all markdown blog posts sorted by date
   let result = await graphql(`
     {
+      challenges: allChallengesYaml {
+        nodes {
+          experts {
+            frontmatter {
+              name
+            }
+          }
+        }
+      }
       prototypes: allFile(
         sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
         limit: 1000
@@ -35,7 +44,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
-          }
+          }          
         }
       }
       experts: allFile(
@@ -51,15 +60,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id
             fields {
               slug
-            }
-          }
-        }
-      }
-      challenges: allChallengesYaml {
-        nodes {
-          expert {
-            frontmatter {
-              name
             }
           }
         }

@@ -1,7 +1,7 @@
 {
   "name": "sustainability-ai",
   "private": true,
-  "description": "Prototypes and Perpectives for a Sustainable AI",
+  "description": "Prototypes and Perspectives for a Sustainable AI",
   "version": "0.1.0",
   "author": "Larissa Wunderlich",
   "dependencies": {
@@ -33,6 +33,7 @@
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
+    "ajv": "^8.17.1",
     "prettier": "^2.8.8"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",

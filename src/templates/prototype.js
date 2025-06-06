@@ -107,6 +107,8 @@ const PrototypeTemplate = ({
   if (post.frontmatter.gallery)
     post.frontmatter.gallery.map(img => galleryImages.push(getImage(img)))
 
+  //console.log(post.frontmatter.challenge);
+  
   return (
     <Layout location={location} title={siteTitle} mode="prototype">
       <Navbar title="Project detail" link="/prototypes" />
@@ -132,7 +134,7 @@ const PrototypeTemplate = ({
               <ul>
                 {post.frontmatter.challenge.experts.map(e => (
                   <li>
-                    <a href={`/expert${e.fields.slug}`}>{e.frontmatter.name}</a>
+                    <a href={`/expert${e?.fields.slug}`}>{e?.frontmatter.name}</a>
                   </li>
                 ))}
               </ul>

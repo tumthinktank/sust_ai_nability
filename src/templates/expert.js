@@ -146,6 +146,10 @@ export const pageQuery = graphql`
               layout: CONSTRAINED
               placeholder: BLURRED
               aspectRatio: 1.7
+              transformOptions: {
+                fit: COVER
+                cropFocus: CENTER
+              }
             )
           }
         }
