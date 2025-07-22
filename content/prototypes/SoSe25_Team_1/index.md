@@ -14,7 +14,7 @@ caption: "Credits: Photo by students"
 outputs:
   - type: pdf
     label: project report
-    iUrl: "Website-Photo.jpg"
+    iUrl: "Project Report.pdf"
     description: Project Report of Team F1
 gallery:
   - 
