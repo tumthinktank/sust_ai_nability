@@ -5,7 +5,7 @@ subtitle: "EcoVision is a platform that helps residents easily visualise sustain
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "MCube_Team1_Webseite_Bild.jpg"
 challenge: MCube
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Larissa Krebs, Elizaveta Dvorshchenko, Boris Gusev, Julia Anzer, Sweekrati Sachan
 contactEmail: Larissa.krebs@hm.edu, elisabeth.dvorsh@gmail.com, boris.gusev.98@gmail.com, julia.anzer@hm.edu, sweekrati17@gmail.com   
 caption: "Credits: Photo by students"

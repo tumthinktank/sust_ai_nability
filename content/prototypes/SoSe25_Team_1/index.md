@@ -5,7 +5,7 @@ subtitle: "Zammly engages citizens in caring for public spaces while offering sm
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "Blog Graphic.png"
 challenge: Fürstenfeldbruck
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Alice Oluwole, Helena Maudoux, Anahi Cordero Garcia, Sinem Bayazıt
 contactEmail: aliceoluwole@gmail.com 
 caption: "Credits: Photo by students"

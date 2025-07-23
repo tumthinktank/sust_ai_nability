@@ -5,7 +5,7 @@ subtitle: "Interactive web platform simulating traffic calming impacts in Fürst
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "website_visual-min.png"
 challenge: Fürstenfeldbruck
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Sebastian Wiest, Simon Zass, Linus Vock, Niels Duske
 
 contactEmail: +4916096784487

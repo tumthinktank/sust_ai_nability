@@ -5,7 +5,7 @@ subtitle: "AllMove motivates sustainable mobility by rewarding walking and cycli
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "Webseite_Allmove.jpeg"
 challenge: Kempten
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Sophie Otten, Fiona Römer, Philipp Stasswender, David Seibert
 contactEmail: s.otten@hm.edu, fiona.roemer@tum.de, philipp.stasswender@hm.edu, d.seibert@hm.edu
 caption: "Credits: Photo by students"

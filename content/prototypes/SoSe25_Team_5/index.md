@@ -5,7 +5,7 @@ subtitle: "The application will demonstrate how alternative transport routes can
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "Bild_Webseite.jpeg"
 challenge: Kempten
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Fiona Lau, Anton Rockenstein, Peter Trenkle, Leonie Münster
 contactEmail: f.lau@campus.lmu.de, anton.rockenstein@campus.lmu.de, p.trenkle@campus.lmu.de, l.muenster@campus.lmu.de
 caption: "Credits: Photo by students"

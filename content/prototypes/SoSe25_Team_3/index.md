@@ -5,7 +5,7 @@ subtitle: "A hybrid design-thinking process concept with a chatbot, to lower the
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "Blogpost_CoverPicture.jpg"
 challenge: Fürth
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Oskar Breitfeld, Chemie-Ingenieurwesen, TUM, Nina Lermer, Digital Engineering, HM, Katharina Kaun, Digital Engineering, HM, Duc Huy Nguyen, Politics & Technology, TUM
 contactEmail: duc-huy.nguyen@tum.de
 caption: "Credits: Photo by students"

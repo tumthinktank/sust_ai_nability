@@ -5,7 +5,7 @@ subtitle: "a Smart Consulting Tool for a Sustainable Family Cycling."
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "Families_freepiks.jpg"
 challenge: München
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Aurora del Amo Garcia, Ying Jin, Jingyuan Ma, Laura Santiago, Ruize Yuan
 contactEmail: 
 caption: "Credits: Photo by macrovector/freepiks"

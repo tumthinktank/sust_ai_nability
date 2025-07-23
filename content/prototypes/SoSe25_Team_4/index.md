@@ -5,7 +5,7 @@ subtitle: "A co-designed, AI-visualized underpass prototype shaped by citizen in
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "Picture_fuerth_2.jpeg"
 challenge: Fürth
-year: Summer 2025 #Semester
+year: Spring 2025 #Semester
 team: Shahzaib Hameed, Bui Nguyen Ngoc Huyen, Tianzhuo Wang, Andreas Ruthus
 contactEmail: shahzaib.hameed@tum.de
 caption: "Credits: Photo by students"
@@ -15,7 +15,7 @@ outputs:
   - type: pdf
     label: project report
     iUrl: "Project report_Team2_Furth_1.pdf"
-    description:
+    description: Project Report of Team 2 Fürth
 gallery:
   - "Picture_Process_Fuerth_Team2.jpg"
 
