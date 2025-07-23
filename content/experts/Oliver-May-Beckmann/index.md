@@ -3,7 +3,7 @@
 name: Oliver May-Beckmann
 shortDescription: "Managing Director of MCube"
 date: "2025-05-12"
-image: "Profilbild_Oliver_MayBeckmann.JPG" #image in same folder as this file
+image: "OMB_ausschnitt.png" #image in same folder as this file
 type: ["Challenge giver", "Expert"] #["Challenge giver, Expert"]
 caption: "Credits: Photo by Oliver May-Beckmann"
 

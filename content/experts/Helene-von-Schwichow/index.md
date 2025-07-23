@@ -3,9 +3,9 @@
 name: Helene von Schwichow
 shortDescription: Researcher and Project Manager at Technical University of Munich
 date: "2015-05-01"
-image: "TUM_Policy_Analysis_Portraits_dianaweidmann_5.jpg" #image in same folder as this file
+image: "HvS_Ausschnitt.png" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
-caption: "Credits: Photo by Nora Hollstein"
+caption: "Credits: Photo by Diana Weidmann"
 
 ### OPTIONAL FURTHER DETAILS
 further:

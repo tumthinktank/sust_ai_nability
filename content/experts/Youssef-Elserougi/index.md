@@ -3,7 +3,7 @@
 name: "Youssef Elserougi"
 shortDescription: "Tech Education Engineer at Hochschule München"
 date: "2015-04-1020"
-image: "Youssef_Elserougi_2_portrait.jpg" #image in same folder as this file
+image: "YE_Ausschnitt.png" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
 caption: "Credits: Photo by Diana Weidmann"
 
