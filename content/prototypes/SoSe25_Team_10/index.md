@@ -3,7 +3,7 @@
 name: "IsarSwitch"
 subtitle: "Personal consulting tool to calculate the cost of a car and provide sustainable alternatives."
 date: "2025-05-23" # Datum vom Pitch
-featuredImage: "Website-Photo.jpg"
+featuredImage: "IsarSwitch_Bild.jpeg"
 challenge: München
 year: Spring 2025 #Semester
 team: Ben Yahia Youssef (TUM), Hiltscher Yannick (HM), Schuster Quirin (TUM), Ferreira De Almeida Gonçalo (TUM)
