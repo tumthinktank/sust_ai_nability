@@ -3,7 +3,7 @@
 name: "Aron Handreke"
 shortDescription: "Founder an CEO of ContainerGrid"
 date: "2024-04-29"
-image: "Aron-Handreke.png" #Foto in selben Ordner wie diese Datei
+image: "Aron_Handreke_groß.png" #Foto in selben Ordner wie diese Datei
 type: ["Challenge giver"]
 caption: "Credits: Photo by ContainerGrid"
 

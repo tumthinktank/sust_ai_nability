@@ -41,8 +41,8 @@ Richard-Wagner-Straße 1
 E-Mail: helene.schwichow@tum.de 
 
 Charlotte Böhm, MUC.DAI, Hochschule München University of Applied Sciences
-Lothstr. 64
-80333 Munich 
+Infanteriestr. 13
+80797 Munich 
 E-Mail: charlotte.boehm@hm.edu 
 Phone: 089 1265 3150
 

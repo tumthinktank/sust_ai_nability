@@ -3,7 +3,7 @@
 name: "Timo Böttcher"
 shortDescription: "Leader of the research group on digital business models and sustainability at the Krcmar Lab, Technical University of Munich (TUM)"
 date: "2024-05-29"
-image: "Timo-Boettcher.jpeg"
+image: "Timo-Boettcher_groß.png"
 type: ["Expert"]
 caption: "Credits: Photo by Timo Böttcher"
 

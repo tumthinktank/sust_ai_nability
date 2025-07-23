@@ -1,92 +1,159 @@
-
 - slug: marine-litter
   title: "Finding garbage in the ocean: Can you beat the experts?"
-  description: "Researchers have annotated a dataset containing pictures from around the world to pick out pixels containing marine debris. Others have proposed a basic model to detect this litter. The challenge is: can you make their model better?" 
+  description: "Researchers have annotated a dataset containing pictures from around the world to pick out pixels containing marine debris. Others have proposed a basic model to detect this litter. The challenge is: can you make their model better?"
   year: Spring 2023
-  experts: 
+  experts:
     - Dr. Paul Springer
 - slug: fashion-industry
   title: AI Transforms the Fashion Industry for Circularity
   description: "The fashion industry faces social, environmental, and economic sustainability challenges, with issues such as unsafe working conditions, carbon emissions, waste crisis, and inadequate waste management. A Digital Product Passport (DPP) addresses these challenges, aiming to share essential sustainability and circularity information across industry stakeholders and empower consumers to make sustainable choices. The DPP requirements cover various aspects of the product life cycle and create the need for innovation management in areas like brand-customer interaction, authentication, warehouse management, and demonstrating sustainability's impact on business. The goal is to create a circular fashion value chain while ensuring compliance and maintaining or growing profit margins."
   year: Spring 2023
-  experts: 
+  experts:
     - Carina Legl
 - slug: argument-mining
   title: Mining Arguments
   description: The challenge of argument mining involves extracting and analyzing arguments from textual sources, such as discussions or debates, to identify and understand the underlying claims, evidence, and reasoning. By uncovering and organizing arguments, argument mining aims to provide insights, facilitate information synthesis, and support decision-making processes.
   year: Spring 2023
-  experts: 
+  experts:
     - Vinzent Ellissen
 - slug: eu-ai-act
   title: "Does the EU AI Act promote socially sustainable AI?"
   description: "The challenge involves a detailed analysis of current version of the EU AI Act with a focus on the question: In how far does the EU AI Act promote social sustainability goals? The goal is to provide some suggestions for improvement to be forwarded to MEP and shadow rapporteur, Alex Voss."
   year: Spring 2023
-  experts: 
+  experts:
     - Felix Rank
 - slug: ai-model-cards
   title: "AI Model Cards - a new concept to standardize environmental reporting for AI models"
   description: The challenge is to propose clearly defined sustainability indicators that could be included as part of a standardization drive for AI model cards, which can provide regulators with comparable benchmarks that measure sustainability practices of AI models across regulatory environments
   year: Spring 2023
-  experts: 
+  experts:
     - Johannes Leon Kirnberger
 - slug: analyzer-data
   title: "Unlock circularity and avoid waste."
   description: "Imagify seeks to come up with product improvement suggestions based on customer feedback. Processing huge chunks of visual and textual data is a great challenge. A machine learning system that processes this information and recognizes common problems is vital.  Support Imagify with a process that translates qualitative context information around photos into key-take-aways to help engineers and designers even more to minimize their time-efforts and maximize their ability to deduct actionable insights."
   year: Spring 2023
-  experts: 
+  experts:
     - Stefan Hauser
 - slug: sustainable-truth
   title: "Sustainable Truth"
   description: "How can we leverage AI to identify and validate sustainability assumptions?"
   year: Winter 2023
-  experts: 
+  experts:
     - Vinzent Ellissen
 - slug: verifying-product-carbon-footprints
   title: "Verifying Product Carbon Footprints"
   description: "The SINE Foundation's challenge centers on using AI to verify product carbon footprints and improve data quality for sustainability initiatives, while managing complexities in carbon footprint calculations."
   year: Winter 2023
-  experts: 
+  experts:
     - Aurel Stenzel
 - slug: ethical-challenges-of-ai
   title: "Didactic approaches to teaching ethical challenges of Artificial Intelligence"
   description: "As AI causes prominent paradigm shifts in society, the demand for advanced knowledge of the ethical challenges of AI increases. By leveraging diverse didactical methods, we developed a workshop to sharpen industry and political actors’ expertise of ethical AI."
   year: Winter 2023
-  experts: 
+  experts:
     - Felix Rank
 - slug: ai-transforms-fashion-industry
   title: "AI Transforms the Fashion Industry for Circular Commerce"
   description: "How can AI-driven analysis and algorithms optimize pricing strategies for pre-owned fashion items and goods in the resale market, considering various factors such as market trends, consumer behavior, product condition, stocks, and demand fluctuations, to ensure competitive pricing and maximize profitability?"
   year: Winter 2023
-  experts: 
+  experts:
     - Carina Legl
 - slug: sustainable-ecosystem
   title: "Creating a fully sustainable startup ecosystem"
   description: "The challenge consists of establishing a sustainable startup ecosystem in which not only big companies, but also small companies are able to solve their problems concerning sustainability in all its dimensions."
   year: Winter 2023
-  experts: 
+  experts:
     - Lucía Lara Vargas
     - Bastian Burger
 - slug: e-waste
   title: "Data centers, the new e-waste challenge?"
   description: "The challenge involves quantifying data center e-waste in Germany, estimating waste generation, assessing current regulations, and proposing improvements for data collection, policy, and recycling to address the growing environmental impact of data center equipment disposal." #5. Short description of your challenge
   year: Spring 2024
-  experts: 
+  experts:
     - Vanessa Forti
 - slug: waste-heat
   title: "Waste heat from data centers: From problem to solution"
   description: "The Umweltinstitut München e.V. challenge leverages data center waste heat for energy efficiency and sustainability. The goal is to quantify waste heat and explore its potential for heating. This supports the renewable energy transition and Germany’s energy consumption reduction targets."
   year: Spring 2024
-  experts: 
+  experts:
     - Dr. Leonard Burtscher
 - slug: product-circularity
   title: "ProductGPT for product circularity"
   description: "The challenge revolves around how ProductGPT can support the circularity of products and extend their lifetimes. This includes identifying, testing, and validating the most impactful use case, as well as enhancing and completing features and the overall user interface and experience."
   year: Spring 2024
-  experts: 
+  experts:
     - Christian Adler
 - slug: resource-efficiency
   title: "Resource Take-Back for increase in City of Munich resource efficiency"
   description: "The challenge is to ensure transparent and consistent resource flows to provide recycled material of certified quality and in large quantities to meet BMW's needs and help the city of Munich achieve its recycling targets."
   year: Spring 2024
-  experts: 
+  experts:
     - Aron Handreke
+- slug: Berlin-Verkehrsbetriebe-BVG
+  title: "How can the safety of women in autonomous public transport be strengthened?"
+  description: "Autonomous driving in local public transport offers great potential for the mobility of the future. What needs to be considered for the objective and/or subjective safety of women* in public transport with a focus on autonomous driving?"
+  year: Winter 2024
+  experts:
+    - Digital Future Challenge
+- slug: DB
+  title: "The use of video sensor technology in long-distance trains: An ethical and practical consideration"
+  description: "Using video sensors in long-distance trains enhances safety, emergency response, and service quality through AI while addressing privacy, consent, and ethical data use challenges, ensuring passenger trust and balancing technological benefits with individual rights."
+  year: Winter 2024
+  experts:
+    - Digital Future Challenge
+- slug: Serco
+  title: "Making Climate Data Accessible: Improving DestinE’s Usability for Scientists, Developers, and Policymakers"
+  description: "The project aims to enhance user engagement on the Destination Earth (DestinE) platform by improving accessibility, interaction, and usability of climate data, enabling scientists, policymakers, and developers to leverage digital twin technology for informed climate decision-making and collaboration."
+  year: Winter 2024
+  experts:
+    - Digital Future Challenge
+- slug: DBU-Deutsche-Bundesstiftung-Umwelt
+  title: "The stable electricity supply of the future"
+  description: "The energy transition is decentralizing power generation, replacing traditional centralized supply. However, the grid isn't designed for rising demand and fluctuating renewable energy inputs. Therefore, smart innovations to enable flexible load management to ensure resilience of the system are needed."
+  year: Winter 2024
+  experts:
+    - Digital Future Challenge
+- slug: Barmer
+  title: "Mental Health of Children Experiencing Violence"
+  description: "Domestic violence harms children’s mental health and development, increasing risks of future victim or perpetrator roles. Our inclusive digital solution meets this challenge by fostering resilience, stress management, and long-term prevention through engaging, accessible tools that support emotional well-being and break the cycle of abuse."
+  year: Winter 2024
+  experts:
+    - Digital Future Challenge
+- slug: BMW
+  title: "How can connected vehicle data contribute to sustainable urban development?"
+  description: "How can connected vehicle data contribute to sustainable urban development? How and which vehicle data can be collected and used? How can the privacy off the car owner be ensured?"
+  year: Winter 2024
+  experts:
+    - Digital Future Challenge
+- slug: Fürstenfeldbruck
+  title: "Understanding and predicting the effects of traffic calming measures on sustainability"
+  description: "How can traffic-calming measures affect mobility, environmental quality, and public acceptance in urban areas like Schöngeisinger Street in Fürstenfeldbruck?"
+  year: Spring 2025
+  experts:
+    - Montserrat Miramontes
+- slug: Fürth
+  title: "How can citizens be involved in a design thinking process to make a pedestrian underpass barrier-free and safe?"
+  description: "The challenge revolves around the redesign of the Luisentunnel. However, the core problem is to create a public participation process that is truly inclusive. Municipalities face the issue that often the same social group, and foremost the exact same people, always attend most of the public participation processes."
+  year: Spring 2025
+  experts:
+    - Matthias Beck
+- slug: München
+  title: "Changing Mobility Behaviour through Personalised Consulting"
+  description: "The development of a tool designed to provide personalized individual mobility behavior consulting, with the aim of effectively guiding individuals toward more sustainable transport choices"
+  year: Spring 2025
+  experts:
+    - Sonja Kaemmler
+    - Monika Ludwig
+    - Dr. Andrea Glogger
+- slug: MCube
+  title: "My MCube Street of Tomorrow” – How can AI help people imagine the urban mobility transition at their own doorstep"
+  description: "We aim to create an AI-powered digital tool that helps citizens and municipalities visualize sustainable mobility futures right on their doorstep—personalized, playful, and easy to share. The goal: make MCube’s research tangible, inspire local action, and scale impact through digital storytelling and social platforms."
+  year: Spring 2025
+  experts:
+    - Oliver May-Beckmann
+- slug: Kempten
+  title: "Options for a reorganization of inner-city car traffic"
+  description: "The challenge is to transform the planned closure of the St. Mang bridge from a logistical task into an opportunity to encourage sustainable behavioral change in the city center of Kempten among residents through information provision."
+  year: Spring 2025
+  experts:
+    - Stefan Sommerfeld

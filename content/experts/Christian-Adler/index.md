@@ -3,7 +3,7 @@
 name: "Christian Adler"
 shortDescription: "Co-Founder and Managing Director of LoopID"
 date: "2024-04-29"
-image: "Christian-Adler.jpeg" #Foto in selben Ordner wie diese Datei
+image: "Christian-Adler-groß.png" #Foto in selben Ordner wie diese Datei
 type: ["Challenge giver"]
 caption: "Credits: Photo by Christian Adler"
 

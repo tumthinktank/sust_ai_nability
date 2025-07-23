@@ -3,9 +3,9 @@
 name: Helene von Schwichow
 shortDescription: Researcher and Project Manager at Technical University of Munich
 date: "2015-05-01"
-image: "TUM_Policy_Analysis_Portraits_dianaweidmann_5.jpg" #image in same folder as this file
+image: "HvS_Ausschnitt.png" #image in same folder as this file
 type: ["Team"] #["Challenge giver, Expert"]
-caption: "Credits: Photo by Nora Hollstein"
+caption: "Credits: Photo by Diana Weidmann"
 
 ### OPTIONAL FURTHER DETAILS
 further:
@@ -19,7 +19,12 @@ further:
     description: Further profile information about Helene von Schwichow
 ---
 
-Helene v. Schwichow is a PhD researcher at the professorship for Policy Analysis at the Technical University of Munich (TUM). As the manager of the project “Digitainability,” she researches and teaches on the opportunities and risks of digital technologies for sustainable development. Before her work at TUM, she co-founded MOTIF Institute for Digital Culture, a think tank that worked at the intersection of technology and society. Helene has studied in Berlin and Paris and holds a master’s degree in communication in social and economic contexts from the Berlin University of the Arts.
+Helene von Schwichow has been a research assistant at the Professorship for Policy Analysis since February 2022 and conducts research on social sustainability issues in AI and smart city contexts as part of her PhD project.
+
+In the bidt-funded teaching and research project sustAInability - Perspectives and Prototypes, she investigates the potentials and challenges of AI technologies for sustainable development together with students and supports German municipalities in a sustainable digital transformation as Research Advisor of the Urban Digitainability Lab at the TUM Think Tank. 
+From 2022 to 2023, she was also responsible for the project “Digitainability: Promoting Responsibility & Implementing Innovations on a Project-Basis” at the Chair of Policy Analysis and was a fellow in the BMWK-funded Transatlantic Digital Debates program in 2022.
+
+
 
 Together with Charlotte Böhm, she is a coach at the joint project sustAInability.
 

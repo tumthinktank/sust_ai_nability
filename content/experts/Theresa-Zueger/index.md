@@ -3,9 +3,9 @@
 name: "Dr. Theresa Züger"
 shortDescription: "Head of AI & Society Lab and Public Interest AI Research Group"
 date: "2023-10-27" #muss noch geändert werden
-image: "Theresa-Zueger.jpg" #image in same folder as this file
+image: "Theresa-Zuger.png" #image in same folder as this file
 type: ["Expert"] #["Expert"]
-caption: "Credits: Photo by Theresa Zueger"
+caption: "Credits: Photo by Theresa Züger"
 
 ### OPTIONAL FURTHER DETAILS
 further:
