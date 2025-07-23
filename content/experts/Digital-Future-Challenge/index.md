@@ -1,11 +1,11 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FILTERING
-name: Digital Future Challenge
+name: Digital Future Challenge 2024
 shortDescription: "Shaping the future digitally"
-date: "2025-02-27" # Approximate date for sorting
-image: "Digital-Future-Challenge.jpg" # Photo placed in the same folder as this file
+date: "2024-12-27" # Approximate date for sorting
+image: "DFC24_Bild.png" # Photo placed in the same folder as this file
 type: ["Challenge giver"] # ["Challenge giver", "Expert"]
-caption: "Credits: Photo by Digital Future Challenge"
+caption: "Credits: Grafic by Digital Future Challenge"
 
 ### OPTIONAL FURTHER DETAILS
 further:
