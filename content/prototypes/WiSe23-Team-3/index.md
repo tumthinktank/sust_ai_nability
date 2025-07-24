@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Workshop to M.A.R.S. - Managing AI Responsibly and Sustainably"
-subtitle: "We crafted a workshop to efficiently and effectively transmit knowledge about ethical AI for political and industry leaders."
+name: "Workshop to M.A.R.S."
+subtitle: " M.A.R.S: Managing AI Responsibly and Sustainably - a workshop to efficiently and effectively transmit knowledge about ethical AI for political and industry leaders."
 date: "2023-12-03"
 featuredImage: "Dalle-Team3.png"
 challenge: ethical-challenges-of-ai
