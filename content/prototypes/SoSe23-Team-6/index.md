@@ -2,6 +2,7 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Review Analyzer Textual and Visual Data"
 subtitle: "Processing image and textual review data to provide product improvement suggestions with short- and long-term action plans."
+date: "2015-06-25"
 featuredImage: "tobias-tullius-unsplash.jpg" #image in same folder as this file
 challenge: analyzer-data
 year: Spring 2023

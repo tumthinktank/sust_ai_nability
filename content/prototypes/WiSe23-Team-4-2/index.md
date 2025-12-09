@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "An AI tool for optimal pricing in the second-hand fashion market"
+name: "AI for optimal pricing"
 subtitle: "Our AI model optimizes the price for pre-owned fashion items by collecting and analyzing all relevant factors that affect the price."
 date: "2023-12-03"
 featuredImage: "MiguelAPadrinan-Pixabay.jpg"
