@@ -13,15 +13,11 @@ caption: "Credits: Photo by students"
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
-    label: Project report #Name, der auf der Website zu sehen ist
+    label: Pitch Slides #Name, der auf der Website zu sehen ist
     iUrl: "Project-Report.pdf" #Pdf in selben Ordner wie diese Datei
     description: Further information about the progress, milestones, and roadblocks.
-  - type: png
-    label: Prototype
-    iUrl: "Website-Photo.png"
-    description:
-gallery:
-  - "Website-Photo.png"
+
+
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "EcoPath - Roadmap to Sustainability"
-subtitle: "Our AI-powered sustainability roadmap generator helps startups integrate sustainability into their business models seamlessly."
+name: "EcoPath"
+subtitle: "Roadmap to Sustainability: Our AI-powered sustainability roadmap generator helps startups integrate sustainability into their business models seamlessly."
 date: "2023-12-03"
 featuredImage: "Anja-Pixabay.jpg"
 challenge: sustainable-ecosystem

@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GAID-Platform: German analysis and information database for data centers."
+name: "GAID-Platform for data centers."
 subtitle: "A comprehensive platform providing data on data centers’ energy use and waste heat for sustainable urban planning and decision-making."
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: "Peter-Skitterians_Pixabay.jpg" #Foto in selben Ordner wie diese Datei

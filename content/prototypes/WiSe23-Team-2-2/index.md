@@ -1,6 +1,6 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "AI-Powered PCF Verification System"
+name: "PCF Verification System"
 subtitle: "Our prototype employs AI-driven Comparative Analysis Algorithms to improve accuracy and credibility in product carbon footprint calculations for sustainability initiatives."
 date: "2023-12-03"
 featuredImage: "BlackSalmon_shutterstock.png"

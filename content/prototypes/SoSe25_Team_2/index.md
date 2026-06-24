@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Traffic Calming Simulation Portal "
-subtitle: "Interactive web platform simulating traffic calming impacts in Fürstenfeldbruck, combining data analysis and citizen feedback for better planning."
+name: "PEEMO"
+subtitle: "Traffic Calming Simulation Portal: Interactive web platform simulating traffic calming impacts in Fürstenfeldbruck, combining data analysis and citizen feedback for better planning."
 date: "2025-05-23" # Datum vom Pitch
 featuredImage: "website_visual-min.png"
 challenge: Fürstenfeldbruck

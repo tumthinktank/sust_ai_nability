@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "GreenHeat: Mapping Data Center Heat Reuse" # 1. Title of your prototype
-subtitle: "Interactive waste heat map of Germany with all relevant information for an efficient reuse of waste heat by data centers" # 2. One sentence explaining your prototype
+name: "GreenHeat" # 1. Title of your prototype
+subtitle: "Mapping Data Center Heat Reuse: Interactive waste heat map of Germany with all relevant information for an efficient reuse of waste heat by data centers" # 2. One sentence explaining your prototype
 date: "2024-06-25" # Datum vom Pitch
 featuredImage: "Titelfoto.png" #Foto in selben Ordner wie diese Datei
 challenge: waste-heat

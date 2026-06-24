@@ -16,22 +16,7 @@ outputs:
     label: Prototype
     iUrl: "1Website-Photo.png"
     description:
-  - type: png
-    label: Prototype1
-    iUrl: "Device02.png"
-    description:
-  - type: png
-    label: Prototype2
-    iUrl: "Website-photo1.png"
-    description:
-  - type: png
-    label: Prototype3
-    iUrl: "Website-Photo2.png"
-    description:
-  - type: png
-    label: Prototype4
-    iUrl: "Website-Photo3.png"
-    description:
+  
    
 gallery:
   - "1Website-Photo.png"

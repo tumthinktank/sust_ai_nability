@@ -1,7 +1,7 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Objective Argument Extraction: A Neutral Approach to Analyzing Articles"
-subtitle: "An analytical framework for objectively extracting key claims from articles and evaluating their logical coherence and supporting evidence."
+name: "Objective Argument Extraction"
+subtitle: "A Neutral Approach to Analyzing Articles: An analytical framework for objectively extracting key claims from articles and evaluating their logical coherence and supporting evidence."
 date: "2023-06-25"
 featuredImage: "pixabay-team3-1.jpg" #image in same folder as this file
 challenge: argument-mining
