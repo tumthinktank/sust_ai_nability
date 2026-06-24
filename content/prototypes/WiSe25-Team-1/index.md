@@ -3,7 +3,7 @@
 name: "DINO - Digital Infrastructure Notation Operator"
 subtitle: "Turn hidden infrastructure into reliable data for smarter planning and maintenance"
 date: "2026-01-21" # Datum vom Pitch
-featuredImage: "Team_Dino.jpg"
+featuredImage: "Team_Dino.png"
 challenge: aconium GmbH
 year: Winter 2025 #Semester
 team: Ruilin Dong, Marius Hämmerle, Benedikt Köhler, Aastha Singh
