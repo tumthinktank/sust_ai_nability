@@ -155,3 +155,45 @@
   year: Spring 2025
   experts:
     - Stefan Sommerfeld
+- slug: aconium GmbH
+  title: "Smart Countryside Scouts"
+  description: "How can Smart Country Scouts be designed to systematically record existing infrastructure in public spaces?"
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
+- slug: Bechtle AG
+  title: "AI agents in use: Cross-generational knowledge bridge"
+  description: "How can a knowledge culture supported by technology be realised that works across generations, enables fair access, and ensure trust through transparent and traceable digital solutions?"
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
+- slug: Commerzbank AG
+  title: "Final Coach Agent: Don't be afraid of money - understand and master your finances"
+  description: "Development of an AI-powered voice assistand that helps young people understand financial products in a simple, understandable, and neutral way."
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
+- slug: Giesecke+Devrient GmbH 
+  title: "A new approach to starting a career"
+  description: "What does it mean for companies and young professionals when junior tasks are taken over by AI agents? How do we shape career entry and enable professional experience in an automated world?"
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
+- slug: Go Senior Ltd. 
+  title: "GoBot - the world's first digital relative?"
+  description: "An AI agent for seniors: What should the AI agent know, remember, be able to do, and, above all, be allowed to do?"
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
+- slug: Honda Research Institute Europe GmbH 
+  title: "Communication with robots - but how?"
+  description: "How can communication with robots and AI be designed today to meet expectations and individual preferences in the future?"
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
+- slug: ING Deutschland 
+  title: "Financial education reimagined - AI as a trusted partner in the ING app."
+  description: "Integration of AI agents in the banking app. The aim is to reach young people while at the same time focusing on data protection, security and transparency."
+  year: Winter 2025
+  experts:
+    - Digital Future Challenge 2025
