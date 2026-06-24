@@ -7,7 +7,6 @@ featuredImage: "Team_Dino.png"
 challenge: aconium GmbH
 year: Winter 2025 #Semester
 team: Ruilin Dong, Marius Hämmerle, Benedikt Köhler, Aastha Singh
-contactEmail: 
 caption: "Credits: Photo by students"
 
 ### OPTIONAL FURTHER DETAILS
