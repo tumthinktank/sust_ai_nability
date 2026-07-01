@@ -21,7 +21,13 @@ outputs:
     label: Documentation Team Dino
     iUrl: "Documentation_TeamDino.pdf"
     description: Documentation of Team DINO 
+
+gallery:
+  - "Dino_Pic.png"
+    
+
+
 ---
 
 Germany suffers 500 million Euro in annual infrastructure damage due to poor documentation. How do we move beyond paper and passive response?
-Our DINO uses an AI-driven, two-tier system (MOM for overview, KIDS for detail) to ensure complete, precise subsurface data in a single mission. We link efficiency with ethics, guaranteeing data privacy and cutting the project's carbon footprint. Privacy-by-design and EU hosting ensure trust from day one.
+Our solution is an autonomous robotic infrastructure scouting system designed to address critical data gaps in urban planning and public works. It combines two complementary robots: MOM, a mobile wide-area scanner, and KIDS, a smaller high-resolution unit for detailed inspections. Together, they collect underground and surface infrastructure data using technologies such as ground-penetrating radar and LiDAR. The system transforms fragmented or outdated records into accurate, up-to-date digital twins of public infrastructure. Data is processed with privacy-by-design principles, including real-time anonymization to ensure GDPR compliance and public acceptance. Results are visualized through transparent dashboards, enabling local authorities, utilities, and planners to coordinate more effectively. By reducing rework, safety risks, and uncertainty during infrastructure expansion, the prototype supports faster, more reliable planning for fiber optics, energy, and mobility projects while building trust in robotic technologies deployed in public spaces
