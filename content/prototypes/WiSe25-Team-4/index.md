@@ -1,28 +1,23 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "DINO - Digital Infrastructure Notation Operator"
-subtitle: "Turn hidden infrastructure into reliable data for smarter planning and maintenance"
+name: "InvestQuest"
+subtitle: "An Economic Playground"
 date: "2026-01-21" # Datum vom Pitch
-featuredImage: "Team_Dino.jpg"
-challenge: aconium GmbH
+featuredImage: "pexels-liza-summer.jpg"
+challenge: Commerzbank AG
 year: Winter 2025 #Semester
-team: Ruilin Dong, Marius Hämmerle, Benedikt Köhler, Aastha Singh
-contactEmail: 
-caption: "Credits: Photo by students"
+team: Macarena Yepes, Michael Auer, Mays Alsheikh, Pilar Maestre
+caption: "Credits: Photo by spexels.com / Liza Summer"
 
 ### OPTIONAL FURTHER DETAILS
-outputs:
-  - type: pdf
-    label: Pitch Team Dino
-    iUrl: "Pitch_TeamDino.pdf"
-    description: Pitch of Team DINO 
 
 outputs:
   - type: pdf
-    label: Documentation Team Dino
-    iUrl: "Documentation_TeamDino.pdf"
-    description: Documentation of Team DINO 
+    label: Documentation Team InvestQuest
+    iUrl: "Slide deck CommerzBank 1.pdf"
+    description: Documentation of Team InvestQuest
 ---
 
-Germany suffers 500 million Euro in annual infrastructure damage due to poor documentation. How do we move beyond paper and passive response?
-Our DINO uses an AI-driven, two-tier system (MOM for overview, KIDS for detail) to ensure complete, precise subsurface data in a single mission. We link efficiency with ethics, guaranteeing data privacy and cutting the project's carbon footprint. Privacy-by-design and EU hosting ensure trust from day one.
+InvestQuest turns financial fear into confidence. Guided by an AI financial tutor, teens aged 13–17 invest virtual capital in real markets, learning resilience diversification, and long-term discipline. With personalized feedback, they build responsible habits and at 18 seamlessly transition into Commerzbank to begin real wealth creation.
+End-to-end, multi-year pathway (ages 13–18) powered by F.I.N.N.—an adaptive AI mentor using real market data and virtual capital to instill resilient, responsible investing habits before a seamless transition into real-world Commerzbank banking.
+
