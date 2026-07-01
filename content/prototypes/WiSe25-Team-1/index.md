@@ -15,8 +15,6 @@ outputs:
     label: Pitch Team Dino
     iUrl: "Pitch_TeamDino.pdf"
     description: Pitch of Team DINO 
-
-outputs:
   - type: pdf
     label: Documentation Team Dino
     iUrl: "Documentation_TeamDino.pdf"
@@ -25,8 +23,6 @@ outputs:
 gallery:
   - "Dino_Pic.png"
     
-
-
 ---
 
 Germany suffers 500 million Euro in annual infrastructure damage due to poor documentation. How do we move beyond paper and passive response?
