@@ -16,8 +16,6 @@ outputs:
     label: Pitch Team The Companion
     iUrl: "Pitch_GoSenior.pdf"
     description: Pitch of Team The Companion
-
-outputs:
   - type: pdf
     label: Documentation Team Dino
     iUrl: "Documentation_TeamDino.pdf"
