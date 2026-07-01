@@ -17,10 +17,14 @@ outputs:
     label: Documentation Growth Pilot
     iUrl: "Documentation_GrowthPilot.pdf"
     description: Documentation of Growth Pilot
+  - type: pdf
+    label: Pitch Growth Pilot
+    iUrl: "GrowthPilot FINAL Pitch.pdf"
+    description: Pitch of Team Growth Pilot
 
   - type: url
     label: github link
-    iUrl: "Documentation_GrowthPilot.pdf"
+    iUrl: "https://github.com/samsmoon13/GrowthPilot"
     description: GrowthPilot Interactive Prototype
 
 gallery:
