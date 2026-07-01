@@ -4,7 +4,7 @@ name: "The Companion"
 subtitle: "An AI Assistant that Expands Social Opportunities and reduces Loneliness for older adults living alone"
 date: "2026-01-21" # Datum vom Pitch
 featuredImage: "pexels-caleboquendo.jpg"
-challenge: aconium GmbH
+challenge: Go Senior Ltd.
 year: Winter 2025 #Semester
 team: Ruilin Dong, Marius Hämmerle, Benedikt Köhler, Aastha Singh
 contactEmail: 
