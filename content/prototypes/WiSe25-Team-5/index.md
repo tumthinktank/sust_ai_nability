@@ -1,28 +1,23 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Growth Pilot"
-subtitle: "Turn hidden infrastructure into reliable data for smarter planning and maintenance"
+name: "Lumi"
+subtitle: "Financial assistance for teenagers"
 date: "2026-01-21" # Datum vom Pitch
-featuredImage: "Team_Dino.jpg"
-challenge: aconium GmbH
+featuredImage: "pexels-cottonbro.jpg"
+challenge: Commerzbank AG
 year: Winter 2025 #Semester
-team: Ruilin Dong, Marius Hämmerle, Benedikt Köhler, Aastha Singh
-contactEmail: 
-caption: "Credits: Photo by students"
+team: Catarina Malheiro, Emanuele Fortin, Chaeni Yoon
+contactEmail: catarinabrugger12@gmail.com, emanuele.fortin@outlook.de, happynii0906@gmail.com
+caption: "Credits: Photo by pexels.com/ cottonbro"
 
 ### OPTIONAL FURTHER DETAILS
-outputs:
-  - type: pdf
-    label: Pitch Team Dino
-    iUrl: "Pitch_TeamDino.pdf"
-    description: Pitch of Team DINO 
 
 outputs:
   - type: pdf
-    label: Documentation Team Dino
-    iUrl: "Documentation_TeamDino.pdf"
-    description: Documentation of Team DINO 
+    label: Documentation Team Lumi
+    iUrl: "Lumi_Commerzbank2.pdf"
+    description: Documentation of Team Lumi
 ---
 
-Germany suffers 500 million Euro in annual infrastructure damage due to poor documentation. How do we move beyond paper and passive response?
-Our DINO uses an AI-driven, two-tier system (MOM for overview, KIDS for detail) to ensure complete, precise subsurface data in a single mission. We link efficiency with ethics, guaranteeing data privacy and cutting the project's carbon footprint. Privacy-by-design and EU hosting ensure trust from day one.
+Lumi is a safe, teen-first AI that makes learning about money feel natural, fun, and real. It guides young users with simple micro-lessons, real-life simulations, and meaningful rewards, all without selling anything. A trusted space designed specifically for teens, offering verified guidance and protection that TikTok and ChatGPT cannot.
+Lumi transforms complex financial education for teens into a safe, engaging and gamified learning experience that is free from sales, pressure and misinformation.

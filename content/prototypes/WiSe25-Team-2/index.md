@@ -17,7 +17,20 @@ outputs:
     label: Documentation Growth Pilot
     iUrl: "Documentation_GrowthPilot.pdf"
     description: Documentation of Growth Pilot
+
+  - type: url
+    label: github link
+    iUrl: "Documentation_GrowthPilot.pdf"
+    description: GrowthPilot Interactive Prototype
+
+gallery:
+  - "AI-Answer.png"
+  - "Answer=Growth.png"
+  - "HomePage.png"
+  - "QuestionBox.png"
+  - "Resourse-Trees.png"
+  - "TheForest.png"
 ---
 
-GrowthPilot brings Bechtle's long-built knowledge pool to life. Imagine a virtual garden in which every insight becomes a seed that grows. New colleagues find their way faster and more efficiently using Chatbots, while experienced employees can share what they know with minimal effort. This helps the company preserve decades of expertise as generations change and new teams join.
-A practical, low-friction way to secure and transfer the company's collective expertise. Teams can function efficiently with less interruptions and dependence on single individuals. Clear, structured onboarding reduce misunderstandings, improve quality of work, and make contributions transparently visible, while promoting more efficient recording of collective knowledge.
+Bechtle faces the challenge of preserving decades of tacit knowledge as experienced employees retire and new colleagues join, risking knowledge loss and slower onboarding processes.
+GrowthPilot is an AI-powered knowledge-sharing prototype designed to preserve and activate Bechtle’s long-built organizational expertise. It visualizes knowledge as a virtual garden, where every insight becomes a seed that can grow, evolve, and be reused. Experienced employees can easily contribute their know-how with minimal effort, reducing barriers to knowledge sharing. New colleagues benefit from intelligent chatbots that guide them quickly to relevant information, accelerating onboarding and daily problem-solving. By structuring knowledge organically and making it accessible through conversational AI, GrowthPilot ensures that valuable expertise remains available even as generations change. The prototype supports continuous learning, fosters collaboration across teams, and helps the company maintain productivity and innovation in the long term.
