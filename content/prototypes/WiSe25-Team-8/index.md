@@ -1,28 +1,28 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
-name: "Growth Pilot"
-subtitle: "Turn hidden infrastructure into reliable data for smarter planning and maintenance"
+name: "JAZE"
+subtitle: "JAZE is an empathetic AI companion for elderly people, offering private, judgment-free emotional support through natural, comforting conversation."
 date: "2026-01-21" # Datum vom Pitch
-featuredImage: "Team_Dino.jpg"
+featuredImage: "pexels-matthias-kohler.jpg"
 challenge: aconium GmbH
 year: Winter 2025 #Semester
-team: Ruilin Dong, Marius Hämmerle, Benedikt Köhler, Aastha Singh
-contactEmail: 
-caption: "Credits: Photo by students"
+team: Jord van Nederveen, Elias Wetzel, Zhifei Lyu, Ahmed Magdy Ibrahim Elsayed Hassan
+caption: "Credits: Photo by pexels.com/Matthias Kohler"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
-    label: Pitch Team Dino
-    iUrl: "Pitch_TeamDino.pdf"
-    description: Pitch of Team DINO 
-
-outputs:
+    label: Pitch JAZE
+    iUrl: "Final Pitch JAZE.pdf"
+    description: Pitch Team JAZE 
   - type: pdf
-    label: Documentation Team Dino
-    iUrl: "Documentation_TeamDino.pdf"
-    description: Documentation of Team DINO 
+    label: Documentation JAZE
+    iUrl: "Documentation_JAZE.pdf"
+    description: Documentation Team JAZE 
+  - type: url
+    label: Website JAZE
+    iUrl: "https://aistudio.google.com/apps/drive/1IhshITqEc1uEg12G-10rWxK13kOESfaa?fullscreenApplet=true&showPreview=true&showAssistant=true"
+    description: Website JAZE
 ---
 
-Germany suffers 500 million Euro in annual infrastructure damage due to poor documentation. How do we move beyond paper and passive response?
-Our DINO uses an AI-driven, two-tier system (MOM for overview, KIDS for detail) to ensure complete, precise subsurface data in a single mission. We link efficiency with ethics, guaranteeing data privacy and cutting the project's carbon footprint. Privacy-by-design and EU hosting ensure trust from day one.
+JAZE is a conversational AI robot prototype designed to support lonely elderly through transparent, ethical, and emotionally safe human–robot interaction. The robot combines autonomous navigation with an AI-driven conversational system that focuses on non-judgmental listening, simple language, and emotional comfort. A key feature is its status lightbar, which visually communicates whether the robot is listening, thinking, or speaking, reducing misunderstandings and interruptions. JAZE uses an AI-generated avatar and natural voice to create an engaging dialogue without attempting to replace human relationships. Technically, the prototype is built on ROS and edge AI computing to ensure real-time responses and data privacy, with no personal data stored in the cloud. Designed as open-source and modular, JAZE can be extended with additional features while maintaining strict ethical boundaries, making it suitable as a supportive companion rather than an autonomous caregiver.
