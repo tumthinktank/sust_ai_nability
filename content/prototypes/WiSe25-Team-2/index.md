@@ -21,7 +21,6 @@ outputs:
     label: Pitch Growth Pilot
     iUrl: "GrowthPilot FINAL Pitch.pdf"
     description: Pitch of Team Growth Pilot
-
   - type: url
     label: github link
     iUrl: "https://github.com/samsmoon13/GrowthPilot"
