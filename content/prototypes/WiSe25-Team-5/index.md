@@ -17,6 +17,11 @@ outputs:
     label: Documentation Team Lumi
     iUrl: "Lumi_Commerzbank2.pdf"
     description: Documentation of Team Lumi
+
+  - type: pdf
+    label: Pitch Team Lumi
+    iUrl: "Lumi_pitch.pdf"
+    description: Pitch of Team Lumi
 ---
 
 Lumi is a safe, teen-first AI that makes learning about money feel natural, fun, and real. It guides young users with simple micro-lessons, real-life simulations, and meaningful rewards, all without selling anything. A trusted space designed specifically for teens, offering verified guidance and protection that TikTok and ChatGPT cannot.
