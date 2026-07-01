@@ -16,8 +16,6 @@ outputs:
     label: Pitch Green Machine
     iUrl: "GreenMachine_Pitch.pdf"
     description: Pitch Green Machine 
-
-outputs:
   - type: pdf
     label: Documentation Team Green Machine
     iUrl: "GreenMachine_documentation.pdf"
