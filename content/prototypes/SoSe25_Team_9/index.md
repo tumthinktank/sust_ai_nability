@@ -7,7 +7,6 @@ featuredImage: "Families_freepiks.jpg"
 challenge: München
 year: Spring 2025 #Semester
 team: Aurora del Amo Garcia, Ying Jin, Jingyuan Ma, Laura Santiago, Ruize Yuan
-contactEmail: 
 caption: "Credits: Photo by macrovector/freepiks"
 
 ### OPTIONAL FURTHER DETAILS
