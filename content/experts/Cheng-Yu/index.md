@@ -3,27 +3,33 @@
 name: "Cheng Yu"
 shortDescription: "Doctoral Candidate and Research Associate at Technical University of Munich"
 date: "2016-04-1020"
-image: "YE_Ausschnitt.png" #image in same folder as this file
+image: "Cheng_Yu.png" #image in same folder as this file
 type: ["Expert"] #["Challenge giver, Expert"]
-caption: "Credits: Photo by Diana Weidmann"
+caption: "Credits: Photo by TU München"
 
 ### OPTIONAL FURTHER DETAILS
 further:
   - type: url
-    label: Homepage MUC.DAI
-    eUrl: https://sites.hm.edu/mucdai/
-    description: Further information about MUC.DAI
+    label: Homepage Professorship
+    eUrl: https://www.gov.sot.tum.de/en/soc/welcome/
+    description: Further information about Professorship of Societal Computing
   - type: url
-    label: Linked-in 
-    eUrl: https://www.linkedin.com/in/youssef-elserougi/
-    description: Find here the Linked-in Profil of Youssef Elserougi
+    label: Homepage TTT
+    eUrl: https://tumthinktank.de/en/project/civicmachineslab/
+    description: Find here more about the Civic Machines Lab, TUM Think Tanki
+  - type: url
+    label: Homepage Evaluation of AI Agents
+    eUrl: https://arxiv.org/pdf/2505.14215v3
+    description: More on Research on safety evaluation of AI agents
+  - type: url
+    label: Homepage Public Values
+    eUrl: https://tumthinktank.de/en/project/public-values-in-the-age-of-personalised-news/
+    description: Find here the Project on public values and personalised news
 ---
 
-Youssef Elserougi is responsible for the design and management of AI tools and Python-based projects, as well as overseeing the technical inventory at MUC.DAI. He supports the academic development by mentoring students at Munich University of Applied Sciences (HM) and collaborate with faculties to modernize technology-related course content. In addition, Youssef Elserougi administers and secures all production servers for MUC.DAI’s cloud projects and manages the full lifecycle of hardware and software procurement.
+Cheng Yu is a doctoral candidate and research associate at the Professorship of Societal Computing at the Technical University of Munich (TUM), and is also affiliated with the Civic Machines Lab at the TUM Think Tank. Her research focuses on the evaluation of AI systems and agents, including both their behavior and the frameworks used to assess their safety and societal impacts. She also works on the design and development of responsible AI tools for public-interest communication and innovation. Her research combines computational, experimental, and socio-technical approaches to critically evaluate existing AI systems and develop more responsible alternatives.
 
-At the sustAInability seminar he supports the student teams with technical advices and ideas. 
+### Professorship of Societal Computing / Civic Machines Lab
 
-### Munich Center for Digital Sciences (MUC.DAI)
-
-MUC.DAI is the Munich Center for Digital Sciences and Arfificial Intelligence at the Hochschule München University of Applied Sciences. Since 2021 a new generation of students are tought in interdisciplinary Bachelor programms and learn a new digital mindset to solve society's biggest challenges.
-Find out more about MUC.DAI: https://sites.hm.edu/mucdai/
+The Professorship of Societal Computing at TUM brings together computer science, social sciences, and ethics to study how technology affects society. Its research explores fair and participatory socio-algorithmic ecosystems, reducing algorithmic bias and discrimination, and improving data inclusion.
+The Civic Machines Lab at the TUM Think Tank approaches AI as a socio-technical system across its full lifecycle. The lab develops interdisciplinary research and practical approaches aimed at shaping AI technologies that are responsible, democratic, sustainable, and inclusive.
