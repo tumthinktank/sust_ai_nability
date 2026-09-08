@@ -197,3 +197,33 @@
   year: Winter 2025
   experts:
     - Digital Future Challenge 2025
+- slug: DAICE - City of Munich
+  title: "AI in Citizen Services"
+  description: "Munich has many digital and AI-supported services, but citizens still face fragmented, language-heavy administrative journeys. The challenge is to connect existing tools responsibly while protecting fairness, privacy, accountability, and sustainability."
+  year: Spring 2026
+  experts:
+    - Julia König
+- slug: Digitalrat
+  title: "Digital Participation of non-digital citizens"
+  description: "Many senior citizens struggle with digitalized administrative and everyday tasks — creating accounts, verifying identity via BundID, or booking appointments — due to unfamiliar interfaces and multi-step authentication, while structured, in-person support to help them stays scarce and inconsistent."
+  year: Spring 2026
+  experts:
+    - Günter Wolf
+- slug: EME
+  title: "AI and the Global Inequality Gap"
+  description: "Investigation whether AI is closing the gap of global inequalities, as often claimed, or instead widening the existing divides. Our task was to make the hidden connections visible and understandable for non-experts, especially in relation to ecological and social sustainability."
+  year: Spring 2026
+  experts:
+    - Felix Rank 
+- slug: startright
+  title: "Law Clinic Finder"
+  description: "Many people in Germany do not know which student law clinic can help with their legal issue. The challenge was to design a solution that increases visibility, reduces wrong referrals, and connects clients with suitable legal support."
+  year: Spring 2026
+  experts:
+    - Florian Zeller 
+- slug: Nexus Politics
+  title: "Activating AI-Driven Digital Democracy"
+  description: "Young citizens engage, yet rarely feel their voice matters. How can AI-driven design help Nexus Politics acquire, activate, and retain users? Particularly younger generations, turning one-time visits into habitual participation where opinions drive real, visible democratic impact?."
+  year: Spring 2026
+  experts:
+    - Magnus Strobel

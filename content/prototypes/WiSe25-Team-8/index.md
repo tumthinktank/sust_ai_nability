@@ -4,7 +4,7 @@ name: "JAZE"
 subtitle: "JAZE is an empathetic AI companion for elderly people, offering private, judgment-free emotional support through natural, comforting conversation."
 date: "2026-01-21" # Datum vom Pitch
 featuredImage: "pexels-matthias-kohler.jpg"
-challenge: aconium GmbH
+challenge: Honda Research Institute Europe GmbH
 year: Winter 2025 #Semester
 team: Jord van Nederveen, Elias Wetzel, Zhifei Lyu, Ahmed Magdy Ibrahim Elsayed Hassan
 caption: "Credits: Photo by pexels.com/Matthias Kohler"
