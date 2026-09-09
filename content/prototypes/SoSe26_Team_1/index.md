@@ -8,7 +8,7 @@ challenge: Nexus Politics
 year: Spring 2026 #Semester
 team: Amina Khussainova (HM), Melike Sert (TUM), Abdulrahman Adan (TUM), Mana Adibi (TUM), Yu-Hsiang Chen (TUM),  Diwen Zheng (TUM)
 contactEmail: amina.khussainova@hm.edu
-caption: "Credits: Photo by pexels/Edmond Dantès"
+caption: "Credits: Photo by pexels/ Edmond Dantès"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
