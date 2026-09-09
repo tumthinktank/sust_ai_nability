@@ -2,10 +2,10 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Nexus Polis"
 subtitle: "AI-Powered Local Democracy Platform. Your City. Your Voice. Your Vote."
-date: "2026-06-23" # Datum vom Pitch
+date: "2026-06-25"
 featuredImage: "pexels-edmond-dantes.jpg"
 challenge: Nexus Politics
-year: Spring 2026 #Semester
+year: Spring 2026
 team: Amina Khussainova (HM), Melike Sert (TUM), Abdulrahman Adan (TUM), Mana Adibi (TUM), Yu-Hsiang Chen (TUM),  Diwen Zheng (TUM)
 contactEmail: amina.khussainova@hm.edu
 caption: "Credits: Photo by pexels/ Edmond Dantès"
@@ -22,7 +22,7 @@ outputs:
     description: Pitch Slides of Nexus Polis
   - type: url
     label: Prototype
-    iUrl: "https://nexuspolitics.netlify.app/# "
+    iUrl: "https://nexuspolitics.netlify.app/#"
     description: Website of Prototype 
 ---
 
