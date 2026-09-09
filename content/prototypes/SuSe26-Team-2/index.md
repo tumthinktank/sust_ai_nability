@@ -1,12 +1,13 @@
 ---
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Law Link"
-subtitle: "From Confusion to Connetion"
-date: "2026-06-23" # Datum vom Pitch
+subtitle: "From Confusion to Connection"
+date: "2026-06-25"
 featuredImage: "pexels-antonio-avanti.jpg"
 challenge: startright
-year: Spring 2026 #Semester
+year: Spring 2026
 team: Afia A. A.Frimpong, Bansee Pambhar, Jingyi Cai, Tushar Choudhary, Victoria Rodriguez, Xiaozhi Wei, Yangfeng Huang
+contactEmail: amina.khussainova@hm.edu
 caption: "Credits: Photo by pexels/ Antonio Avanti"
 
 ### OPTIONAL FURTHER DETAILS
