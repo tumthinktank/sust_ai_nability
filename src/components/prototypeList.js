@@ -36,7 +36,9 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
       {posts.map(post => {
         post = post.childMarkdownRemark
         const title = post.frontmatter.name || post.fields.slug
-        const image = getImage(post.frontmatter.featuredImage)
+        const image = post.frontmatter.featuredImage
+          ? getImage(post.frontmatter.featuredImage)
+          : null
 
         return (
           <Post key={post.fields.slug}>
@@ -46,7 +48,7 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
               itemType="http://schema.org/Article"
             >
               <section>
-                {post.frontmatter.featuredImage && (
+                {post.frontmatter.featuredImage && image && (
                   <GatsbyImage
                     image={image}
                     alt={`Project image of ${title}`}

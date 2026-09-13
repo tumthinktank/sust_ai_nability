@@ -100,12 +100,17 @@ const PrototypeTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
-  const featuredImage = getImage(post.frontmatter.featuredImage)
+  const featuredImage = post.frontmatter.featuredImage
+    ? getImage(post.frontmatter.featuredImage)
+    : null
 
   // Generate images for gallery
   let galleryImages = []
-  if (post.frontmatter.gallery)
-    post.frontmatter.gallery.map(img => galleryImages.push(getImage(img)))
+  if (post.frontmatter.gallery) {
+    galleryImages = post.frontmatter.gallery
+      .map(img => getImage(img))
+      .filter(Boolean)
+  }
 
   //console.log(post.frontmatter.challenge);
   
@@ -114,7 +119,7 @@ const PrototypeTemplate = ({
       <Navbar title="Project detail" link="/prototypes" />
       <PostWrapper itemScope itemType="http://schema.org/Article">
         <section className="image">
-          {post.frontmatter.featuredImage && (
+          {post.frontmatter.featuredImage && featuredImage && (
             <GatsbyImage image={featuredImage} alt="" />
           )}
         </section>
@@ -133,7 +138,7 @@ const PrototypeTemplate = ({
               <p>{post.frontmatter.challenge.description}</p>
               <ul>
                 {post.frontmatter.challenge.experts.map(e => (
-                  <li>
+                  <li key={e?.fields?.slug || e?.frontmatter?.name}>
                     <a href={`/expert${e?.fields.slug}`}>{e?.frontmatter.name}</a>
                   </li>
                 ))}
@@ -186,8 +191,8 @@ const PrototypeTemplate = ({
           <Gallery className="gallery" sum={galleryImages.length}>
             <h2>Impressions</h2>
             <div>
-              {galleryImages.map(img => (
-                <GatsbyImage image={img} alt="" />
+              {galleryImages.map((img, index) => (
+                <GatsbyImage key={`${img?.images?.fallback?.src || index}`} image={img} alt="" />
               ))}
             </div>
           </Gallery>
