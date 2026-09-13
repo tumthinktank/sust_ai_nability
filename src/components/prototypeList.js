@@ -18,7 +18,7 @@ const PrototypeList = ({ prototypes, year, challenge }) => {
 
   if (challenge) {
     posts = posts.filter(
-      p => p.childMarkdownRemark.frontmatter.challenge.slug === challenge
+      p => p.childMarkdownRemark.frontmatter.challenge?.slug === challenge
     )
   }
 
@@ -87,7 +87,7 @@ export default function MyPrototypeList(props) {
   const data = useStaticQuery(graphql`
     query PrototypesQuery {
       prototypes: allFile(
-        sort: { childMarkdownRemark: { frontmatter: { date: ASC } } }
+        sort: { childMarkdownRemark: { frontmatter: { date: DESC } } }
         limit: 1000
         filter: {
           sourceInstanceName: { eq: "prototype" }
