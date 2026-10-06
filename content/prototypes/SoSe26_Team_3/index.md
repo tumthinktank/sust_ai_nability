@@ -7,7 +7,7 @@ featuredImage: "pexels-bhabin-tamang.jpg"
 challenge: EME
 year: Spring 2026 #Semester
 team: Anna Marie Fischer, Aashritha Shrinath, Rimsha Iftikhar, Ssu-chi Huang, Eglantine Cruz, Guillaume Duro--Hébert, Sandra Martínez Mateos
-caption: "Credits: Photo by pexels/Bhabin Tamang"
+caption: "Credits: Photo by pexels/ Bhabin Tamang"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
@@ -22,12 +22,11 @@ outputs:
   - type: url
     label: Prototype
     iUrl: "http://ai-inequality-atlas.df-eme.org/"
-    description: Website of Prototype 
+    description: Interactive Prototype 
 
 gallery:
   - "Appealing Visual.png"
 ---
-
 
 ### About the Prototype
 

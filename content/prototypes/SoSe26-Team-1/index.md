@@ -2,27 +2,27 @@
 ### REQUIRED INFORMATION FOR DISPLAY AND FITERING
 name: "Nexus Polis"
 subtitle: "AI-Powered Local Democracy Platform. Your City. Your Voice. Your Vote."
-date: "2026-06-23" # Datum vom Pitch
-featuredImage: "pexels-edmond-dantes.jpg"
+date: "2026-06-25"
+featuredImage: "pexels_tara_winstead.jpg"
 challenge: Nexus Politics
-year: Spring 2026 #Semester
+year: Spring 2026
 team: Amina Khussainova (HM), Melike Sert (TUM), Abdulrahman Adan (TUM), Mana Adibi (TUM), Yu-Hsiang Chen (TUM),  Diwen Zheng (TUM)
 contactEmail: amina.khussainova@hm.edu
-caption: "Credits: Photo by pexels/Edmond Dantès"
+caption: "Credits: Photo by pexels/ Tara Winstead"
 
 ### OPTIONAL FURTHER DETAILS
 outputs:
   - type: pdf
     label: project report
-    iUrl: "Nexus_Polis_Project_Report.pdf"
+    iUrl: "Nexus_Polis_Report.pdf"
     description: Project Report of Nexus Polis
   - type: pdf
     label: pitch slides
-    iUrl: "Nexus_Polis_Slides.pdf"
+    iUrl: "NexusPolis_Slides.pdf"
     description: Pitch Slides of Nexus Polis
   - type: url
     label: Prototype
-    iUrl: "https://nexuspolitics.netlify.app/# "
+    iUrl: "https://nexuspolitics.netlify.app/#"
     description: Website of Prototype 
 ---
 
@@ -41,4 +41,4 @@ location so it reaches the right people. There is an events feed and a personal 
 what you have contributed. Everything runs in the browser with no login needed to explore. It is
 a demo, but it is designed to feel real.
 
-The Prototype is available here: https://nexuspolitics.netlify.app/# 
+The Prototype is available here: https://nexuspolitics.netlify.app/#

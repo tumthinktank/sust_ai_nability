@@ -41,10 +41,10 @@
     "sustaineble AI prototypes perspectives challenges TUM HM"
   ],
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "node scripts/validate-content-images.js && gatsby build",
+    "develop": "node scripts/validate-content-images.js && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "node scripts/validate-content-images.js && gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   }

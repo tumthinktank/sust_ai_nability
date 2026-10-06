@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { graphql } from "gatsby"
 import queryString from "query-string"
 
@@ -12,29 +12,57 @@ import { handleClick } from "../utils/handlers"
 
 const PrototypeOverview = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const allYears = data.allMarkdownRemark.nodes
-
-  const years = [...new Set(allYears.map(item => item.frontmatter.year))]
-  const challenges = data.allChallengesYaml.nodes
-
+  const challengeNodes = data.allChallengesYaml.nodes
+  const years = [...new Set(challengeNodes.map(item => item.year).filter(Boolean))]
   const queryParams = queryString.parse(location.search)
+
   const [selectedYear, setSelectedYear] = useState(queryParams.year || false)
   const [selectedChallenge, setSelectedChallenge] = useState(
-    challenges.find(c => c.slug === queryParams.challenge) || false
+    challengeNodes.find(c => c.slug === queryParams.challenge) || false
   )
 
-  const handleYearClick = filter =>
-    handleClick(setSelectedYear, filter, "year", filter, location, queryParams)
+  const filteredChallenges = selectedYear
+    ? challengeNodes.filter(c => c.year === selectedYear)
+    : challengeNodes
 
-  const handleChallengeClick = filter =>
+  useEffect(() => {
+    if (selectedYear && selectedChallenge && selectedChallenge.year !== selectedYear) {
+      setSelectedChallenge(false)
+    }
+
+    if (selectedChallenge && !selectedYear) {
+      setSelectedYear(selectedChallenge.year)
+    }
+  }, [selectedYear, selectedChallenge])
+
+  const handleYearClick = filter => {
+    setSelectedYear(filter)
+    setSelectedChallenge(current => {
+      if (filter === false) return false
+      if (current && current.year !== filter) return false
+      return current
+    })
+
+    handleClick(setSelectedYear, filter, "year", filter, location, queryParams)
+  }
+
+  const handleChallengeClick = filter => {
+    const nextChallenge = filter === false ? false : filter
+
+    setSelectedChallenge(nextChallenge)
+    if (nextChallenge) {
+      setSelectedYear(nextChallenge.year)
+    }
+
     handleClick(
       setSelectedChallenge,
-      filter,
+      nextChallenge,
       "challenge",
-      filter.slug,
+      nextChallenge ? nextChallenge.slug : false,
       location,
       queryParams
     )
+  }
 
   return (
     <Layout location={location} title={siteTitle} mode="prototype">
@@ -48,7 +76,7 @@ const PrototypeOverview = ({ data, location }) => {
         <Filter
           label={selectedYear === false ? "Pick year" : selectedYear}
           isActive={selectedYear === false ? false : true}
-          handleClick={handleYearClick}
+          handleClick={filter => handleYearClick(filter)}
         >
           {years.map((y, i) => (
             <Item key={i} onClick={() => handleYearClick(y)}>
@@ -63,16 +91,16 @@ const PrototypeOverview = ({ data, location }) => {
               : selectedChallenge.title
           }
           isActive={selectedChallenge === false ? false : true}
-          handleClick={handleChallengeClick}
+          handleClick={filter => handleChallengeClick(filter)}
         >
-          {challenges.map(c => (
+          {filteredChallenges.map(c => (
             <Item key={c.slug} onClick={() => handleChallengeClick(c)}>
               {c.title}
             </Item>
           ))}
         </Filter>
       </FilterBar>
-      <PrototypeList year={selectedYear} challenge={selectedChallenge.slug} />
+      <PrototypeList year={selectedYear} challenge={selectedChallenge?.slug || false} />
     </Layout>
   )
 }
@@ -99,13 +127,7 @@ export const pageQuery = graphql`
       nodes {
         title
         slug
-      }
-    }
-    allMarkdownRemark(filter: { frontmatter: { year: { ne: null } } }) {
-      nodes {
-        frontmatter {
-          year
-        }
+        year
       }
     }
   }
