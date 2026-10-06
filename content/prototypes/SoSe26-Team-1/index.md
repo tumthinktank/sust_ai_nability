@@ -3,7 +3,7 @@
 name: "Nexus Polis"
 subtitle: "AI-Powered Local Democracy Platform. Your City. Your Voice. Your Vote."
 date: "2026-06-25"
-featuredImage: "pexels-tara-winstead-8850738.jpg"
+featuredImage: "pexels_tara_winstead.jpg"
 challenge: Nexus Politics
 year: Spring 2026
 team: Amina Khussainova (HM), Melike Sert (TUM), Abdulrahman Adan (TUM), Mana Adibi (TUM), Yu-Hsiang Chen (TUM),  Diwen Zheng (TUM)
@@ -14,11 +14,11 @@ caption: "Credits: Photo by pexels/ Tara Winstead"
 outputs:
   - type: pdf
     label: project report
-    iUrl: "Nexus_Polis_Project_Report.pdf"
+    iUrl: "Nexus_Polis_Report.pdf"
     description: Project Report of Nexus Polis
   - type: pdf
     label: pitch slides
-    iUrl: "Nexus_Polis_Slides.pdf"
+    iUrl: "NexusPolis_Slides.pdf"
     description: Pitch Slides of Nexus Polis
   - type: url
     label: Prototype
