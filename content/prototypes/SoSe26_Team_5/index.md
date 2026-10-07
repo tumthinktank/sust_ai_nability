@@ -25,6 +25,4 @@ gallery:
   - "CivicTwin Munich Visual Design.png"
 ---
 
-### About the Prototype
-
 CivicTwin is a citizen-facing civic digital twin and municipal AI toolbox framework for Munich. Instead of building another isolated AI system, it integrates existing municipal AI tools, official service data, databases, and human oversight into a single guided journey. Citizens can create a minimal profile with their language, location, status, main administrative goal, and consent mode. CivicTwin then produces a personalized roadmap with checklists, official links, office locations, document requirements, and multilingual guidance. A cross-system decision matrix evaluates each request by legal sensitivity, data protection, fairness, transparency, accountability, sustainability, efficiency, and citizen impact. Low-risk questions can be answered automatically, while high-risk or legally sensitive cases are routed to human review. The prototype demonstrates this through a live web interface with a Munich map, task agents, source links, feedback, and governance controls.
