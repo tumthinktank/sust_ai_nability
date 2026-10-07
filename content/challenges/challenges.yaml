@@ -197,7 +197,7 @@
   year: Winter 2025
   experts:
     - Digital Future Challenge 2025
-- slug: DAICE - City of Munich
+- slug: DAICE
   title: "AI in Citizen Services"
   description: "Munich has many digital and AI-supported services, but citizens still face fragmented, language-heavy administrative journeys. The challenge is to connect existing tools responsibly while protecting fairness, privacy, accountability, and sustainability."
   year: Spring 2026
@@ -223,7 +223,7 @@
     - Florian Zeller 
 - slug: Nexus Politics
   title: "Activating AI-Driven Digital Democracy"
-  description: "Young citizens engage, yet rarely feel their voice matters. How can AI-driven design help Nexus Politics acquire, activate, and retain users? Particularly younger generations, turning one-time visits into habitual participation where opinions drive real, visible democratic impact?."
+  description: "Young citizens engage, yet rarely feel their voice matters. How can AI-driven design help Nexus Politics acquire, activate, and retain users? Particularly younger generations, turning one-time visits into habitual participation where opinions drive real, visible democratic impact."
   year: Spring 2026
   experts:
     - Magnus Strobel
