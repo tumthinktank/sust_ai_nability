@@ -32,6 +32,4 @@ gallery:
 
 Many senior citizens struggle with digitalized administrative and everyday tasks — creating accounts, verifying identity via BundID, or booking appointments — due to unfamiliar interfaces and multi-step authentication, while structured, in-person support to help them stays scarce and inconsistent.
 
-### About the Prototype
-
 BridgeBuilders is a web application that connects student volunteers with senior citizens for guided, face-to-face digital assistance. Seniors book an appointment through the platform; the assigned student then opens a structured guide from the Guide Library — covering tasks such as creating an email account, setting up a BundID, buying a digital train ticket, or booking a Bürgeramt appointment — and walks the senior through it step by step. Each guide includes practical tips for common pitfalls, and after the session the student can generate a large-print, take-home handout so the senior can retrace the steps independently. A context-aware AI assistant supports the student with guide-grounded answers to unexpected questions, without ever handling the senior’s sensitive data directly. The prototype includes a home dashboard, the guide library, a handout generator, the AI assistant, and a profile view with bilingual (German/English) support.

@@ -28,6 +28,4 @@ gallery:
   - "Appealing Visual.png"
 ---
 
-### About the Prototype
-
 Our prototype, the Atlas AI, is a web-based map that brings together scattered indicators across the social, ecological, and economic dimensions in 34 countries. For a set of focus countries, it shows who concentrates AI infrastructure (like data centers and compute), who drives AI innovation (publications and investment), and who mainly supplies data, labor, and resources such as minerals, energy, and water. By combining these datasets in one place, the atlas makes visible how the benefits and costs of AI are distributed unequally across the globe. The tool is aimed at students, researchers, and policymakers who need an accessible entry point into this complex topic. It is designed to be updated and extended over time as more data on AI’s impacts become available.
