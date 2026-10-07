@@ -20,10 +20,6 @@ outputs:
     label: pitch slides
     iUrl: "NexusPolis_Slides.pdf"
     description: Pitch Slides of Nexus Polis
-  - type: url
-    label: Prototype
-    iUrl: "https://nexuspolitics.netlify.app/#"
-    description: Website of Prototype 
 ---
 
 Young citizens engage, yet rarely feel their voice matters. How can AI-driven design help Nexus
