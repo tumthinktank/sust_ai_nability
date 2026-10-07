@@ -26,8 +26,6 @@ Young citizens engage, yet rarely feel their voice matters. How can AI-driven de
 Politics acquire, activate, and retain users? Particularly younger generations, turning one-time
 visits into habitual participation where opinions drive real, visible democratic impact?
 
-### About the Prototype
-
 We built a clickable front-end for Nexus Politics that shows what the platform feels like to
 actually use. The homepage opens on an interactive map of Germany where you pick a state, a
 district, or your own municipality and see what people nearby are discussing. From there it splits
