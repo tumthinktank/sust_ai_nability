@@ -3,7 +3,7 @@
 name: "Magnus Strobel"
 shortDescription: "Co-Founder & CEO of Nexus Politics"
 date: "2016-04-1020"
-image: "Magnus_Strobel.png" #image in same folder as this file
+image: "Magnus_Strobel_quer.png" #image in same folder as this file
 type: ["Challenge giver"] #["Challenge giver, Expert"]
 caption: "Credits: private"
 
